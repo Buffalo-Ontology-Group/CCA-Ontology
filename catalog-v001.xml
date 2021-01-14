@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://ogms.googlecode.com/svn/trunk/src/ontology/ogms.owl" uri="Import/ogms.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://ontofox.hegroup.org/grwh7qp8.owl" uri="Import/HP%20Import%20File.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/bfo.owl" uri="Import/bfo_classes_only.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/uberon/basic.owl" uri="Import/UBERON%20import%20file%204.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/CMO_import.owl" uri="Import/CMO%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/DOID_import.owl" uri="Import/DOID%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/FMA_import.owl" uri="Import/FMA%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/FOODON_import.owl" uri="Import/FOODON%20Input%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/MONDO_import.owl" uri="Import/MONDO%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/MP_import.owl" uri="Import/MP%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="Import/NCIT%20import%20file%202.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="Import/NCIT%20import%20file%203.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="Import/NCIT%20import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl" uri="Import/test.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/OBA_import.owl" uri="Import/OBA_Import.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://purl.obolibrary.org/obo/vo/external/PATO_import.owl" uri="Import/PATO%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl" uri="Import/UBERON%20Import%20file%202.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl" uri="Import/UBERON%20Import%20file%203.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="duplicate:http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl" uri="Import/UBERON%20Import%20file.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://www.semanticweb.org/bob_b/ontologies/2020/2/untitled-ontology-13" uri="Import/pizza.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://www.semanticweb.org/bob_b/ontologies/2020/2/untitled-ontology-4" uri="Import/NCIT_ontology_protege.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1610637564668" name="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca" uri="ccao.owl"/>
+    </group>
+</catalog>

@@ -1,0 +1,38 @@
+[URI of the OWL(RDF/XML) output file]
+http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl
+
+[Source ontology]
+UBERON
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/UBERON_0003704
+http://purl.obolibrary.org/obo/UBERON_0001114
+http://purl.obolibrary.org/obo/UBERON_0001115
+http://purl.obolibrary.org/obo/UBERON_0001193 
+http://purl.obolibrary.org/obo/UBERON_0001143
+http://purl.obolibrary.org/obo/UBERON_0002017 
+http://purl.obolibrary.org/obo/UBERON_0000170
+http://purl.obolibrary.org/obo/UBERON_0000977   
+http://purl.obolibrary.org/obo/UBERON_0001474 
+http://purl.obolibrary.org/obo/UBERON_0000955 
+http://purl.obolibrary.org/obo/UBERON_0002358 
+http://purl.obolibrary.org/obo/UBERON_0001639	
+http://purl.obolibrary.org/obo/UBERON_0001280
+http://purl.obolibrary.org/obo/UBERON_0001174 
+http://purl.obolibrary.org/obo/UBERON_0002110 
+http://purl.obolibrary.org/obo/UBERON_0003688 
+http://purl.obolibrary.org/obo/UBERON_0001103
+
+
+
+[Top level source term URIs and target direct superclass URIs]
+http://purl.obolibrary.org/obo/UBERON_0001062
+http://purl.obolibrary.org/obo/UBERON_0015423
+
+[Source term retrieval setting]
+includeAllIntermediates
+
+[Source annotation URIs]
+includeAllAxioms
+
+[Source annotation URIs to be excluded]
