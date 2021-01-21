@@ -22,7 +22,6 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/grwh7qp8.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.obo"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/fma.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/mpath.owl"/>
@@ -95,6 +94,153 @@
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/FMA_62955">
         <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12922"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C134598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134598"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C134729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134729"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C134730 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134730"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C134803 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134803"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15723 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15723"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25218">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C3262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3262">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12922"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C35417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C36263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C36263"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C4436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C4583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4583"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C51779 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51779"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C62741 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C7109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C93008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C96804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C96949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000090 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000090"/>
     
 
 
@@ -471,7 +617,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003704"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#hasQuality"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#intraductal_intrahepatic_tumor_morphology"/>
@@ -492,7 +638,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003704"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#hasQuality"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#mass-forming_tumor_morphology"/>
@@ -513,7 +659,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003704"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#hasQuality"/>
                         <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#periductal_infiltrating_tumor_morphology"/>
