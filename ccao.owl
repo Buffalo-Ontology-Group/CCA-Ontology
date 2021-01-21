@@ -1164,7 +1164,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
         <owl:disjointWith rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#normal_hepatic_portal_vein_morphology"/>
         <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <rdfs:label>cholangiocarcinoma-encased portal vein</rdfs:label>
+        <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#cholangiocarcinoma-encased_portal_vein"/>
