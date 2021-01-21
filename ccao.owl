@@ -263,6 +263,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20047 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C20047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C20181 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C20181">
@@ -426,6 +434,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001008 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
@@ -434,10 +450,50 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001179 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25444"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001264 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002048 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002106 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/UBERON_0002113 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0002402 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002402">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25444"/>
     </rdf:Description>
     
 
