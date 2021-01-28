@@ -89,6 +89,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/PATO_0000001"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -431,6 +439,12 @@
     <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
     
 
 
