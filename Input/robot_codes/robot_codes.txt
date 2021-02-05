@@ -1,0 +1,98 @@
+robot extract --method MIREOT --input C:\Users\bob_b\Desktop\uberon.owl --lower-term C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --output C:\Users\bob_b\Desktop\robotfile/uber_mir.owl
+
+robot extract --method MIREOT --input C:\Users\bob_b\Desktop\uberon.owl --lower-term C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --intermediates minimal --output C:\Users\bob_b\Desktop\robotfile/uber_mir_minimal.owl
+
+robot extract --method MIREOT --input C:\Users\bob_b\Desktop\uberon.owl --lower-term C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --intermediates none --output C:\Users\bob_b\Desktop\robotfile/uber_mir_minimal.owl
+
+Uberon bot annotated true
+
+robot extract --method BOT --input C:\Users\bob_b\Desktop\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --annotate-with-source true --output C:\Users\bob_b\Desktop\robotfile/uber_bot_ann.owl
+
+Uberon bot exclude
+robot extract --method BOT --input C:\Users\bob_b\Desktop\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --imports exclude --output C:\Users\bob_b\Desktop\robotfile/uber_bot_exclude.owl
+
+Uberon bot include
+robot extract --method BOT --input C:\Users\bob_b\Desktop\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --imports include --output C:\Users\bob_b\Desktop\robotfile/uber_bot_include.owl
+
+
+robot extract --method STAR --input C:\Users\bob_b\Desktop\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\UBERONInputfile.txt --imports include --output C:\Users\bob_b\Desktop\robotfile/uber_bot_include.owl
+
+## May 26, 2020 Create new import files using ROBOT 
+CMO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\cmo.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\CMO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/CMO_Robot_Import.owl
+
+DOID
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\doid.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\DOID_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/doid_robot_import.owl
+
+FMA
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\fma.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\FMA_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/fma_robot_import.owl
+
+FOODON
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\foodon.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\FOODON_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/foodon_robot_import.owl
+
+HP
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\hp.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\HP_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/hp_robot_import.owl
+
+MONDO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\mondo.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\MONDO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/mondo_robot_import.owl
+
+MP
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\mp.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\MP_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/mp_robot_import.owl
+
+NCIT
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\ncit.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\ncit_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/ncit_robot_import.owl
+
+OBA
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\oba.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\OBA_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/oba_robot_import.owl
+
+PATO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\pato.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\PATO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/pato_robot_import.owl
+
+UBERON
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\UBERON_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/uberon_robot_import.owl
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\basic.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\BASIC_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/uberon_basic_robot_import.owl
+
+
+## May 26, 2020 Create new import files using MIREOT
+CMO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\cmo.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\CMO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/cmo_mir_import.owl
+
+
+DOID
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\doid.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\DOID_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/doid_mir_import.owl
+
+FMA
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\fma.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\FMA_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/fma_mir_import.owl
+
+FOODON
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\foodon.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\FOODON_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/foodon_mir_import.owl
+
+HP
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\hp.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\HP_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/hp_mir_import.owl
+
+MONDO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\mondo.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\MONDO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/mondo_mir_import.owl
+
+MP
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\mp.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\MP_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/mp_mir_import.owl
+
+NCIT
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\ncit.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\ncit_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/ncit_mir_import.owl
+
+OBA
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\oba.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\OBA_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/oba_mir_import.owl
+
+PATO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\pato.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\PATO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/pato_mirt_import.owl
+
+UBERON
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\uberon.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\UBERON_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/uberon_robot_import.owl
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\basic.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\BASIC_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/uberon_basic_robot_import.owl
+2/5/21 - Add Wall of Gallbaldder to basic ** not work
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\basic.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\BASIC_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/uberon_basic_robot_import.owl
+
+CL
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\cl.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\CL_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/cl_basic_robot_import.owl
+
+GO
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\go.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\GO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_robot/go_basic_robot_import.owl
