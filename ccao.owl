@@ -19,8 +19,6 @@
      xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca">
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/grwh7qp8.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.obo"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/mpath.owl"/>
@@ -29,7 +27,6 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/vo/external/MP_import.owl"/>
         <owl:imports rdf:resource="https://github.com/OGMS/ogms/releases/tag/v2019-04-30"/>
     </owl:Ontology>
     
@@ -60,6 +57,12 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002573 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002573"/>
     
 
 
@@ -98,9 +101,9 @@
 
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -114,9 +117,9 @@
 
     <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -124,14 +127,6 @@
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MP_0002928 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MP_0002928">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
     </rdf:Description>
     
 
@@ -489,17 +484,17 @@
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002106 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002106">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0002113 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -529,9 +524,9 @@
 
     <!-- http://purl.obolibrary.org/obo/UBERON_0011143 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0011143">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -1024,17 +1019,6 @@
     <!-- http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Mucin-Producing_Cholangiocarcinoma -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Mucin-Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0030153"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
         <obo:IAO_0000115>A cholangiocarcinoma with a mucinous tumor morphology.</obo:IAO_0000115>
         <rdfs:label>Mucin-Producing Cholangiocarcinoma</rdfs:label>
@@ -1061,21 +1045,6 @@
     <!-- http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Non-Mucin_Producing_Cholangiocarcoma -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Non-Mucin_Producing_Cholangiocarcoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0030153"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
         <obo:IAO_0000115>A cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
         <rdfs:label>Non-Mucin Producing Cholangiocarcoma</rdfs:label>
@@ -1944,15 +1913,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</PMID>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GO_0008152"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000117"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000141"/>
-            <rdf:Description rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#tumor_morphology"/>
-        </owl:members>
-    </rdf:Description>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
