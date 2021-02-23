@@ -1,0 +1,2434 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/dron.owl#"
+     xml:base="http://purl.obolibrary.org/obo/dron.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/dron.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000179 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000179"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000180 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000180"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00010000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/DRON_00010000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000600 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000600"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000601 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000601"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000602 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000602"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0010000 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0010000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonymType -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonymType"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000050 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000050">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:IAO_0000118 xml:lang="en">part of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">part_of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">is part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000118 xml:lang="en">has_part</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000053">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000118 xml:lang="en">bearer of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/omrse.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">is bearer of</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_bearer_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000071 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000071">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000073"/>
+        <obo:IAO_0000118 xml:lang="en">has_granular_part</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">has granular part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000073 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000073">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000118 xml:lang="en">granular part of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">granular_part_of</obo:IAO_0000118>
+        <rdfs:label xml:lang="en">is granular part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this fragility inheres in this vase</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this red color inheres in this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the dependent) and an independent continuant (the bearer), in which the dependent specifically depends on the bearer for its existence</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A dependent inheres in its bearer at all times for which the dependent exists.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/ro.owl</obo:IAO_0000412>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">inheres in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.obofoundry.org/ro/ro.owl#has_proper_part -->
+
+    <owl:ObjectProperty rdf:about="http://www.obofoundry.org/ro/ro.owl#has_proper_part">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.org/obo/owl/relationship</obo:IAO_0000412>
+        <oboInOwl:hasAlternativeId>OBO_REL:0000007</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasOBONamespace>relationship</oboInOwl:hasOBONamespace>
+        <rdfs:label xml:lang="en">has_proper_part</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_proper_part</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000001">
+        <obo:BFO_0000179>entity</obo:BFO_0000179>
+        <obo:BFO_0000180>Entity</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">Julius Caesar</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">Verdi’s Requiem</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the Second World War</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">your body mass index</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: In all areas of empirical inquiry we encounter general terms of two sorts. First are general terms which refer to universals or types:animaltuberculosissurgical procedurediseaseSecond, are general terms used to refer to groups of entities which instantiate a given universal but do not correspond to the extension of any subuniversal of that universal because there is nothing intrinsic to the entities in question by virtue of which they – and only they – are counted as belonging to the given group. Examples are: animal purchased by the Emperortuberculosis diagnosed on a Wednesdaysurgical procedure performed on a patient from Stockholmperson identified as candidate for clinical trial #2056-555person who is signatory of Form 656-PPVpainting by Leonardo da VinciSuch terms, which represent what are called ‘specializations’ in [81</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Entity doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example Werner Ceusters &apos;portions of reality&apos; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &apos;How to track absolutely everything&apos; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</obo:IAO_0000116>
+        <obo:IAO_0000600 xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget xml:lang="en">Entity doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example Werner Ceusters &apos;portions of reality&apos; include 4 sorts, entities (as BFO construes them), universals, configurations, and relations. It is an open question as to whether entities as construed in BFO will at some point also include these other portions of reality. See, for example, &apos;How to track absolutely everything&apos; at http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000004"/>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+        <rdfs:seeAlso rdf:resource="http://www.referent-tracking.com/_RTU/papers/CeustersICbookRevised.pdf"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">An entity is anything that exists or has existed or will exist. (axiom label in BFO2 Reference: [001-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/001-001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000001"/>
+        <obo:BFO_0000179>continuant</obo:BFO_0000179>
+        <obo:BFO_0000180>Continuant</obo:BFO_0000180>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Continuant entities are entities which can be sliced to yield parts only along the spatial dimension, yielding for example the parts of your table which we call its legs, its top, its nails. ‘My desk stretches from the window to the door. It has spatial parts, and can be sliced (in space) in two. With respect to time, however, a thing is a continuant.’ [60, p. 240</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</obo:IAO_0000116>
+        <obo:IAO_0000600 xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">continuant</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (Continuant x) (Entity x))) // axiom label in BFO2 CLIF: [008-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/008-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (Material Entity x) (exists (t) (and (TemporalRegion t) (existsAt x t))))) // axiom label in BFO2 CLIF: [011-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/011-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget xml:lang="en">Continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. For example, in an expansion involving bringing in some of Ceuster&apos;s other portions of reality, questions are raised as to whether universals are continuants</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000007"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">A continuant is an entity that persists, endures, or continues to exist through time while maintaining its identity. (axiom label in BFO2 Reference: [008-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/008-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, c has_continuant_part b at t, then c is a continuant. (axiom label in BFO2 Reference: [126-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">if b is a continuant and if, for some t, cis continuant_part of b at t, then c is a continuant. (axiom label in BFO2 Reference: [009-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">if b is a material entity, then there is some temporal interval (referred to below as a one-dimensional temporal region) during which b exists. (axiom label in BFO2 Reference: [011-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/011-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (continuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [009-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/009-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x y) (if (and (Continuant x) (exists (t) (hasContinuantPartOfAt y x t))) (Continuant y))) // axiom label in BFO2 CLIF: [126-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/126-001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>ic</obo:BFO_0000179>
+        <obo:BFO_0000180>IndependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">a chair</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a heart</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a leg</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a molecule</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a spatial region</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an atom</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an orchestra.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an organism</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the bottom right portion of a human torso</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the interior of your mouth</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</obo:IAO_0000115>
+        <obo:IAO_0000601 xml:lang="en">For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">independent continuant</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is an independent continuant = Def. b is a continuant which is such that there is no c and no t such that b s-depends_on c at t. (axiom label in BFO2 Reference: [017-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/017-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">For any independent continuant b and any time t there is some spatial region r such that b is located_in r at t. (axiom label in BFO2 Reference: [134-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/134-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">For every independent continuant b and time t during the region of time spanned by its life, there are entities which s-depends_on b during t. (axiom label in BFO2 Reference: [018-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/018-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x t) (if (IndependentContinuant x) (exists (r) (and (SpatialRegion r) (locatedInAt x r t))))) // axiom label in BFO2 CLIF: [134-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/134-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x t) (if (and (IndependentContinuant x) (existsAt x t)) (exists (y) (and (Entity y) (specificallyDependsOnAt y x t))))) // axiom label in BFO2 CLIF: [018-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/018-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (IndependentContinuant a) (and (Continuant a) (not (exists (b t) (specificallyDependsOnAt a b t))))) // axiom label in BFO2 CLIF: [017-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/017-002"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:BFO_0000179>realizable</obo:BFO_0000179>
+        <obo:BFO_0000180>RealizableEntity</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">the disposition of this piece of metal to conduct electricity.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the disposition of your blood to coagulate</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the function of your reproductive organs</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of this boundary to delineate where Utah and Colorado meet</obo:IAO_0000112>
+        <obo:IAO_0000600 xml:lang="en">To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">realizable entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">To say that b is a realizable entity is to say that b is a specifically dependent continuant that inheres in some independent continuant which is not a spatial region and is of a type instances of which are realized in processes of a correlated type. (axiom label in BFO2 Reference: [058-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/058-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">All realizable dependent continuants have independent continuants that are not spatial regions as their bearers. (axiom label in BFO2 Reference: [060-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/060-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x t) (if (RealizableEntity x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (bearerOfAt y x t))))) // axiom label in BFO2 CLIF: [060-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/060-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (RealizableEntity x) (and (SpecificallyDependentContinuant x) (exists (y) (and (IndependentContinuant y) (not (SpatialRegion y)) (inheresIn x y)))))) // axiom label in BFO2 CLIF: [058-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/058-002"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>sdc</obo:BFO_0000179>
+        <obo:BFO_0000180>SpecificallyDependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">Reciprocal specifically dependent continuants: the function of this key to open this lock and the mutually dependent disposition of this lock: to be opened by this key</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">of one-sided specifically dependent continuants: the mass of this tomato</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">of relational dependent continuants (multiple bearers): John’s love for Mary, the ownership relation between John and this statue, the relation of authority between John and his subordinates.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the disposition of this fish to decay</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the function of this heart: to pump blood</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the mutual dependence of proton donors and acceptors in chemical reactions [79</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the mutual dependence of the role predator and the role prey as played by two organisms in a given interaction</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the pink color of a medium rare piece of grilled filet mignon at its center</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of being a doctor</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the shape of this hole.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the smell of this portion of mozzarella</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</obo:IAO_0000116>
+        <obo:IAO_0000602>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </obo:IAO_0000602>
+        <obo:IAO_0000602>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">specifically dependent continuant</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is a relational specifically dependent continuant = Def. b is a specifically dependent continuant and there are n &amp;gt; 1 independent continuants c1, … cn which are not spatial regions are such that for all 1  i &amp;lt; j  n, ci  and cj share no common parts, are such that for each 1  i  n, b s-depends_on ci at every time t during the course of b’s existence (axiom label in BFO2 Reference: [131-004])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is a specifically dependent continuant = Def. b is a continuant &amp; there is some independent continuant c which is not a spatial region and which is such that b s-depends_on c at every time t during the course of b’s existence. (axiom label in BFO2 Reference: [050-003])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget xml:lang="en">Specifically dependent continuant doesn&apos;t have a closure axiom because the subclasses don&apos;t necessarily exhaust all possibilites. We&apos;re not sure what else will develop here, but for example there are questions such as what are promises, obligation, etc.</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000005"/>
+        <rdfs:comment>per discussion with Barry Smith</rdfs:comment>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (RelationalSpecificallyDependentContinuant a) (and (SpecificallyDependentContinuant a) (forall (t) (exists (b c) (and (not (SpatialRegion b)) (not (SpatialRegion c)) (not (= b c)) (not (exists (d) (and (continuantPartOfAt d b t) (continuantPartOfAt d c t)))) (specificallyDependsOnAt a b t) (specificallyDependsOnAt a c t)))))) // axiom label in BFO2 CLIF: [131-004] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/131-004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (SpecificallyDependentContinuant a) (and (Continuant a) (forall (t) (if (existsAt a t) (exists (b) (and (IndependentContinuant b) (not (SpatialRegion b)) (specificallyDependsOnAt a b t))))))) // axiom label in BFO2 CLIF: [050-003] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/050-003"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:BFO_0000179>role</obo:BFO_0000179>
+        <obo:BFO_0000180>Role</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">John’s role of husband to Mary is dependent on Mary’s role of wife to John, and both are dependent on the object aggregate comprising John and Mary as member parts joined together through the relational quality of being married.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the priest role</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of a boundary to demarcate two neighboring administrative territories</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of a building in serving as a military target</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of a stone in marking a property boundary</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the role of subject in a clinical trial</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the student role</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: One major family of examples of non-rigid universals involves roles, and ontologies developed for corresponding administrative purposes may consist entirely of representatives of entities of this sort. Thus ‘professor’, defined as follows,b instance_of professor at t =Def. there is some c, c instance_of professor role &amp; c inheres_in b at t.denotes a non-rigid universal and so also do ‘nurse’, ‘student’, ‘colonel’, ‘taxpayer’, and so forth. (These terms are all, in the jargon of philosophy, phase sortals.) By using role terms in definitions, we can create a BFO conformant treatment of such entities drawing on the fact that, while an instance of professor may be simultaneously an instance of trade union member, no instance of the type professor role is also (at any time) an instance of the type trade union member role (any more than any instance of the type color is at any time an instance of the type length).If an ontology of employment positions should be defined in terms of roles following the above pattern, this enables the ontology to do justice to the fact that individuals instantiate the corresponding universals –  professor, sergeant, nurse – only during certain phases in their lives.</obo:IAO_0000116>
+        <obo:IAO_0000600 xml:lang="en">b is a role means: b is a realizable entity &amp; b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be&amp; b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])</obo:IAO_0000600>
+        <obo:IAO_0000602>(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">role</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">b is a role means: b is a realizable entity &amp; b exists because there is some single bearer that is in some special physical, social, or institutional set of circumstances in which this bearer does not have to be&amp; b is not such that, if it ceases to exist, then the physical make-up of the bearer is thereby changed. (axiom label in BFO2 Reference: [061-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/061-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (Role x) (RealizableEntity x))) // axiom label in BFO2 CLIF: [061-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/061-001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:BFO_0000179>object-aggregate</obo:BFO_0000179>
+        <obo:BFO_0000180>ObjectAggregate</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">a collection of cells in a blood biobank.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a swarm of bees is an aggregate of members who are linked together through natural bonds</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a symphony orchestra</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an organization is an aggregate whose member parts have roles of specific types (for example in a jazz band, a chess club, a football team)</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">defined by fiat: the aggregate of members of an organization</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">defined through physical attachment: the aggregate of atoms in a lump of granite</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">defined through physical containment: the aggregate of molecules of carbon dioxide in a sealed container</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">defined via attributive delimitations such as: the patients in this hospital</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the aggregate of bearings in a constant velocity axle joint</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the aggregate of blood cells in your body</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the nitrogen atoms in the atmosphere</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the restaurants in Palo Alto</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">your collection of Meissen ceramic plates.</obo:IAO_0000112>
+        <obo:IAO_0000116>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: object aggregates may gain and lose parts while remaining numerically identical (one and the same individual) over time. This holds both for aggregates whose membership is determined naturally (the aggregate of cells in your body) and aggregates determined by fiat (a baseball team, a congressional committee).</obo:IAO_0000116>
+        <obo:IAO_0000119>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &apos;A Theory of Granular Partitions&apos;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</obo:IAO_0000119>
+        <obo:IAO_0000600 xml:lang="en">b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])</obo:IAO_0000600>
+        <obo:IAO_0000602>(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">object aggregate</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000011"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000116"/>
+        <owl:annotatedTarget>An entity a is an object aggregate if and only if there is a mutually exhaustive and pairwise disjoint partition of a into objects </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000301"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000119"/>
+        <owl:annotatedTarget>ISBN:978-3-938793-98-5pp124-158#Thomas Bittner and Barry Smith, &apos;A Theory of Granular Partitions&apos;, in K. Munn and B. Smith (eds.), Applied Ontology: An Introduction, Frankfurt/Lancaster: ontos, 2008, 125-158.</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/0000300"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">b is an object aggregate means: b is a material entity consisting exactly of a plurality of objects as member_parts at all times at which b exists. (axiom label in BFO2 Reference: [025-004])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/025-004"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (ObjectAggregate x) (and (MaterialEntity x) (forall (t) (if (existsAt x t) (exists (y z) (and (Object y) (Object z) (memberPartOfAt y x t) (memberPartOfAt z x t) (not (= y z)))))) (not (exists (w t_1) (and (memberPartOfAt w x t_1) (not (Object w)))))))) // axiom label in BFO2 CLIF: [025-004] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/025-004"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:BFO_0000179>object</obo:BFO_0000179>
+        <obo:BFO_0000180>Object</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">atom</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">cell</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">cells and organisms</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">engineered artifacts</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">grain of sand</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">molecule</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">organelle</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">organism</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">planet</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">solid portions of matter</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">star</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: BFO rests on the presupposition that at multiple micro-, meso- and macroscopic scales reality exhibits certain stable, spatially separated or separable material units, combined or combinable into aggregates of various sorts (for example organisms into what are called ‘populations’). Such units play a central role in almost all domains of natural science from particle physics to cosmology. Many scientific laws govern the units in question, employing general terms (such as ‘molecule’ or ‘planet’) referring to the types and subtypes of units, and also to the types and subtypes of the processes through which such units develop and interact. The division of reality into such natural units is at the heart of biological science, as also is the fact that these units may form higher-level units (as cells form multicellular organisms) and that they may also form aggregates of units, for example as cells form portions of tissue and organs form families, herds, breeds, species, and so on. At the same time, the division of certain portions of reality into engineered units (manufactured artifacts) is the basis of modern industrial technology, which rests on the distributed mass production of engineered parts through division of labor and on their assembly into larger, compound units such as cars and laptops. The division of portions of reality into units is one starting point for the phenomenon of counting.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Each object is such that there are entities of which we can assert unproblematically that they lie in its interior, and other entities of which we can assert unproblematically that they lie in its exterior. This may not be so for entities lying at or near the boundary between the interior and exterior. This means that two objects – for example the two cells depicted in Figure 3 – may be such that there are material entities crossing their boundaries which belong determinately to neither cell. Something similar obtains in certain cases of conjoined twins (see below).</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: To say that b is causally unified means: b is a material entity which is such that its material parts are tied together in such a way that, in environments typical for entities of the type in question,if c, a continuant part of b that is in the interior of b at t, is larger than a certain threshold size (which will be determined differently from case to case, depending on factors such as porosity of external cover) and is moved in space to be at t at a location on the exterior of the spatial region that had been occupied by b at t, then either b’s other parts will be moved in coordinated fashion or b will be damaged (be affected, for example, by breakage or tearing) in the interval between t and t.causal changes in one part of b can have consequences for other parts of b without the mediation of any entity that lies on the exterior of b. Material entities with no proper material parts would satisfy these conditions trivially. Candidate examples of types of causal unity for material entities of more complex sorts are as follows (this is not intended to be an exhaustive list):CU1: Causal unity via physical coveringHere the parts in the interior of the unified entity are combined together causally through a common membrane or other physical covering\. The latter points outwards toward and may serve a protective function in relation to what lies on the exterior of the entity [13, 47</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: an object is a maximal causally unified material entity</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘objects’ are sometimes referred to as ‘grains’ [74</obo:IAO_0000116>
+        <obo:IAO_0000600 xml:lang="en">b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above &amp; is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])</obo:IAO_0000600>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">object</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">b is an object means: b is a material entity which manifests causal unity of one or other of the types CUn listed above &amp; is of a type (a material universal) instances of which are maximal relative to this criterion of causal unity. (axiom label in BFO2 Reference: [024-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/024-001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <obo:BFO_0000179>gdc</obo:BFO_0000179>
+        <obo:BFO_0000180>GenericallyDependentContinuant</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">The entries in your database are patterns instantiated as quality instances in your hard drive. The database itself is an aggregate of such patterns. When you create the database you create a particular instance of the generically dependent continuant type database. Each entry in the database is an instance of the generically dependent continuant type IAO: information content entity.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the pdf file on your laptop, the pdf file that is a copy thereof on my laptop</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the sequence of this protein molecule; the sequence that is a copy thereof in that protein molecule.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</obo:IAO_0000115>
+        <obo:IAO_0000602>(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">generically dependent continuant</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget xml:lang="en">b is a generically dependent continuant = Def. b is a continuant that g-depends_on one or more other entities. (axiom label in BFO2 Reference: [074-001])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/074-001"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(iff (GenericallyDependentContinuant a) (and (Continuant a) (exists (b t) (genericallyDependsOnAt a b t)))) // axiom label in BFO2 CLIF: [074-001] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/074-001"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <obo:BFO_0000179>material</obo:BFO_0000179>
+        <obo:BFO_0000180>MaterialEntity</obo:BFO_0000180>
+        <obo:IAO_0000112 xml:lang="en">a flame</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a forest fire</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a human being</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a hurricane</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a photon</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a puff of smoke</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a sea wave</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">a tornado</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an aggregate of human beings.</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an energy wave</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">an epidemic</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">the undetached arm of a human being</obo:IAO_0000112>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Material entities (continuants) can preserve their identity even while gaining and losing material parts. Continuants are contrasted with occurrents, which unfold themselves in successive temporal parts or phases [60</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: Object, Fiat Object Part and Object Aggregate are not intended to be exhaustive of Material Entity. Users are invited to propose new subcategories of Material Entity.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">BFO 2 Reference: ‘Matter’ is intended to encompass both mass and energy (we will address the ontological treatment of portions of energy in a later version of BFO). A portion of matter is anything that includes elementary particles among its proper or improper parts: quarks and leptons, including electrons, as the smallest particles thus far discovered; baryons (including protons and neutrons) at a higher level of granularity; atoms and molecules at still higher levels, forming the cells, organs, organisms and other material entities studied by biologists, the portions of rock studied by geologists, the fossils studied by paleontologists, and so on.Material entities are three-dimensional entities (entities extended in three spatial dimensions), as contrasted with the processes in which they participate, which are four-dimensional entities (entities extended also along the dimension of time).According to the FMA, material entities may have immaterial entities as parts – including the entities identified below as sites; for example the interior (or ‘lumen’) of your small intestine is a part of your body. BFO 2.0 embodies a decision to follow the FMA here.</obo:IAO_0000116>
+        <obo:IAO_0000600 xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</obo:IAO_0000600>
+        <obo:IAO_0000601 xml:lang="en">Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])</obo:IAO_0000601>
+        <obo:IAO_0000601 xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</obo:IAO_0000601>
+        <obo:IAO_0000602>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </obo:IAO_0000602>
+        <obo:IAO_0000602>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </obo:IAO_0000602>
+        <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/bfo.owl"/>
+        <rdfs:label xml:lang="en">material entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000600"/>
+        <owl:annotatedTarget xml:lang="en">A material entity is an independent continuant that has some portion of matter as proper or improper continuant part. (axiom label in BFO2 Reference: [019-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">Every entity which has a material entity as continuant part is a material entity. (axiom label in BFO2 Reference: [020-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000601"/>
+        <owl:annotatedTarget xml:lang="en">every entity of which a material entity is continuant part is also a material entity. (axiom label in BFO2 Reference: [021-002])</owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (MaterialEntity x) (IndependentContinuant x))) // axiom label in BFO2 CLIF: [019-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/019-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt x y t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [021-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/021-002"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000602"/>
+        <owl:annotatedTarget>(forall (x) (if (and (Entity x) (exists (y t) (and (MaterialEntity y) (continuantPartOfAt y x t)))) (MaterialEntity x))) // axiom label in BFO2 CLIF: [020-002] </owl:annotatedTarget>
+        <obo:IAO_0010000 rdf:resource="http://purl.obolibrary.org/obo/bfo/axiom/020-002"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidad molecular</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entidades moleculares</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">entite moleculaire</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molekulare Entitaet</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of carbon and at least of one other element.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24532</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocycle</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterocyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_25806 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_25806">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25806</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxygen molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_26979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_26979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36688"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51959"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:26979</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterotricyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26979"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26979"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heterotricyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_29347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_29347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:13211</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22207</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25383</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:6977</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid amide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid amides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:29347</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid amide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29347"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid amide</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UniProt:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29347"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic acid amides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_32988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_32988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amide is a derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:22473</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:2633</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00241</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amides</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:32988</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C00241</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Amide</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_32988"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A derivative of an oxoacid RkE(=O)l(OH)m (l =/= 0) in which an acidic hydroxy group has been replaced by an amino or substituted amino group.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amides</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33256</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amide</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary amides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33285">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heteroorganic entity is an organic molecular entity in which carbon atoms or organic groups are bonded directly to one or more heteroatoms.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organoelement compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33285</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteroorganic entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organoelement compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33302</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pnictogen molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any p-block molecular entity containing a chalcogen.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33304</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chalcogen molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A molecular entity containing one or more atoms from any of groups 1, 2, 13, 14, 15, 16, 17, and 18 of the periodic table.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33579</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">main group molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33582 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33582">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33582</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbon group molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33595</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33635</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33671 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33671">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteropolycyclic compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyheterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33671</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteropolycyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heteropolycyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyheterocyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33675 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33675">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33579"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A p-block molecular entity is a molecular entity containing one or more atoms of a p-block element.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33675</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33675"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">p-block molecular entitiy</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_33832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33832</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic cyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35352">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any heteroorganic entity containing at least one carbon-nitrogen bond.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogens</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35352</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogens</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity consisting of more than one atom.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36357</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36357"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polyatomic entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketones</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36585</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketones</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36585"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pseudoketones</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36586">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any compound containing the carbonyl group, C=O. The term is commonly used in the restricted sense of aldehydes and ketones, although it actually includes carboxylic acids and derivatives.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36586</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36586"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carbonyl compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Organic compounds containing an oxygen atom, =O, doubly bonded to carbon or another element.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxo compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic oxo compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36587</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic oxo compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">oxo compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36587"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic oxo compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36585"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds in which an acyclic carbonyl group is bonded to one or two acyclic skeletal heteroatoms, except nitrogen, halogen, or halogenoid atoms, or to a heteroatom of a ring or ring system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketone</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketones</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketones</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36589</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36589"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketone</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36589"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketones</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36589"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acyclic pseudoketones</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_29347"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46754"/>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36590</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">monocarboxylic hidden amide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36688</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36688"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compound</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36688"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36688"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterotricyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36962">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33285"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33304"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound is a compound containing at least one carbon-chalcogen bond.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36962</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compound</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organochalcogen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_36963 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_36963">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_25806"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36962"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organochalcogen compound containing at least one carbon-oxygen bond.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CiteXplore:17586126</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:36963</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CiteXplore:17586126</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PubMed citation</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36963"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organooxygen compound</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_37622 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_37622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33256"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An amide of a carboxylic acid, having the structure RC(=O)NR2. The term is used as a suffix in systematic name formation to denote the -C(=O)NH2 group including its carbon atom.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35354</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:35355</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNOR3</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*]C(=O)N([*])[*]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary carboxamide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:37622</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#IUPAC_NAME"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CNOR3</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#FORMULA"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[*]C(=O)N([*])[*]</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/chebi#SMILES"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">carboxamides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">primary carboxamide</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_35352"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any organonitrogen compound containing a cyclic component with nitrogen and at least one other element as ring member atoms.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic organonitrogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38101</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic organonitrogen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organonitrogen heterocyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_38166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_38166">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24532"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33671"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25429</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38075</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:38166</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38166"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic heteropolycyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_45267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_45267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36590"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48338"/>
+        <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">8628</obo:DRON_00010000>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:45267</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Praziquantel</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">praziquantel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_46754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_46754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_36589"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_37622"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Compounds in which an acyclic carbonyl group is bonded to one or two nitrogen atoms of a ring or ring system.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hidden amides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:46754</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hidden amide</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_46754"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hidden amides</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_48338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_48338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_26979"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_38101"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrazinoisoquinolines</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:48338</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrazinoisoquinoline</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_48338"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pyrazinoisoquinolines</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50860 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50860">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33582"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any molecular entity that contains carbon.</obo:IAO_0000115>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25700</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33244</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic entity</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50860</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic entity</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50860"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33302"/>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:25556</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:7594</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C06061</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrogenous compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51143</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:C06061</owl:annotatedTarget>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND</rdfs:label>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nitrogenous compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51143"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nitrogen molecular entities</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51958 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51958">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33635"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33832"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic polycyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51958</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic polycyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51958"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic polycyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_51959 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_51959">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51958"/>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic tricyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:51959</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic tricyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_51959"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic tricyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5686 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5686">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33595"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cyclic compound having as ring members atoms of at least two different elements.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterocyclic compound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuesto heterociclico</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuestos heterociclicos</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compounds</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:5686</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compound</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heterocyclic compound</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG COMPOUND:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuesto heterociclico</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">compuestos heterociclicos</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IUPAC:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocycle</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_5686"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heterocyclic compounds</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ChEBI:</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000115 xml:lang="en">the role of a material entity to prevent, diagnose, treat, or study disease and/or its effects</obo:IAO_0000115>
+        <obo:IAO_0000117>William Hogan</obo:IAO_0000117>
+        <dc:creator>William Hogan</dc:creator>
+        <rdfs:label xml:lang="en">clinical drug role</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000005">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000028"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115 xml:lang="en">a material entity (1) containing at least one scattered molecular aggregate as part that is the bearer of an active ingredient role and (2) that is itself the bearer of a clinical drug role</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William Hogan</obo:IAO_0000117>
+        <dc:creator xml:lang="en">William Hogan</dc:creator>
+        <rdfs:label xml:lang="en">drug product</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000001"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000028"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 xml:lang="en">a solid object typically of discoid, spheroid, or elliptic-cylindrical shape or approximations thereof, that bears a clinical drug role.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William Hogan</obo:IAO_0000117>
+        <dc:creator xml:lang="en">William Hogan</dc:creator>
+        <rdfs:label xml:lang="en">drug tablet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000030"/>
+        <obo:IAO_0000111 xml:lang="en">active ingredient role</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a role of a scattered molecular aggregate that is part of a drug product that is realized by (1) administration of the drug to an organism followed by (2) some change in the structure or functioning of some part of the organism</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">active ingredient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00000030">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0000576"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <obo:IAO_0000111 xml:lang="en">role of a scattered molecular aggregate</obo:IAO_0000111>
+        <obo:IAO_0000115 xml:lang="en">a role borne by a scattered molecular aggregate and realized by its grains participating in one or more processes</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">William R. Hogan</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">role of scattered molecular aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DRON_00023121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DRON_00023121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DRON_00000022"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.obofoundry.org/ro/ro.owl#has_proper_part"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000576"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000053"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DRON_00000028"/>
+                            </owl:Restriction>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000071"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_45267"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:DRON_00010000 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">373563</obo:DRON_00010000>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Praziquantel Oral Tablet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000009"/>
+        <obo:IAO_0000111 xml:lang="en">measurement unit label</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">Examples of measurement unit labels are liters, inches, weight per volume.</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">A data item label that denotes a unit of measure.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: provenance: a term measurement unit was
+proposed for OBI (OBI_0000176) , edited by Chris Stoeckert and
+Cristian Cocos, and subsequently moved to IAO where the objective for
+which the original term was defined was satisfied with the definition
+of this, different, term.</obo:IAO_0000116>
+        <obo:IAO_0000116 xml:lang="en">2009-03-16: review of this term done during during the OBI workshop winter 2009 and the current definition was considered acceptable for use in OBI. If there is a need to modify this definition please notify OBI.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">measurement unit label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000111 xml:lang="en">data item label</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+        <obo:IAO_0000115 xml:lang="en">An information content entity that is part of some data item and is used to partially define the denotation of that data item.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">http://www.golovchenko.org/cgi-bin/wnsearch?q=label#4n</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">GROUP: IAO</obo:IAO_0000117>
+        <obo:IAO_0000118>datum label</obo:IAO_0000118>
+        <obo:IAO_0000232>9/22/11 BP: changed the rdfs:label for this class from &apos;label&apos; to &apos;datum label&apos; to convey that this class is not intended to cover all kinds of labels (stickers, radiolabels, etc.), and not even all kind of textual labels, but rather the kind of labels occuring in a datum. 
+</obo:IAO_0000232>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label xml:lang="en">data item label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <rdfs:label xml:lang="en">data item</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <rdfs:label xml:lang="en">information content entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000078">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000002"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000111 xml:lang="en">curation status specification</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">The curation status of the term. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">Better to represent curation as a process with parts and then relate labels to that process (in IAO meeting)</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000119 xml:lang="en">OBI_0000266</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">curation status specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000102">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <obo:IAO_0000115 xml:lang="en">data about an ontology part is a data item about a part of an ontology, for example a term</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">data about an ontology part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000225">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000103"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000111 xml:lang="en">obsolescence reason specification</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115 xml:lang="en">The reason for which a term has been deprecated. The allowed values come from an enumerated list of predefined terms. See the specification of these instances for more detailed definitions of each enumerated value.</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">The creation of this class has been inspired in part by Werner Ceusters&apos; paper, Applying evolutionary terminology auditing to the Gene Ontology.</obo:IAO_0000116>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">obsolescence reason specification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000409">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000410"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000420"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000421"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Basic Formal Ontology ontology makes a distinction between Universals and defined classes, where the formal are &quot;natural kinds&quot; and the latter arbitrary collections of entities.</obo:IAO_0000112>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A denotator type indicates how a term should be interpreted from an ontological perspective.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Barry Smith, Werner Ceusters</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">denotator type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000576">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scattered molecular aggregate</obo:IAO_0000111>
+        <obo:IAO_0000112 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the sodium and chloride ions in a glass of salt water</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000123"/>
+        <obo:IAO_0000115 xml:lang="en">A scattered molecular aggregate is a material entity that consists of all the molecules of a specific type that are located in some bounded region and which is part of a more massive material entity that has parts that are other such aggregates</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000118 xml:lang="en">Collective</obo:IAO_0000118>
+        <obo:IAO_0000119 xml:lang="en">Discussion in Karslruhe with, among others, Alan Rector, Stefan Schulz, Marijke Keet, Melanie Courtot, and Alan Ruttenberg. With inspiration from the paper Granularity, scale and collectivity: When size does and does not matter, Alan Recto, Jeremy Rogers, Thomas Bittner, Journal of Biomedical Informatics 39 (2006) 333-349</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">scattered molecular aggregate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UO_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000003"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A unit which is a standard measure of the amount of matter/energy of a physical object.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">http://purl.obolibrary.org/obo/obi.owl</obo:IAO_0000412>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass unit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#Subset -->
+
+    <owl:Class rdf:about="http://www.geneontology.org/formats/oboInOwl#Subset">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:oneOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000224"/>
+                </owl:oneOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000102"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000002 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000002">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <rdfs:label xml:lang="en">example to be eventually removed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000103 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000103">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <obo:IAO_0000115 xml:lang="en">The term was used in an attempt to structure part of the ontology but in retrospect failed to do a good job</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Person:Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">failed exploratory term</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000120 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000120">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">Class has all its metadata, but is either not guaranteed to be in its final location in the asserted IS_A hierarchy or refers to another class that is not complete.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">metadata complete</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000121 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000121">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">term created to ease viewing/sort terms for development purpose, and will not be included in a release</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">organizational term</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000122 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000122">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">Class has undergone final review, is ready for use, and will be included in the next release. Any class lacking &quot;ready_for_release&quot; should be considered likely to change place in hierarchy, have its definition refined, or be obsoleted in the next release.  Those classes deemed &quot;ready_for_release&quot; will also derived from a chain of ancestor classes that are also &quot;ready_for_release.&quot;</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">ready for release</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000123 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000123">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">Class is being worked on; however, the metadata (including definition) are not complete or sufficiently clear to the branch editors.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">metadata incomplete</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000124 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000124">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">Nothing done yet beyond assigning a unique class ID and proposing a preferred term.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">uncurated</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000125 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000125">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">All definitions, placement in the asserted IS_A hierarchy and required minimal metadata are complete. The class is awaiting a final review by someone other than the term editor.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">pending final vetting</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000224 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000224">
+        <rdf:type rdf:resource="http://www.geneontology.org/formats/oboInOwl#Subset"/>
+        <obo:IAO_0000115 xml:lang="en">Core is an instance of a grouping of terms from an ontology or ontologies. It is used by the ontology to identify main classes.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON: Melanie Courtot</obo:IAO_0000117>
+        <rdfs:label xml:lang="en">core</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000226 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000226">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <rdfs:label xml:lang="en">placeholder removed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000227 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000227">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <obo:IAO_0000116 xml:lang="en">An editor note should explain what were the merged terms and the reason for the merge.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">terms merged</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000228 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000228">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when the original term has been replaced by a term imported from an other ontology. An editor note should indicate what is the URI of the new term to use.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">term imported</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000229 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000229">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000225"/>
+        <obo:IAO_0000116 xml:lang="en">This is to be used when a term has been split in two or more new terms. An editor note should indicate the reason for the split and indicate the URIs of the new terms created.</obo:IAO_0000116>
+        <rdfs:label xml:lang="en">term split</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000410 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000410">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hard to give a definition for. Intuitively a &quot;natural kind&quot; rather than a collection of any old things, which a class is able to be, formally. At the meta level, universals are defined as positives, are disjoint with their siblings, have single asserted parents.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A Formal Theory of Substances, Qualities, and Universals, http://ontology.buffalo.edu/bfo/SQU.pdf</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">universal</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000420 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000420">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A defined class is a class that is defined by a set of logically necessary and sufficient conditions but is not a universal</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&quot;definitions&quot;, in some readings, always are given by necessary and sufficient conditions. So one must be careful (and this is difficult sometimes) to distinguish between defined classes and universal.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">defined class</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000421 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000421">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000409"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A named class expression is a logical expression that is given a name. The name can be used in place of the expression.</obo:IAO_0000115>
+        <obo:IAO_0000116 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">named class expressions are used in order to have more concise logical definition but their extensions may not be interesting classes on their own. In languages such as OWL, with no provisions for macros, these show up as actuall classes. Tools may with to not show them as such, and to replace uses of the macros with their expansions</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">named class expression</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000423 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000423">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">Terms with this status should eventually replaced with a term from another ontology.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">to be replaced with external ontology term</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000428 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000428">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000078"/>
+        <obo:IAO_0000115 xml:lang="en">A term that is metadata complete, has been reviewed, and problems have been identified that require discussion before release. Such a term requires editor note(s) to identify the outstanding issues.</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000119 xml:lang="en">group:OBI</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">requires discussion</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UO_0000022 -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/UO_0000022">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/UO_0000002"/>
+        <obo:IAO_0000111 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</obo:IAO_0000111>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mass unit which is equal to one thousandth of a gram or 10^[-3] g.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mg</obo:IAO_0000118>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/uo.owl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">milligram</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000120"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000121"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000122"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000123"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000124"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000125"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000423"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000428"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000226"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000227"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000228"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000229"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+

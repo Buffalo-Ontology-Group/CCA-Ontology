@@ -20,8 +20,8 @@
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.obo"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/mpath.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oba.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
@@ -125,9 +125,9 @@
 
     <!-- http://purl.obolibrary.org/obo/MPATH_0 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
