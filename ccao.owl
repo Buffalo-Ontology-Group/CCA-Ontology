@@ -805,14 +805,14 @@
 
     <owl:Class rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Hepatic_Calcification">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3672"/>
-        <obo:IAO_0000115>a calcification which is deposit of calcium in the hepatic tissue</obo:IAO_0000115>
+        <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
         <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
         <rdfs:label>Hepatic Calcification</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Hepatic_Calcification"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a calcification which is deposit of calcium in the hepatic tissue</owl:annotatedTarget>
+        <owl:annotatedTarget>A calcification in the hepatic tissue</owl:annotatedTarget>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962605</PMID>
         <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9520990</PMID>
     </owl:Axiom>
