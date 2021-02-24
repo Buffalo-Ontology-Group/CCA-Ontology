@@ -1,0 +1,8 @@
+http://purl.obolibrary.org/obo/OBA_VT0002191 
+http://purl.obolibrary.org/obo/OBA_0005055
+http://purl.obolibrary.org/obo/OBA_0005145
+http://purl.obolibrary.org/obo/OBA_0003703
+http://purl.obolibrary.org/obo/OBA_VT0002127
+http://purl.obolibrary.org/obo/OBA_VT0010252
+http://purl.obolibrary.org/obo/OBA_VT0000685
+http://purl.obolibrary.org/obo/OBA_VT0000598

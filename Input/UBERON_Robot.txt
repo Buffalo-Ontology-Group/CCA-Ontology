@@ -1,10 +1,3 @@
-[URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/vo/external/UBERON_import.owl
-
-[Source ontology]
-UBERON
-
-[Low level source term URIs]
 http://purl.obolibrary.org/obo/UBERON_0003704
 http://purl.obolibrary.org/obo/UBERON_0001114
 http://purl.obolibrary.org/obo/UBERON_0001115
@@ -22,17 +15,10 @@ http://purl.obolibrary.org/obo/UBERON_0001174
 http://purl.obolibrary.org/obo/UBERON_0002110 
 http://purl.obolibrary.org/obo/UBERON_0003688 
 http://purl.obolibrary.org/obo/UBERON_0001103
-
-
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/UBERON_0001062
 http://purl.obolibrary.org/obo/UBERON_0015423
+http://purl.obolibrary.org/obo/UBERON_0036343
+http://purl.obolibrary.org/obo/UBERON_0001173
+http://purl.obolibrary.org/obo/UBERON_0002394 
 
-[Source term retrieval setting]
-includeAllIntermediates
 
-[Source annotation URIs]
-includeAllAxioms
-
-[Source annotation URIs to be excluded]
+UBERON_0011143

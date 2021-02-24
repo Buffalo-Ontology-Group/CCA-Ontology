@@ -1,10 +1,3 @@
-[URI of the OWL(RDF/XML) output file]
-http://purl.obolibrary.org/obo/vo/external/NCBITaxon_import.owl
-
-[Source ontology]
-NCIT
-
-[Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C25632
 http://purl.obolibrary.org/obo/NCIT_C68615
 http://purl.obolibrary.org/obo/NCIT_C17357
@@ -25,7 +18,6 @@ http://purl.obolibrary.org/obo/NCIT_C75563
 http://purl.obolibrary.org/obo/NCIT_C75559
 http://purl.obolibrary.org/obo/NCIT_C116000
 http://purl.obolibrary.org/obo/NCIT_C54131
-http://purl.obolibrary.org/obo/NCIT_C47683
 http://purl.obolibrary.org/obo/NCIT_C21480
 http://purl.obolibrary.org/obo/NCIT_C4436
 http://purl.obolibrary.org/obo/NCIT_C96583
@@ -53,8 +45,6 @@ http://purl.obolibrary.org/obo/NCIT_C35294
 http://purl.obolibrary.org/obo/NCIT_C3869
 http://purl.obolibrary.org/obo/NCIT_C35773
 http://purl.obolibrary.org/obo/NCIT_C15284
-http://purl.obolibrary.org/obo/NCIT_C16033
-http://purl.obolibrary.org/obo/NCIT_C4436
 http://purl.obolibrary.org/obo/NCIT_C103421
 http://purl.obolibrary.org/obo/NCIT_C16213
 http://purl.obolibrary.org/obo/NCIT_C17204
@@ -78,7 +68,6 @@ http://purl.obolibrary.org/obo/NCIT_C113775
 http://purl.obolibrary.org/obo/NCIT_C157120
 http://purl.obolibrary.org/obo/NCIT_C35417
 http://purl.obolibrary.org/obo/NCIT_C96804
-http://purl.obolibrary.org/obo/NCIT_C7109
 http://purl.obolibrary.org/obo/NCIT_C71892
 http://purl.obolibrary.org/obo/NCIT_C141005 
 http://purl.obolibrary.org/obo/NCIT_C39564
@@ -115,7 +104,6 @@ http://purl.obolibrary.org/obo/NCIT_C64386
 http://purl.obolibrary.org/obo/NCIT_C157121
 http://purl.obolibrary.org/obo/NCIT_C35417
 http://purl.obolibrary.org/obo/NCIT_C96804
-http://purl.obolibrary.org/obo/NCIT_C7109
 http://purl.obolibrary.org/obo/NCIT_C15249
 http://purl.obolibrary.org/obo/NCIT_C98275
 http://purl.obolibrary.org/obo/NCIT_C25754
@@ -123,7 +111,6 @@ http://purl.obolibrary.org/obo/NCIT_C6881
 http://purl.obolibrary.org/obo/NCIT_C25563
 http://purl.obolibrary.org/obo/NCIT_C139581
 http://purl.obolibrary.org/obo/NCIT_C139578
-http://purl.obolibrary.org/obo/NCIT_C139579
 http://purl.obolibrary.org/obo/NCIT_C139579
 http://purl.obolibrary.org/obo/NCIT_C139580
 http://purl.obolibrary.org/obo/NCIT_C48718
@@ -134,7 +121,6 @@ http://purl.obolibrary.org/obo/NCIT_C16681
 http://purl.obolibrary.org/obo/NCIT_C27813
 http://purl.obolibrary.org/obo/NCIT_C6881
 http://purl.obolibrary.org/obo/NCIT_C96810
-http://purl.obolibrary.org/obo/NCIT_C2898
 http://purl.obolibrary.org/obo/NCIT_C14163
 http://purl.obolibrary.org/obo/NCIT_C62222
 http://purl.obolibrary.org/obo/NCIT_C25384
@@ -171,7 +157,6 @@ http://purl.obolibrary.org/obo/NCIT_C36263
 http://purl.obolibrary.org/obo/NCIT_C3577
 http://purl.obolibrary.org/obo/NCIT_C3579
 http://purl.obolibrary.org/obo/NCIT_C3580
-http://purl.obolibrary.org/obo/NCIT_C3580
 http://purl.obolibrary.org/obo/NCIT_C3813
 http://purl.obolibrary.org/obo/NCIT_C16033 
 http://purl.obolibrary.org/obo/NCIT_C25716 
@@ -199,22 +184,19 @@ http://purl.obolibrary.org/obo/NCIT_C78372
 http://purl.obolibrary.org/obo/NCIT_C45234
 http://purl.obolibrary.org/obo/NCIT_C2885
 http://purl.obolibrary.org/obo/NCIT_C141238
-
-[Top level source term URIs and target direct superclass URIs]
-http://purl.obolibrary.org/obo/NCIT_C20189
-http://purl.obolibrary.org/obo/NCIT_C35417  
-http://purl.obolibrary.org/obo/NCIT_C15189
-http://purl.obolibrary.org/obo/NCIT_C6274
-http://purl.obolibrary.org/obo/NCIT_C35419
-http://purl.obolibrary.org/obo/NCIT_C96805
-http://purl.obolibrary.org/obo/NCIT_C96806
-http://purl.obolibrary.org/obo/NCIT_C36264
-
-
-[Source term retrieval setting]
-includeAllIntermediates
-
-[Source annotation URIs]
-includeAllAnnotationProperties
-
-[Source annotation URIs to be excluded]
+http://purl.obolibrary.org/obo/NCIT_C150596 
+http://purl.obolibrary.org/obo/NCIT_C2951
+http://purl.obolibrary.org/obo/NCIT_C3960
+http://purl.obolibrary.org/obo/NCIT_C3085
+http://purl.obolibrary.org/obo/NCIT_C122822
+http://purl.obolibrary.org/obo/NCIT_C3970 
+http://purl.obolibrary.org/obo/NCIT_C114667 
+http://purl.obolibrary.org/obo/NCIT_C2885 
+http://purl.obolibrary.org/obo/NCIT_C3384 
+http://purl.obolibrary.org/obo/NCIT_C26718
+http://purl.obolibrary.org/obo/NCIT_C26922
+http://purl.obolibrary.org/obo/NCIT_C3306 
+http://purl.obolibrary.org/obo/NCIT_C4376 
+http://purl.obolibrary.org/obo/NCIT_C3331 
+http://purl.obolibrary.org/obo/NCIT_C3672
+http://purl.obolibrary.org/obo/NCIT_C2978

@@ -115,22 +115,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/MPATH_0 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MPATH_0">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C12219 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C12219">
@@ -522,14 +506,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/UBERON_0011143 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0011143">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000477"/>
-    </owl:Class>
-    
-
-
     <!-- http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Bile_Duct_Papillary_Mucin_Producing_Invasive_Cholangiocarcinoma -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Bile_Duct_Papillary_Mucin_Producing_Invasive_Cholangiocarcinoma">
@@ -821,6 +797,24 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Hepatic_Calcification -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Hepatic_Calcification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3672"/>
+        <obo:IAO_0000115>a calcification which is deposit of calcium in the hepatic tissue</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
+        <rdfs:label>Hepatic Calcification</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.semanticweb.org/bob_b/ontologies/2020/4/cca#Hepatic_Calcification"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>a calcification which is deposit of calcium in the hepatic tissue</owl:annotatedTarget>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962605</PMID>
+        <PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9520990</PMID>
     </owl:Axiom>
     
 
