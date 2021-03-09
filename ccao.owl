@@ -93,6 +93,24 @@
     
 
 
+    <!-- http://purl.obolibrary.org/CCAO_00077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/CCAO_00077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00076"/>
+        <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/CCAO_00077"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780443103735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
@@ -634,6 +652,1407 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about having alcoholism</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about having alcoholism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no having alcoholism</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no having alcoholism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
+        <obo:IAO_0000115>A conclusion that a participant reports having alcoholism</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report having alcoholism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00060"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
+        <obo:IAO_0000115>A conclusion that a participant reports consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about diagnosis of disease by cilnician</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about diagnosis of disease by cilnician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no diagnosis of disease by cilnician</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no diagnosis of disease by cilnician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports hepatitis c</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report hepatitis c</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports diabetes</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report diabetes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00066 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports diabetes other disease</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report other disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
+        <rdfs:label>Mass-Forming Intrahepatic Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00067"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:12933488</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</obo:IAO_0000115>
+        <rdfs:label>Periductal infiltrating Intrahepatic Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00068"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <rdfs:label>Intraductal Intrahepatic Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00069"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Cholangiocarcinoma of Mixed Type</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00070"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00071">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001193"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
+        <obo:IAO_0000115>The morphology of a hepatic artery</obo:IAO_0000115>
+        <rdfs:label>hepatic artery morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00072">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00071"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00073"/>
+        <obo:IAO_0000115>A hepatic artery morphology with a normal phenotype.</obo:IAO_0000115>
+        <rdfs:label>normal hepatic artery morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00072"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic artery morphology with a normal phenotype.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:24534562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>https://courses.lumenlearning.com/boundless-ap/chapter/the-liver/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
+        <obo:IAO_0000115>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>Encasement Hepatic Artery</oboInOwl:hasSynonym>
+        <rdfs:label>cholangiocarcinoma-encased hepatic artery</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00073"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00074">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0005055"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00075"/>
+        <obo:IAO_0000115>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</obo:IAO_0000115>
+        <rdfs:label>normal hepatic vein morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00074"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1016/B978-1-4377-1454-8.00107-7,  https://en.wikipedia.org/wiki/Hepatic_veins</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
+        <obo:IAO_0000115>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <rdfs:label>cholangiocarcinoma-encased vein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00075"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00076">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0005145"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
+        <obo:IAO_0000115>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</obo:IAO_0000115>
+        <rdfs:label>normal hepatic portal vein morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00076"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://doi.org/10.1016/B978-0-443-10373-5.50007-5</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00078">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0003703"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
+                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
+        <obo:IAO_0000115>A lymph node morphology in which the morphology of the main lymph node is no cholangiocarcinoma.</obo:IAO_0000115>
+        <rdfs:label>normal lymph node morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0009625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A lymph node morphology in which a lymph node along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <rdfs:label>cholangiocarcinoma-positive lymph node along hepatoduodenal ligament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0009625"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A lymph node morphology in which a lymph node not located along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <rdfs:label>cholangiocarcinoma-positive lymph node not located along hepatoduodenal ligament</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00081">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <obo:IAO_0000115>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</obo:IAO_0000115>
+        <rdfs:label>Extended Right Hepatectomy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00081"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00082 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00082">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <obo:IAO_0000115>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</obo:IAO_0000115>
+        <rdfs:label>Extended Left Hepatectomy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00082"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <obo:IAO_0000115>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</obo:IAO_0000115>
+        <rdfs:label>Right Hepatic Trisectionectomy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00083"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00084">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <obo:IAO_0000115>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</obo:IAO_0000115>
+        <rdfs:label>Left Hepatic Trisectionectomy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00084"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:16041218</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <obo:IAO_0000115>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</obo:IAO_0000115>
+        <rdfs:label>Non-Anatomic Hepatic Resection</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00085"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:22811867</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015423"/>
+        <obo:IAO_0000115>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</obo:IAO_0000115>
+        <rdfs:label>surgical resection of hilar cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00086"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:23919108</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15723"/>
+        <oboInOwl:hasDbXref>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</oboInOwl:hasDbXref>
+        <rdfs:label>Hepatic Duct Bypass</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00087"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-terms/def/biliary-bypass</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00089"/>
+        <obo:IAO_0000115>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</obo:IAO_0000115>
+        <rdfs:label>Exploratory Laparotomy of Liver</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00088"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.docdoc.com.sg/info/procedure/exploratory-laparotomy/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
+        <obo:IAO_0000115>An exploratory laparotomy of the liver which includes biopsy.</obo:IAO_0000115>
+        <rdfs:label>Exploratory Laparotomy of Liver Including Biopsy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00089"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An exploratory laparotomy of the liver which includes biopsy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.docdoc.com.sg/info/procedure/exploratory-laparotomy/</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+        <obo:IAO_0000115>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</obo:IAO_0000115>
+        <rdfs:label>Palliative Chemotherapy</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00090"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28550031</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00092"/>
+        <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed prior to surgery.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>Pre-Operative PTBD</oboInOwl:hasSynonym>
+        <rdfs:label>Pre-Operative Percutaneous Transhepatic Biliary Drainage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>Palliative PTDB</oboInOwl:hasSynonym>
+        <rdfs:label>Palliative Percutaneous Transhepatic Biliary Drainage</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00092"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:27803558</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62741"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00094"/>
+        <obo:IAO_0000115>Biliary Stenting that is performed prior to surgery.</obo:IAO_0000115>
+        <rdfs:label>Pre-operative Biliary Stenting</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00093"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Biliary Stenting that is performed prior to surgery.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:18333086</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00094">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62741"/>
+        <obo:IAO_0000115>Biliary Stenting that is performed as palliative therapy.</obo:IAO_0000115>
+        <rdfs:label>Palliative Biliar Stenting</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00094"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Biliary Stenting that is performed as palliative therapy.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:22741117</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
+        <obo:IAO_0000115>The morphology of a tumor.</obo:IAO_0000115>
+        <rdfs:label>tumor morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00096">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
+        <obo:IAO_0000115>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</obo:IAO_0000115>
+        <rdfs:label>mass-forming tumor morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00096"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00097">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
+        <obo:IAO_0000115>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</obo:IAO_0000115>
+        <rdfs:label>periductal infiltrating tumor morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00097"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
+        <obo:IAO_0000115>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <rdfs:label>intraductal intrahepatic tumor morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00098"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21528069</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00099">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Mass-Forming Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00100">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00097"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Periductal Infiltrating  Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00101">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00098"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Intraductal Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00102 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00102">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Mass-Forming Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00103">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00097"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00104">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00098"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Intraductal Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A distal bile duct carcinoma that is a cholangiocarcinoma.</obo:IAO_0000115>
+        <rdfs:label>Distal Bile Duct Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
+        <obo:IAO_0000115>A distal bile duct cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Distal Mass-Forming Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00107">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00097"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
+        <obo:IAO_0000115>A distal bile duct cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Distal Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00108">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00098"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
+        <obo:IAO_0000115>A distal bile duct lcholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Distal Intraductal Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
+        <obo:IAO_0000115>A tumor morphology characterized by the presense of intracytoplasmic musin.</obo:IAO_0000115>
+        <rdfs:label>mucinous tumor morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tumor morphology characterized by the presense of intracytoplasmic musin.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PATO_0001371</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Non-Mucin Producing Cholangiocarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma with a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Mucin-Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma that lacks papillary or villous growth within the bile duct lumen.</obo:IAO_0000115>
+        <oboInOwl:hasSynonym>mucinous</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>mucoid</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>mucus</oboInOwl:hasSynonym>
+        <rdfs:label>Non-Papillary Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00113">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00112"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
+        <obo:IAO_0000115>A non-papillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Non-Papillary Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00114">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00112"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
+        <obo:IAO_0000115>A non-papillary cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Non-Papillary Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma with a non-invasive, papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <rdfs:label>Papillary Non-invasive Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma with papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <rdfs:label>Papillary Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00117">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00116"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00118"/>
+        <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Papillary Non-invasive Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00118">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00116"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
+        <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Papillary Non-invasive Mucin Produing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00119">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+        <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Bile Duct Papillary Non-Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00120">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+        <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Bile Duct Papillary Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A intraductal cholangiocarcinoma with a predominant tubular growth pattern and contiguous non-neoplastic duct lining cells growing in solid sheets, and back-to-back tubules and lacking intracellular or extracellular mucin.</obo:IAO_0000115>
+        <rdfs:label>Tubular Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00122">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00121"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00123"/>
+        <obo:IAO_0000115>A tubular cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Tubular Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00123">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00121"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
+        <obo:IAO_0000115>A tubular cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Tubular Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00124 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00124">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</obo:IAO_0000115>
+        <rdfs:label>Tubulopapillary Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</owl:annotatedTarget>
+        <ccao:PMID>26111977
+https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00125">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00124"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00126"/>
+        <obo:IAO_0000115>A tubulopapillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Tubulopapillary Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00126">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00124"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
+        <obo:IAO_0000115>A tubulopapillary bile duct adenocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <rdfs:label>Tubulopapillary Bile Duct Adenocarcinoma Mucin Producing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
+        <obo:IAO_0000115>A cholangiocarcinoma that does not exhibit an adenocarcinoma morphology.</obo:IAO_0000115>
+        <rdfs:label>Cholangiocarcinoma with Non-Adenocarcinoma  Morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
+        <obo:IAO_0000115>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00128"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
+        <obo:IAO_0000115>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00129"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
+        <obo:IAO_0000115>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Bile Duct Cancer pT3A TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00130"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
+        <oboInOwl:hasDbXref>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</oboInOwl:hasDbXref>
+        <rdfs:label>Perihilar Bile Duct Cancer pT3B TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00131"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+        <owl:annotatedTarget>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</owl:annotatedTarget>
+        <obo:IAO_0000119>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
+        <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</obo:IAO_0000115>
+        <rdfs:label>Perihilar Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00132"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
+        <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00133"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
+        <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
+        <rdfs:label>Distal Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00134"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00135 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00135">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
+        <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <rdfs:label>Distal Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00135"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4583"/>
+        <obo:IAO_0000115>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</obo:IAO_0000115>
+        <rdfs:label>Metastatic Malignant Neoplasm in the Omentum</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00136"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/UBERON_0003688</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
+        <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</obo:IAO_0000115>
+        <rdfs:label>Metastatic Malignant Neoplasm in the Diaphragm</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00137"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>UBERON_0001103</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
+        <obo:IAO_0000115>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</obo:IAO_0000115>
+        <rdfs:label>Metastatic Malignant Neoplasm in the Lung, Metastatic Malignant Neoplasm in the Pleura</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00138"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>NCIT_C3577</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT_C3579</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3672"/>
+        <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
+        <rdfs:label>Hepatic Calcification</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00139"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A calcification in the hepatic tissue</owl:annotatedTarget>
+        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962605</ccao:PMID>
+        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9520990</ccao:PMID>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -1041,52 +2460,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bile_Duct_Papillary_Mucin_Producing_Invasive_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bile_Duct_Papillary_Mucin_Producing_Invasive_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
-        <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Bile Duct Papillary Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bile_Duct_Papillary_Non-Mucin_Producing_Invasive_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bile_Duct_Papillary_Non-Mucin_Producing_Invasive_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
-        <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Bile Duct Papillary Non-Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_I -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_I">
@@ -1172,1227 +2545,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Cholangiocarcinoma_with_Non-Adenocarcinoma__Morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Cholangiocarcinoma_with_Non-Adenocarcinoma__Morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma that does not exhibit an adenocarcinoma morphology.</obo:IAO_0000115>
-        <rdfs:label>Cholangiocarcinoma with Non-Adenocarcinoma  Morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4A_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4A_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
-        <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4A_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4B_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4B_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
-        <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cancer_pT4B_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A distal bile duct carcinoma that is a cholangiocarcinoma.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Intraductal_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Intraductal_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A distal bile duct lcholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Distal Intraductal Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Mass-Forming_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Mass-Forming_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A distal bile duct cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Distal Mass-Forming Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Distal_Periductal_Infiltrating_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Periductal_Infiltrating_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C7109"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Distal_Bile_Duct_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A distal bile duct cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Distal Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Exploratory_Laparotomy_of_Liver -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Exploratory_Laparotomy_of_Liver">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#exploratory_laparotomy_of_liver_including_biopsy"/>
-        <obo:IAO_0000115>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</obo:IAO_0000115>
-        <rdfs:label>Exploratory Laparotomy of Liver</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Exploratory_Laparotomy_of_Liver"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.docdoc.com.sg/info/procedure/exploratory-laparotomy/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Extended_Left_Hepatectomy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Left_Hepatectomy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-        <obo:IAO_0000115>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</obo:IAO_0000115>
-        <rdfs:label>Extended Left Hepatectomy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Extended_Left_Hepatectomy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Extended_Right_Hepatectomy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Right_Hepatectomy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-        <obo:IAO_0000115>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</obo:IAO_0000115>
-        <rdfs:label>Extended Right Hepatectomy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Extended_Right_Hepatectomy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Calcification -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Calcification">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3672"/>
-        <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
-        <rdfs:label>Hepatic Calcification</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Calcification"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A calcification in the hepatic tissue</owl:annotatedTarget>
-        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">13962605</ccao:PMID>
-        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">9520990</ccao:PMID>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Duct_Bypass -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Duct_Bypass">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15723"/>
-        <oboInOwl:hasDbXref>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</oboInOwl:hasDbXref>
-        <rdfs:label>Hepatic Duct Bypass</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Hepatic_Duct_Bypass"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://www.cancer.gov/publications/dictionaries/cancer-terms/def/biliary-bypass</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intraductal_Intrahepatic_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intraductal_Intrahepatic_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
-        <rdfs:label>Intraductal Intrahepatic Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Intraductal_Intrahepatic_Cholangiocarcinoma"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4A_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4A_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
-        <obo:IAO_0000115>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4A_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4B_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4B_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
-        <obo:IAO_0000115>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Cancer_pT4B_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Intraductal_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Intraductal_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Intraductal Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Mass-Forming_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Mass-Forming_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Mass-Forming Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Periductal_Infiltrating__Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Periductal_Infiltrating__Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Periductal Infiltrating  Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Cholangiocarcinoma_of_Mixed_Type -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Cholangiocarcinoma_of_Mixed_Type">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Cholangiocarcinoma of Mixed Type</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Cholangiocarcinoma_of_Mixed_Type"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Left_Hepatic_Trisectionectomy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Left_Hepatic_Trisectionectomy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-        <obo:IAO_0000115>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</obo:IAO_0000115>
-        <rdfs:label>Left Hepatic Trisectionectomy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Left_Hepatic_Trisectionectomy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:16041218</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Diaphragm -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Diaphragm">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
-        <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</obo:IAO_0000115>
-        <rdfs:label>Metastatic Malignant Neoplasm in the Diaphragm</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Diaphragm"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>UBERON_0001103</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Omentum -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Omentum">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4583"/>
-        <obo:IAO_0000115>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</obo:IAO_0000115>
-        <rdfs:label>Metastatic Malignant Neoplasm in the Omentum</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Omentum"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>http://purl.obolibrary.org/obo/UBERON_0003688</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Mucin-Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Mucin-Producing_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma with a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Mucin-Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Non-Anatomic_Hepatic_Resection -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Anatomic_Hepatic_Resection">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-        <obo:IAO_0000115>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</obo:IAO_0000115>
-        <rdfs:label>Non-Anatomic Hepatic Resection</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Non-Anatomic_Hepatic_Resection"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:22811867</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Non-Mucin_Producing_Cholangiocarcoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Mucin_Producing_Cholangiocarcoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Non-Mucin Producing Cholangiocarcoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma that lacks papillary or villous growth within the bile duct lumen.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>mucinous</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>mucoid</oboInOwl:hasSynonym>
-        <oboInOwl:hasSynonym>mucus</oboInOwl:hasSynonym>
-        <rdfs:label>Non-Papillary Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A non-papillary cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Non-Papillary Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Non-Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Non-Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A non-papillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Non-Papillary Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Palliative_Biliar_Stenting -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Palliative_Biliar_Stenting">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62741"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Pre-operative_Biliary_Stenting"/>
-        <obo:IAO_0000115>Biliary Stenting that is performed as palliative therapy.</obo:IAO_0000115>
-        <rdfs:label>Palliative Biliar Stenting</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Palliative_Biliar_Stenting"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Biliary Stenting that is performed as palliative therapy.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:22741117</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Palliative_Percutaneous_Transhepatic_Biliary_Drainage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Palliative_Percutaneous_Transhepatic_Biliary_Drainage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Pre-Operative_Percutaneous_Transhepatic_Biliary_Drainage"/>
-        <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>Palliative PTDB</oboInOwl:hasSynonym>
-        <rdfs:label>Palliative Percutaneous Transhepatic Biliary Drainage</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Palliative_Percutaneous_Transhepatic_Biliary_Drainage"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:27803558</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Papillary_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma with papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
-        <rdfs:label>Papillary Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A cholangiocarcinoma with a non-invasive, papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
-        <rdfs:label>Papillary Non-invasive Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Mucin_Produing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Mucin_Produing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Cholangiocarcinoma"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Cholangiocarcinoma"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Non-Mucin_Producing_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Papillary Non-invasive Mucin Produing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Non-Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Non-Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Cholangiocarcinoma"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Papillary_Non-invasive_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Papillary Non-invasive Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Periductal_infiltrating_Intrahepatic_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Periductal_infiltrating_Intrahepatic_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</obo:IAO_0000115>
-        <rdfs:label>Periductal infiltrating Intrahepatic Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Periductal_infiltrating_Intrahepatic_Cholangiocarcinoma"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3A_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3A_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
-        <obo:IAO_0000115>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</obo:IAO_0000115>
-        <rdfs:label>Perihilar Bile Duct Cancer pT3A TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3A_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3B_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3B_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
-        <oboInOwl:hasDbXref>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</oboInOwl:hasDbXref>
-        <rdfs:label>Perihilar Bile Duct Cancer pT3B TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT3B_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
-        <owl:annotatedTarget>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4A_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4A_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
-        <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</obo:IAO_0000115>
-        <rdfs:label>Perihilar Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4A_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4B_TNM_Finding_v8 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4B_TNM_Finding_v8">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
-        <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
-        <rdfs:label>Perihilar Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Bile_Duct_Cancer_pT4B_TNM_Finding_v8"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.cancercenter.com/cancer-types/bile-duct-cancer/stages</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Intraductal_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Intraductal_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Perihilar Intraductal Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Mass-Forming_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Mass-Forming_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Perihilar Mass-Forming Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Periductal_Infiltrating_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Periductal_Infiltrating_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Perihilar Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Pre-Operative_Percutaneous_Transhepatic_Biliary_Drainage -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Pre-Operative_Percutaneous_Transhepatic_Biliary_Drainage">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
-        <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed prior to surgery.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>Pre-Operative PTBD</oboInOwl:hasSynonym>
-        <rdfs:label>Pre-Operative Percutaneous Transhepatic Biliary Drainage</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Pre-operative_Biliary_Stenting -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Pre-operative_Biliary_Stenting">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C62741"/>
-        <obo:IAO_0000115>Biliary Stenting that is performed prior to surgery.</obo:IAO_0000115>
-        <rdfs:label>Pre-operative Biliary Stenting</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Pre-operative_Biliary_Stenting"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>Biliary Stenting that is performed prior to surgery.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:18333086</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Right_Hepatic_Trisectionectomy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Right_Hepatic_Trisectionectomy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-        <obo:IAO_0000115>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</obo:IAO_0000115>
-        <rdfs:label>Right Hepatic Trisectionectomy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Right_Hepatic_Trisectionectomy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:16371733</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A intraductal cholangiocarcinoma with a predominant tubular growth pattern and contiguous non-neoplastic duct lining cells growing in solid sheets, and back-to-back tubules and lacking intracellular or extracellular mucin.</obo:IAO_0000115>
-        <rdfs:label>Tubular Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubular_Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Non-Mucin_Producing_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A tubular cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Tubular Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubular_Non-Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Non-Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubular_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A tubular cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Tubular Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Bile_Duct_Adenocarcinoma_Mucin_Producing -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Bile_Duct_Adenocarcinoma_Mucin_Producing">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Non-Mucin_Producing_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A tubulopapillary bile duct adenocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Tubulopapillary Bile Duct Adenocarcinoma Mucin Producing</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4436"/>
-        <obo:IAO_0000115>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</obo:IAO_0000115>
-        <rdfs:label>Tubulopapillary Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</owl:annotatedTarget>
-        <ccao:PMID>26111977
-https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Non-Mucin_Producing_Cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Non-Mucin_Producing_Cholangiocarcinoma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Tubulopapillary_Cholangiocarcinoma"/>
-        <obo:IAO_0000115>A tubulopapillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
-        <rdfs:label>Tubulopapillary Non-Mucin Producing Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_hepatic_artery -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_hepatic_artery">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatic_artery_morphology"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_artery_morphology"/>
-        <obo:IAO_0000115>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <oboInOwl:hasSynonym>Encasement Hepatic Artery</oboInOwl:hasSynonym>
-        <rdfs:label>cholangiocarcinoma-encased hepatic artery</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_hepatic_artery"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_portal_vein -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_portal_vein">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_portal_vein_morphology"/>
-        <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_portal_vein"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:9780443103735</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_vein -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_vein">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_vein_morphology"/>
-        <obo:IAO_0000115>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <rdfs:label>cholangiocarcinoma-encased vein</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-encased_vein"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_along_hepatoduodenal_ligament -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_along_hepatoduodenal_ligament">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0009625"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A lymph node morphology in which a lymph node along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <rdfs:label>cholangiocarcinoma-positive lymph node along hepatoduodenal ligament</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_not_located_along_hepatoduodenal_ligament -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_not_located_along_hepatoduodenal_ligament">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0009625"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <obo:IAO_0000115>A lymph node morphology in which a lymph node not located along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <rdfs:label>cholangiocarcinoma-positive lymph node not located along hepatoduodenal ligament</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#exploratory_laparotomy_of_liver_including_biopsy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#exploratory_laparotomy_of_liver_including_biopsy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
-        <obo:IAO_0000115>An exploratory laparotomy of the liver which includes biopsy.</obo:IAO_0000115>
-        <rdfs:label>Exploratory Laparotomy of Liver Including Biopsy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#exploratory_laparotomy_of_liver_including_biopsy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An exploratory laparotomy of the liver which includes biopsy.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>https://www.docdoc.com.sg/info/procedure/exploratory-laparotomy/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#hepatic_artery_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hepatic_artery_morphology">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001193"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
-        <obo:IAO_0000115>The morphology of a hepatic artery</obo:IAO_0000115>
-        <rdfs:label>hepatic artery morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology"/>
-        <obo:IAO_0000115>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
-        <rdfs:label>intraductal intrahepatic tumor morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21528069</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology"/>
-        <obo:IAO_0000115>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</obo:IAO_0000115>
-        <rdfs:label>mass-forming tumor morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology"/>
-        <obo:IAO_0000115>A tumor morphology characterized by the presense of intracytoplasmic musin.</obo:IAO_0000115>
-        <rdfs:label>mucinous tumor morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#mucinous_tumor_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A tumor morphology characterized by the presense of intracytoplasmic musin.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PATO_0001371</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_artery_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_artery_morphology">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hepatic_artery_morphology"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatic_artery_morphology"/>
-        <obo:IAO_0000115>A hepatic artery morphology with a normal phenotype.</obo:IAO_0000115>
-        <rdfs:label>normal hepatic artery morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_artery_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic artery morphology with a normal phenotype.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:24534562</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>https://courses.lumenlearning.com/boundless-ap/chapter/the-liver/</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_portal_vein_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_portal_vein_morphology">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0005145"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
-        <obo:IAO_0000115>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</obo:IAO_0000115>
-        <rdfs:label>normal hepatic portal vein morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_portal_vein_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://doi.org/10.1016/B978-0-443-10373-5.50007-5</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_vein_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_vein_morphology">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0005055"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
-        <obo:IAO_0000115>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</obo:IAO_0000115>
-        <rdfs:label>normal hepatic vein morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#normal_hepatic_vein_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</owl:annotatedTarget>
-        <obo:IAO_0000119>https://doi.org/10.1016/B978-1-4377-1454-8.00107-7,  https://en.wikipedia.org/wiki/Hepatic_veins</obo:IAO_0000119>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#normal_lymph_node_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#normal_lymph_node_morphology">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBA_0003703"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002573"/>
-                        <owl:allValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000461"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
-        <obo:IAO_0000115>A lymph node morphology in which the morphology of the main lymph node is no cholangiocarcinoma.</obo:IAO_0000115>
-        <rdfs:label>normal lymph node morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#palliative_chemotherapy -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#palliative_chemotherapy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
-        <obo:IAO_0000115>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</obo:IAO_0000115>
-        <rdfs:label>Palliative Chemotherapy</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#palliative_chemotherapy"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:28550031</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#particiapant_reportsconsumption -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#particiapant_reportsconsumption">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_report_about_consumption_of_raw_fresh-water_fish_or_raw_fermented_fish"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#particiapant_reportsno_consumption"/>
-        <rdfs:label>participant reports consumption</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#particiapant_reportsno_consumption -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#particiapant_reportsno_consumption">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_report_about_consumption_of_raw_fresh-water_fish_or_raw_fermented_fish"/>
-        <rdfs:label>participant reports no consumption</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_report_about_consumption_of_raw_fresh-water_fish_or_raw_fermented_fish -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_report_about_consumption_of_raw_fresh-water_fish_or_raw_fermented_fish">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant report about consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_alcoholism -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_alcoholism">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism"/>
-        <rdfs:label>participant reports alcoholism</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister">
@@ -2403,153 +2555,13 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports diagnosis of disease by cilnician</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports having alcoholism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_alcoholism -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_alcoholism">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism"/>
-        <rdfs:label>participant reports no alcoholism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdiabetes -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdiabetes">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
-        <rdfs:label>participant reports diabetes</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
-        <rdfs:label>participant reports hepatitis B</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports hepatitis b</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report hepatitis b</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_C -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_C">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
-        <rdfs:label>participant reports hepatitis C</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_disease -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_disease">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
-        <rdfs:label>participant reports no disease</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsother -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsother">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
-        <rdfs:label>participant reports other</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology"/>
-        <obo:IAO_0000115>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</obo:IAO_0000115>
-        <rdfs:label>periductal infiltrating tumor morphology</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#surgical_resection_of_hilar_cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#surgical_resection_of_hilar_cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0015423"/>
-        <obo:IAO_0000115>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</obo:IAO_0000115>
-        <rdfs:label>surgical resection of hilar cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#surgical_resection_of_hilar_cholangiocarcinoma"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:23919108</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#tumor_morphology">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
-        <obo:IAO_0000115>The morphology of a tumor.</obo:IAO_0000115>
-        <rdfs:label>tumor morphology</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#&apos;Mass-FormingIntrahepaticCholangiocarcinoma&apos; -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#&apos;Mass-FormingIntrahepaticCholangiocarcinoma&apos;">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35417"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
-        <rdfs:label>Mass-Forming Intrahepatic Cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#&apos;Mass-FormingIntrahepaticCholangiocarcinoma&apos;"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:12933488</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Lung,_Metastatic_Malignant_Neoplasm_in_the_Pleura -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Lung,_Metastatic_Malignant_Neoplasm_in_the_Pleura">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
-        <obo:IAO_0000115>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</obo:IAO_0000115>
-        <rdfs:label>Metastatic Malignant Neoplasm in the Lung, Metastatic Malignant Neoplasm in the Pleura</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Metastatic_Malignant_Neoplasm_in_the_Lung,_Metastatic_Malignant_Neoplasm_in_the_Pleura"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>NCIT_C3577</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>NCIT_C3579</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -2595,82 +2607,82 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Left_Hepatectomy"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Right_Hepatectomy"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Left_Hepatic_Trisectionectomy"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Anatomic_Hepatic_Resection"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Right_Hepatic_Trisectionectomy"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Intraductal_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Mass-Forming_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Distal_Periductal_Infiltrating_Cholangiocarcinoma"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intraductal_Intrahepatic_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Intraductal_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Mass-Forming_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Bile_Duct_Periductal_Infiltrating__Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intrahepatic_Cholangiocarcinoma_of_Mixed_Type"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Periductal_infiltrating_Intrahepatic_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#&apos;Mass-FormingIntrahepaticCholangiocarcinoma&apos;"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Intraductal_Intrahepatic_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Periductal_infiltrating_Intrahepatic_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#&apos;Mass-FormingIntrahepaticCholangiocarcinoma&apos;"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Mucin-Producing_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Mucin_Producing_Cholangiocarcoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Non-Papillary_Cholangiocarcinoma"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Intraductal_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Mass-Forming_Cholangiocarcinoma"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Perihilar_Periductal_Infiltrating_Cholangiocarcinoma"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_along_hepatoduodenal_ligament"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cholangiocarcinoma-positive_lymph_node_not_located_along_hepatoduodenal_ligament"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#normal_lymph_node_morphology"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdiabetes"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00062"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00064"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00065"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00066"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_C"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_disease"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsother"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00067"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00068"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00069"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00067"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00068"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00069"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00070"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00099"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00100"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00101"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00078"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00079"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00080"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00081"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00082"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00083"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00084"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00085"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00096"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00097"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00098"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00102"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00103"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00104"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00106"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00107"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00108"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00110"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00111"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00112"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
