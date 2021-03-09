@@ -217,7 +217,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their education</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report occupation</rdfs:label>
+        <rdfs:label>conclusion about participant report about occupation</rdfs:label>
     </owl:Class>
     
 
@@ -286,8 +286,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about s participant&apos;s report about their history of fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report history of fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about their history of fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about history of fecal examtion for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -356,8 +356,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about a participant&apos;s report history of found liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report history of found liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of found liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about history of found liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -406,8 +406,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about a participant&apos;s report history of treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report history of treatment by antiparasitic drug</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about history of treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -476,8 +476,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about a participant&apos;s report having relatives with cholangiocarcinoma</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report having relatives with cholangiocarcinoma</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -576,8 +576,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about a participant&apos;s report smoking</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report smoking</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about smoking</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about smoking</rdfs:label>
     </owl:Class>
     
 
@@ -607,7 +607,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports alcohol drinking</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about alcohol drinking</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report about alcohol drinking</rdfs:label>
     </owl:Class>
     
 
@@ -616,9 +617,19 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00054"/>
         <obo:IAO_0000115>A conclusion that a participant reports no alcohol drinking</obo:IAO_0000115>
         <rdfs:label>conclusion that participant report no alcohol drinking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
+        <obo:IAO_0000115>A conclusion that a participant reports alcohol drinking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report alcohol drinking</rdfs:label>
     </owl:Class>
     
 
@@ -2424,15 +2435,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdiabetes">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
         <rdfs:label>participant reports diabetes</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
-        <rdfs:label>participant reports drinking</rdfs:label>
     </owl:Class>
     
 
