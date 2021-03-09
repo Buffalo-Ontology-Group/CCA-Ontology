@@ -212,6 +212,417 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about their education</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report occupation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>A conclusion that a participant reports unemployed</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports unemployed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>conclusion that participant reports farmer</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports farmer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>A conclusion that a participant reports freelancer</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports freelancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>A conclusion that a participant reports private business</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports private business</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>A conclusion that a participant reports civil servant</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports civil servant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
+        <obo:IAO_0000115>A conclusion that a participant reports other</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about s participant&apos;s report about their history of fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report history of fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no fecal examtion</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no fecal examtion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports once fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report once fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports twice fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report twice fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports three times fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report three times fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports more than three times fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report more than three times fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about fecal examtion for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report I cannot remember about fecal examtion for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report history of found liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report history of found liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
+        <obo:IAO_0000115>A conclusion that a participant reports never examined</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report never examined</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
+        <obo:IAO_0000115>A conclusion that a participant reports examined but not found</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report examined but not found</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
+        <obo:IAO_0000115>A conclusion that a participant reports examined and found</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report examined and found</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
+        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about found liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report I cannot remember about found liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report history of treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report history of treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports once received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report once received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports twice received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report twice received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports three times received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report three times received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports more than three times received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report more than three times received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report I cannot remember about received treatment by antiparasitic drug</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00038 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00038">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report having relatives with cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no having relatives with cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00040">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports parental grand father or mother</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report parental grand father or mother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports maternal grand father or mother</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report maternal grand father or mother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports aunt and uncle</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report aunt and uncle</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports younger brother or sister of your father or mother</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report younger brother or sister of your father or mother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports father or mother</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report father or mother</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports son or daughter</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report son or daughter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports cousin</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report cousin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports spouse</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report spouse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report smoking</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00051"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no smoking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
+        <obo:IAO_0000115>A conclusion that a participant reports smoking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report smoking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:label>participant reports alcohol drinking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking"/>
+        <obo:IAO_0000115>A conclusion that a participant reports no alcohol drinking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report no alcohol drinking</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -1962,25 +2373,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannnot_remember -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannnot_remember">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg"/>
-        <rdfs:label>participant reports I cannot remember</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannot_remember -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannot_remember">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports I cannot remember</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_alcoholism -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_alcoholism">
@@ -1990,38 +2382,12 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_aunt_or_uncle -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_aunt_or_uncle">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports aunt and uncle</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports brother or sister</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_civil_servant -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_civil_servant">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports civil servant</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_cousin -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_cousin">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports cousin</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports brother or sister</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant report brother or sister</rdfs:label>
     </owl:Class>
     
 
@@ -2035,51 +2401,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_and_found -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_and_found">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg"/>
-        <rdfs:label>participant reports examined and found</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_but_not_found -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_but_not_found">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg"/>
-        <rdfs:label>participant reports examined but not found</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_farmer -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_farmer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports farmer</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_father_or_mother -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_father_or_mother">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports father or mother</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_freelancer -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_freelancer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports freelancer</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism">
@@ -2089,223 +2410,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports history of fecal examtion for liver fluke egg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports history of found liver fluke egg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_maternal_grand_father_or_mother -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_maternal_grand_father_or_mother">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports maternal grand father or mother</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_more_than_three_times -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_more_than_three_times">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports more than three times</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_examined -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_examined">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_found_liver_fluke_egg"/>
-        <rdfs:label>participant reports never examined</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_received_treatment -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_received_treatment">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports never received treatment</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_alcoholism -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_alcoholism">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_having_alcoholism"/>
         <rdfs:label>participant reports no alcoholism</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_fecal_examination -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_fecal_examination">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:label>participant reports no fecal examination</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_relatives_with_cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_relatives_with_cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports no relatives with cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_smoke -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_smoke">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoking"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoke"/>
-        <rdfs:label>participant reports not smoke</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports occupation</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_once -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_once">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports once</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_other -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_other">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports other</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_parental_grand_father_or_mother -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_parental_grand_father_or_mother">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports parental grand father or mother</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_private_business -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_private_business">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports private business</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports relatives with cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoke -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoke">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoking"/>
-        <rdfs:label>participant reports smoke</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoking -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_smoking">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports smoking</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_son_or_daughter -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_son_or_daughter">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports son or daughter</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_spouse -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_spouse">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports spouse</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_three_times -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_three_times">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports three times</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_twice -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_twice">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_history_of_fecal_examination_for_liver_fluke_egg"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug"/>
-        <rdfs:label>participant reports twice</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_unemployed -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_unemployed">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_occupation"/>
-        <rdfs:label>participant reports unemployed</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_younger_brother_or_sister_of_your_father_or_mother -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_younger_brother_or_sister_of_your_father_or_mother">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_relatives_with_cholangiocarcinoma"/>
-        <rdfs:label>participant reports brother or sister of your father or mother</rdfs:label>
     </owl:Class>
     
 
@@ -2322,8 +2431,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsdrinking">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_alcohol_drinking"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_drinking"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <rdfs:label>participant reports drinking</rdfs:label>
     </owl:Class>
     
@@ -2356,38 +2464,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_drinking -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsno_drinking">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_alcohol_drinking"/>
-        <rdfs:label>participant reports not drinking</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportsother -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportsother">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_diagnosis_of_disease_by_clinician"/>
         <rdfs:label>participant reports other</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participants_reports_alcohol_drinking -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_alcohol_drinking">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports alcohol drinking</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participants_reports_histoty_of_treatment_by_antiparasitic_drug">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <rdfs:label>participant reports history of treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -2481,6 +2562,37 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <rdf:Description>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00013"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00014"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00015"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00016"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00017"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00018"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00020"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00021"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00022"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00023"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00024"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00025"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00027"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00028"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00029"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00030"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Left_Hepatectomy"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Extended_Right_Hepatectomy"/>
@@ -2547,48 +2659,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#intraductal_intrahepatic_tumor_morphology"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#mass-forming_tumor_morphology"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#periductal_infiltrating_tumor_morphology"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannnot_remember"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_and_found"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_examined_but_not_found"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_examined"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannot_remember"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_more_than_three_times"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_never_received_treatment"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_once"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_three_times"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_twice"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_I_cannot_remember"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_more_than_three_times"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_no_fecal_examination"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_once"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_three_times"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_twice"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_civil_servant"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_farmer"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_freelancer"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_other"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_private_business"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_unemployed"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
