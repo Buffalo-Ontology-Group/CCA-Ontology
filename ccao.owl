@@ -728,8 +728,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports no diagnosis of disease by cilnician</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports no diagnosis of disease by cilnician</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not being diagnosed of disease by cilnician</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not being diagnosed of disease by cilnician</rdfs:label>
     </owl:Class>
     
 
@@ -738,8 +738,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports hepatitis c</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports hepatitis c</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed of hepatitis c by clinician</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being diagnosed of hepatitis c by clinician</rdfs:label>
     </owl:Class>
     
 
@@ -748,8 +748,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports diabetes</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports diabetes</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed of diabetes by clinician</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being diagnosed of diabetes by clinician</rdfs:label>
     </owl:Class>
     
 
@@ -759,7 +759,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes other disease</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports other disease</rdfs:label>
+        <rdfs:label>conclusion that participant reports being diagnosed of other disease by clinician</rdfs:label>
     </owl:Class>
     
 
@@ -2571,8 +2571,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports hepatitis b</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports hepatitis b</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed of hepatitis b by clinician</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being diagnosed of hepatitis b by clinician</rdfs:label>
     </owl:Class>
     
 
