@@ -304,8 +304,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-        <obo:IAO_0000115>A conclusion about a participant&apos;s report about their history of fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion about participant report about history of fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion about a participant&apos;s report about their history of fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion about participant report history of fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -314,8 +314,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports no fecal examtion</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no fecal examtion</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports no fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports no fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -324,8 +324,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports once fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report once fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports once fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports once fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -334,8 +334,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports twice fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report twice fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports twice fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports twice fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -344,8 +344,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports three times fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report three times fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports three times fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports three times fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -354,8 +354,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports more than three times fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report more than three times fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports more than three times fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports more than three times fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -364,8 +364,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about fecal examtion for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report I cannot remember about fecal examtion for liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not being to remember about fecal examination for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not being to remember about fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -385,7 +385,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports never examined</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report never examined</rdfs:label>
+        <rdfs:label>conclusion that participant reports being never examined for liver fluke egg</rdfs:label>
     </owl:Class>
     
 
@@ -394,8 +394,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
-        <obo:IAO_0000115>A conclusion that a participant reports examined but not found</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report examined but not found</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being examined but not having liver fluke egg found</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being examined but not having liver fluke egg found</rdfs:label>
     </owl:Class>
     
 
@@ -404,8 +404,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
-        <obo:IAO_0000115>A conclusion that a participant reports examined and found</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report examined and found</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being examined and having liver fluke egg found</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being examined and having liver fluke egg found</rdfs:label>
     </owl:Class>
     
 
@@ -414,8 +414,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
-        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about found liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report I cannot remember about found liver fluke egg</rdfs:label>
+        <obo:IAO_0000115>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</rdfs:label>
     </owl:Class>
     
 
@@ -435,7 +435,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports no received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no received treatment by antiparasitic drug</rdfs:label>
+        <rdfs:label>conclusion that participant reports no received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -445,7 +445,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports once received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report once received treatment by antiparasitic drug</rdfs:label>
+        <rdfs:label>conclusion that participant reports once received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -455,7 +455,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports twice received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report twice received treatment by antiparasitic drug</rdfs:label>
+        <rdfs:label>conclusion that participant reports twice received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -465,7 +465,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports three times received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report three times received treatment by antiparasitic drug</rdfs:label>
+        <rdfs:label>conclusion that participant reports three times received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -475,7 +475,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports more than three times received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report more than three times received treatment by antiparasitic drug</rdfs:label>
+        <rdfs:label>conclusion that participant reports more than three times received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -484,8 +484,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
-        <obo:IAO_0000115>A conclusion that a participant reports I cannot remember about received treatment by antiparasitic drug</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report I cannot remember about received treatment by antiparasitic drug</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not being to remember about received treatment by antiparasitic drug</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not being to remember about received treatment by antiparasitic drug</rdfs:label>
     </owl:Class>
     
 
@@ -505,7 +505,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no having relatives with cholangiocarcinoma</rdfs:label>
+        <rdfs:label>conclusion that participant reports not having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -515,7 +515,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports parental grand father or mother</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report parental grand father or mother</rdfs:label>
+        <rdfs:label>conclusion that participant report parental grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -524,8 +524,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports maternal grand father or mother</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report maternal grand father or mother</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports maternal grandfather or grandmother has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports maternal grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -534,8 +534,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports aunt and uncle</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report aunt and uncle</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports aunt or uncle has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports aunt or uncle has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -543,9 +543,10 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00043 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00043">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports younger brother or sister of your father or mother</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report younger brother or sister of your father or mother</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
+        <obo:IAO_0000115>A conclusion that a participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <oboInOwl:note>อาหรือน้า</oboInOwl:note>
+        <rdfs:label>conclusion that participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -554,8 +555,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports father or mother</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report father or mother</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -565,7 +566,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports son or daughter</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report son or daughter</rdfs:label>
+        <rdfs:label>conclusion that participant reports son or daughter has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -574,8 +575,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports cousin</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report cousin</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports cousin has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports cousin has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -584,8 +585,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports spouse</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report spouse</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports spouse has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports spouse has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -605,8 +606,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00051"/>
-        <obo:IAO_0000115>A conclusion that a participant reports no smoking</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no smoking</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not being smoking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not being smoking</rdfs:label>
     </owl:Class>
     
 
@@ -616,7 +617,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <obo:IAO_0000115>A conclusion that a participant reports smoking</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report smoking</rdfs:label>
+        <rdfs:label>conclusion that participant reports being smoking</rdfs:label>
     </owl:Class>
     
 
@@ -636,8 +637,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00054"/>
-        <obo:IAO_0000115>A conclusion that a participant reports no alcohol drinking</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no alcohol drinking</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not being alcohol drinking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not being alcohol drinking</rdfs:label>
     </owl:Class>
     
 
@@ -646,8 +647,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
-        <obo:IAO_0000115>A conclusion that a participant reports alcohol drinking</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report alcohol drinking</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports being alcohol drinking</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports being alcohol drinking</rdfs:label>
     </owl:Class>
     
 
@@ -666,8 +667,8 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
-        <obo:IAO_0000115>A conclusion that a participant reports no having alcoholism</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no having alcoholism</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports not having alcoholism</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports not having alcoholism</rdfs:label>
     </owl:Class>
     
 
@@ -677,7 +678,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
         <obo:IAO_0000115>A conclusion that a participant reports having alcoholism</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report having alcoholism</rdfs:label>
+        <rdfs:label>conclusion that participant reports having alcoholism</rdfs:label>
     </owl:Class>
     
 
@@ -698,7 +699,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00060"/>
         <obo:IAO_0000115>A conclusion that a participant reports no consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
+        <rdfs:label>conclusion that participant reports no consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
     
 
@@ -708,7 +709,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <obo:IAO_0000115>A conclusion that a participant reports consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
+        <rdfs:label>conclusion that participant reports consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
     
 
@@ -728,7 +729,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports no diagnosis of disease by cilnician</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report no diagnosis of disease by cilnician</rdfs:label>
+        <rdfs:label>conclusion that participant reports no diagnosis of disease by cilnician</rdfs:label>
     </owl:Class>
     
 
@@ -738,7 +739,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports hepatitis c</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report hepatitis c</rdfs:label>
+        <rdfs:label>conclusion that participant reports hepatitis c</rdfs:label>
     </owl:Class>
     
 
@@ -748,7 +749,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report diabetes</rdfs:label>
+        <rdfs:label>conclusion that participant reports diabetes</rdfs:label>
     </owl:Class>
     
 
@@ -758,7 +759,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes other disease</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report other disease</rdfs:label>
+        <rdfs:label>conclusion that participant reports other disease</rdfs:label>
     </owl:Class>
     
 
@@ -2053,6 +2054,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00140">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
+        <obo:IAO_0000115>A conclusion that a participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <oboInOwl:note>ลุงหรือป้า</oboInOwl:note>
+        <rdfs:label>conclusion that participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -2549,8 +2561,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports brother or sister</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report brother or sister</rdfs:label>
+        <obo:IAO_0000115>A conclusion that a participant reports brother or sister has cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports brother or sister has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -2560,7 +2572,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports hepatitis b</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant report hepatitis b</rdfs:label>
+        <rdfs:label>conclusion that participant reports hepatitis b</rdfs:label>
     </owl:Class>
     
 
