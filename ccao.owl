@@ -20,7 +20,6 @@
      xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ccao.owl">
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cmo.obo"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
@@ -48,6 +47,12 @@
     <!-- http://purl.obolibrary.org/obo/ccao.owl#PMID -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#PMID"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOWL#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOWL#hasExactSynonym"/>
     
 
 
@@ -2070,14 +2075,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
     </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CMO_0000000 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000000">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000123"/>
-    </rdf:Description>
     
 
 
