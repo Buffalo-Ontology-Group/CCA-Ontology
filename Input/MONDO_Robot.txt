@@ -1,2 +1,0 @@
-http://purl.obolibrary.org/obo/MONDO_0041959 
-http://purl.obolibrary.org/obo/MONDO_0019087
