@@ -19,6 +19,5 @@ http://purl.obolibrary.org/obo/UBERON_0015423
 http://purl.obolibrary.org/obo/UBERON_0036343
 http://purl.obolibrary.org/obo/UBERON_0001173
 http://purl.obolibrary.org/obo/UBERON_0002394 
-
-
-UBERON_0011143
+http://purl.obolibrary.org/obo/UBERON_0000483
+http://purl.obolibrary.org/obo/UBERON_0004823
