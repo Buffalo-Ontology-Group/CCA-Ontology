@@ -200,3 +200,5 @@ http://purl.obolibrary.org/obo/NCIT_C4376
 http://purl.obolibrary.org/obo/NCIT_C3331 
 http://purl.obolibrary.org/obo/NCIT_C3672
 http://purl.obolibrary.org/obo/NCIT_C2978
+http://purl.obolibrary.org/obo/NCIT_C4438
+http://purl.obolibrary.org/obo/NCIT_C51781
