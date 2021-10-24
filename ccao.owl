@@ -2070,6 +2070,72 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00141">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3044"/>
+        <obo:IAO_0000115>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <rdfs:label>Periductal Fibrosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
+        <owl:annotatedTarget>Periductal Fibrosis</owl:annotatedTarget>
+        <ccao:PMID>PMID: 30898798</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
+        <obo:IAO_0000115>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <rdfs:label>Periductal Fibrosis 1</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00142"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</owl:annotatedTarget>
+        <ccao:PMID>PMID: 30898798</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
+        <obo:IAO_0000115>A periductal fibrosis which has a high echo along the segmental bile duct wall running parallel with the portal vein.</obo:IAO_0000115>
+        <rdfs:label>Periductal Fibrosis 2</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00143"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A periductal fibrosis which has a high echo along the segmental bile duct wall running parallel with the portal vein.</owl:annotatedTarget>
+        <ccao:PMID>PMID: 30898798</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
+        <obo:IAO_0000115>A periductal fibrosis which has a high echo
+along the main bile duct wall running parallel with the portal vein in the periportal space.</obo:IAO_0000115>
+        <rdfs:label>Periductal Fibrosis 3</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00144"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A periductal fibrosis which has a high echo
+along the main bile duct wall running parallel with the portal vein in the periportal space.</owl:annotatedTarget>
+        <ccao:PMID>PMID: 30898798</ccao:PMID>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -2692,6 +2758,14 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00110"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00111"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00112"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00142"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00143"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00144"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
