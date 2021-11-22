@@ -1,0 +1,632 @@
+Prefix(:=<http://purl.obolibrary.org/obo/questo.owl/>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<http://purl.obolibrary.org/obo/questo.owl>
+<http://purl.obolibrary.org/obo/2020-02-07/questo.owl>
+Import(<http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl>)
+Import(<http://purl.obolibrary.org/obo/iao/iao-edit.owl>)
+Import(<http://purl.obolibrary.org/obo/obi/dev/obi-edit.owl>)
+Import(<http://purl.obolibrary.org/obo/ro/core-subset.owl>)
+Annotation(<http://purl.org/dc/elements/1.1/creator> "Adrien Barton")
+Annotation(<http://purl.org/dc/elements/1.1/creator> "Jean-François Éthier")
+Annotation(<http://purl.org/dc/elements/1.1/creator> "Paul Fabry")
+Annotation(rdfs:comment "An ontology of clinical questionnaire."@en)
+
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000001>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000002>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000003>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000004>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000005>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000006>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000007>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000008>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000009>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000011>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000012>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000016>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000017>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000018>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000019>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000020>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000021>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000022>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000023>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000024>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000025>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000028>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000029>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000030>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000031>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000032>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000033>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000035>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000036>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000037>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000038>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000039>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000040>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000041>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000042>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000043>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000044>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000045>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000046>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000047>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000048>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000049>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000050>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000051>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000052>))
+Declaration(Class(<http://purl.obolibrary.org/obo/QUESTO_0000053>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000293>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000299>))
+Declaration(ObjectProperty(<http://purl.obolibrary.org/obo/OBI_0000312>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/creator>))
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://purl.obolibrary.org/obo/OBI_0000011> (planned process)
+
+SubClassOf(<http://purl.obolibrary.org/obo/OBI_0000011> <http://purl.obolibrary.org/obo/BFO_0000015>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000001> (questionnaire workflow)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000001> "A directive information entity that directs a questioning process depending on some conditions."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000001> "questionnaire workflow"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000001> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000002> (question group specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000002> "The collection of questions and answer specifications regarding general information about the respondant, for example, the name, gender, age, ZIP code, family physician, etc."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000002> "A directive information entity that has as parts one or several question specifications intended to be understood as a whole. 
+It is constituted by those question specifications and possibly a question group information."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000002> "question group specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000002> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000002> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000003> (question and reporting and storing specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000003> "Example 1:
+
+The collection of the followings elements in a questionnaire in Canada:
+
+1) The restricted question representation: 'What is your ZIP code ?'
+
+2) The answer item group composed by the two following elements:
+2.a) The collection of the two following answer format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+2.b) The collection constituted by the single following answer content specification: 'No Canadian ZIP code'
+
+3) The answer capture item group composed by the two following elements:
+3.a) The collection of the two following answer capture format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+3.b) 'Z9Z 9Z9' ( in case the answer is 'No Canadian ZIP code')
+
+
+Example 2:
+
+The collection of the followings elements:
+
+1) The restricted question representation: 'Do you have a family physician ?'
+
+2) The answer item group composed by the three following answer item specifications:
+2.a) 'Yes'
+2.b) 'No'
+2.c)  'Doesn't know'
+
+3) The answer capture item group composed by the three following elements:
+
+The information content entity that has the three following members:
+3.a) '1' for 'Yes'
+3.b) '0' for 'No'
+3.c) '9' for 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000003> "A directive information entity that provides all required specifications to direct both of these processes:
+- asking a question to a respondant with the intention to get an answer to this question;
+- reporting this answer;
+- storing this answer.
+
+A question specification is composed by an extended question representation, as well as an answering and reporting and storing item specification.
+
+Note that the question-asking process can involve a person orally asking another one, the computer displaying a question, etc."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000003> "question and reporting and storing specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000003> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000003> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000020>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000003> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000041>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000004> (answer specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000004> "A directive information entity that specifies some constraints on the answer to be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000004> "answer specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000004> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000004> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/QUESTO_0000003>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000005> (answer item group)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000005> "Example 1:
+
+The collection of the followings answer items addressed to a respondant documenting a ZIP code in Canada:
+
+1) The collection of the two following answer format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+
+2) The collection constituted by the single following answer content specification: 'No Canadian ZIP code'
+
+
+
+Example 2:
+
+The collection that has as members the three following answer items:
+ - 'Yes'
+ - 'No'
+ - 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000005> "An answer specification that is composed of all possible answer items that can be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000005> "answer item group"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000005> <http://purl.obolibrary.org/obo/QUESTO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000005> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000006> (answer item)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000006> "Example 1:
+
+Each of the following is an answer item addressed to a respondant documenting a ZIP code in Canada:
+
+1) The collection of the two following answer format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+
+2) The collection constituted by the single following answer content specification: 'No Canadian ZIP code'
+
+
+Example 2:
+
+Each of the following: 
+ - 'Yes'
+ - 'No'
+ - 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000006> "An answer specification that is composed of all answer characteristic specifications that constraint a specific answer that can be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000006> "answer item"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000006> <http://purl.obolibrary.org/obo/QUESTO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000006> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000050>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000007> (answer format specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000007> "Each of the following specifications addressed to a respondant documenting a ZIP code in Canada:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000007> "An answer characteristic specification that specifies a format to be satisfied by an answer of a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000007> "answer format specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000007> <http://purl.obolibrary.org/obo/QUESTO_0000050>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000008> (answer reporting item specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000008> "The collection of the two followings specifications addressed to the agent capturing the answer of a respondant documenting a ZIP code in Canada:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000008> "An answer reporting specification that is composed of all answer reporting characteristic specifications that constraint the reporting of a specific answer that can be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000008> "answer reporting item specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000008> <http://purl.obolibrary.org/obo/QUESTO_0000051>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/QUESTO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000008> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000016>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000009> (restricted question representation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000009> "Example 1:
+'What is your ZIP code ?'
+
+Example 2:
+'Do you have a family physician ?'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000009> "A directive information entity that consists in a question asked to a respondant.
+The question representation does not include the possible answers."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000009> "restricted question representation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000009> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000011> (answer identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000011> "An information content entity that identifies an answer item within a given answer item group."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000011> "answer identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000011> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000011> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/QUESTO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000012> (question group information)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000012> "'Respondant information' for identifying the collection of questions and answer specifications regarding general information about the respondant, for example, the name, gender, age, ZIP code, family physician, etc."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000012> "A directive information entity that specifies some information that hold for all question specifications belonging to a same question group specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000012> "question group information"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000012> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000012> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/QUESTO_0000002>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000016> (answer reporting characteristic specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000016> "Each of the following elements is an answer reporting characteristic specification:
+ - The specification 'letter digit letter digit letter digit (A0A0A0)' for a ZIP code in Canada addressed to the person reporting the answer by the respondant.
+ - '1' in  'Yes = 1'
+ - '0' in  'No = 0'
+ - '9' in  'Doesn't know = 9'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000016> "An answer reporting specification that specifies some constraints on how to capture an answer constrained by a specific answer specification given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000016> "answer reporting characteristic specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000016> <http://purl.obolibrary.org/obo/QUESTO_0000051>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000016> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/QUESTO_0000008>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000017> (answer reporting format specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000017> "Each of the following specifications addressed to an agent reporting the answer given by a respondant documenting a ZIP code in Canada:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000017> "An answer reporting characteristic specification that specifies some format constraints."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000017> "answer reporting format specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000017> <http://purl.obolibrary.org/obo/QUESTO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000018> (answer reporting value specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000018> "Example 1:
+
+The following specification addressed to an agent reporting the answer given by a respondant documenting a ZIP code in Canada:
+'Z9Z 9Z9' in  'No Canadian ZIP code = Z9Z 9Z9'
+
+
+Example 2:
+
+Each of the following specifications: 
+ - '1' in  'Yes = 1'
+ - '0' in  'No = 0'
+ - '9' in  'Doesn't know = 9'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000018> "An answer reporting characteristic specification that specifies the value to be used to report an answer specified by a specific answer specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000018> "answer reporting value specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000018> <http://purl.obolibrary.org/obo/QUESTO_0000016>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000019> (answer content specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000019> "Example 1:
+
+The following specification addressed to a respondant documenting a ZIP code:
+ 'No Canadian ZIP code'
+
+
+Example 2:
+
+Each of the following specifications: 
+ - 'Yes'
+ - 'No'
+ - 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000019> "An answer characteristic specification that specifies the answer content that can be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000019> "answer content specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000019> <http://purl.obolibrary.org/obo/QUESTO_0000050>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000020> (extended question representation)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000020> "Example 1:
+
+The collection of the followings elements in a questionnaire in Canada:
+
+1) The restricted question representation: 'What is your ZIP code ?'
+
+2) The answer item group composed by the two following elements:
+2.a) The collection of the two following answer format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+2.b) The collection constituted by the single following answer content specification: 'No Canadian ZIP code'
+
+
+
+Example 2:
+
+The collection of the followings elements:
+
+1) The restricted question representation: 'Do you have a family physician ?'
+
+2) The answer item group composed by the three following answer item specifications:
+2.a) 'Yes'
+2.b) 'No'
+2.c)  'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000020> "A directive information entity that consists in a question asked to a respondant with possible answers and/or format constraints."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000020> "extended question representation"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000020> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000020> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000005>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000020> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000009>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000021> (form question answering process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000021> "A process of a human answering a question from a form."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/QUESTO_0000021> "Add axiom has participant some homo sapiens"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000021> "form question answering process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000021> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/QUESTO_0000020>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/QUESTO_0000022>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000021> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/QUESTO_0000029>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000022> (respondant answer to a form question)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000022> "An information content entity that is an answer by a respondant to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000022> "respondant answer to a form question"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000022> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000022> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/QUESTO_0000021>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000023> (answer to a form question reporting process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000023> "A process of reporting an answer to a question that appears in a form.
+The output of this process can be a code associated with the given answer, the transcription of the answer in a different format, etc."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/QUESTO_0000023> "add axiom max_directed by exactly 1 'answer and capture specification'"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000023> "answer to a form question reporting process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000023> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/QUESTO_0000022>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/QUESTO_0000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000023> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/QUESTO_0000031>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000024> (reported answer to a form question)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000024> "An information content entity that is the report of an answer by a respondant to a form question."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/QUESTO_0000024> "This capture can be the direct transcription of the answer given by the respondant, the transcription of this answer in another format, a code associated to the answer, etc."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000024> "reported answer to a form question"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000024> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000024> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000312> <http://purl.obolibrary.org/obo/QUESTO_0000023>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000025> (answer to a form question reporting process by a human interviewer)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000025> "An answer to a form question reporting process where the reporting process is performed by a human interviewer."@en)
+AnnotationAssertion(rdfs:comment <http://purl.obolibrary.org/obo/QUESTO_0000025> "Add axiom has participant some human interviewer"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000025> "answer to a form question reporting process by a human interviewer"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000025> <http://purl.obolibrary.org/obo/QUESTO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000028> (form respondant role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000028> "A role borne by an agent that is manifested by the agent providing an answer to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000028> "form respondant role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000028> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000029> (form respondant)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000029> "A material entity that has a form respondant role."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000029> "form respondant"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/QUESTO_0000029> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/QUESTO_0000028>)))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000030> (form answer capturing agent role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000030> "A role borne by an agent that is manifested by the agent capturing and reporting an answer from a respondant to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000030> "form answer capturing agent role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000030> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000031> (form capturing and reporting agent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000031> "A material entity that has a role of capturing and reporting an answer from a respondant to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000031> "form capturing and reporting agent"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/QUESTO_0000031> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/QUESTO_0000030>)))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000032> (stored answer to a form question)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000032> "An information content entity that is the stored representation of an answer to a form question."@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000600> <http://purl.obolibrary.org/obo/QUESTO_0000032> "This representation can be the direct transcription of the answer given by the respondant, the transcription of this answer in another format, a code associated to the answer, etc."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000032> "stored answer to a form question"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000032> <http://purl.obolibrary.org/obo/IAO_0000030>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000033> (question identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000033> "An information content entity that identifies a question within a given form."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000033> "question identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000033> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000033> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/QUESTO_0000020>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000035> (answer storing specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000035> "A directive information entity that specifies some constraints on the process of storing an answer given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000035> "answer storing specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000035> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000036> (answer storing characteristic specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000036> "Each of the following elements is an answer reporting characteristic specification:
+ - The specification 'letter digit letter digit letter digit (A0A0A0)' for a ZIP code in Canada addressed to the person reporting the answer by the respondant.
+ - '1' in  'Yes = 1'
+ - '0' in  'No = 0'
+ - '9' in  'Doesn't know = 9'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000036> "An answer storing specification that specifies some constraints on how to store an answer constrained by a specific answer specification given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000036> "answer storing characteristic specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000036> <http://purl.obolibrary.org/obo/QUESTO_0000035>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000036> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/QUESTO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000037> (answer storing format specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000037> "Each of the following specifications addressed to an agent reporting the answer given by a respondant documenting a ZIP code in Canada:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000037> "An answer storing characteristic specification that specifies some format constraints."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000037> "answer storing format specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000037> <http://purl.obolibrary.org/obo/QUESTO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000038> (answer storing value specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000038> "Example 1:
+
+The following specification addressed to an agent reporting the answer given by a respondant documenting a ZIP code in Canada:
+'Z9Z 9Z9' in  'No Canadian ZIP code = Z9Z 9Z9'
+
+
+Example 2:
+
+Each of the following specifications: 
+ - '1' in  'Yes = 1'
+ - '0' in  'No = 0'
+ - '9' in  'Doesn't know = 9'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000038> "An answer storing characteristic specification that specifies the value to be used to store an answer specified by a specific answer specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000038> "answer storing value specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000038> <http://purl.obolibrary.org/obo/QUESTO_0000036>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000039> (answer storing item group specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000039> "Example 1:
+
+The collection of the followings answer reporting item specifications addressed to an angent in charge of reporting the answer of a respondant documenting a ZIP code:
+
+1) The collection of the two following answer reporting format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+
+2) 'Z9Z 9Z9' ( in case the answer is 'No Canadian ZIP code')
+
+
+Example 2:
+
+The information content entity that has the three following members:
+ - '1' for 'Yes'
+ - '0' for 'No'
+ - '9' for 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000039> "An answer storing specification that specifies some constraints on the process of storing an answer given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000039> "answer storing item group specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000039> <http://purl.obolibrary.org/obo/QUESTO_0000035>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000039> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000040> (answer storing item specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000040> "The collection of the two followings specifications addressed to the agent capturing the answer of a respondant documenting a ZIP code in Canada:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000040> "An answer storing specification that is composed of all answer storing characteristic specifications that constraint the storing of a specific answer that can be given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000040> "answer storing item specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000040> <http://purl.obolibrary.org/obo/QUESTO_0000035>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000050> <http://purl.obolibrary.org/obo/QUESTO_0000003>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000036>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000041> (answering-reporting-storing item group specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000041> "A directive information entity that specifies some constraints pertaining to an answer item and possibly its associated answer reporting and storing item specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000041> "answering-reporting-storing item group specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000041> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000041> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000052>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000042> (form respondant identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000042> "An information content entity that identifies a form respondant."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000042> "form respondant identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000042> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000042> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/QUESTO_0000029>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000043> (form answering process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000043> "A process of a human answering some questions from a form."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000043> "form answering process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000043> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000043> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/QUESTO_0000029>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000043> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/QUESTO_0000044>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000044> (form answers and metadata report)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000044> "An information content entity that is comprised of the stored answers to some questions from a form and identifiers for the questions, the form and the respondant. WIP"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000044> "form answers and metadata report"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000044> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000032>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000044> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000033>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000044> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000042>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000044> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000049>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000045> (reported answer storing process)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000045> "A process of storing a reported answer to a question that appears in a form.
+The output of this process can be a code associated with the given answer, the transcription of the answer in a different format, etc."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000045> "reported answer storing process"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000045> <http://purl.obolibrary.org/obo/BFO_0000015>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000293> <http://purl.obolibrary.org/obo/QUESTO_0000024>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/OBI_0000299> <http://purl.obolibrary.org/obo/QUESTO_0000032>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000045> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000057> <http://purl.obolibrary.org/obo/QUESTO_0000046>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000046> (form storing agent)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000046> "A material entity that has a role of storing a reported answer from a respondant to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000046> "form storing agent"@en)
+EquivalentClasses(<http://purl.obolibrary.org/obo/QUESTO_0000046> ObjectIntersectionOf(<http://purl.obolibrary.org/obo/BFO_0000040> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0000087> <http://purl.obolibrary.org/obo/QUESTO_0000047>)))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000047> (form answer storing agent role)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000047> "A role borne by an agent that is manifested by the agent storing a reported answer from a respondant to a form question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000047> "form answer storing agent role"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000047> <http://purl.obolibrary.org/obo/BFO_0000023>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000048> (form)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000048> "An information content entity that is a set of questions. WIP"@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000048> "form"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000048> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000048> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000020>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000049> (form identifier)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000049> "An information content entity that identifies a form."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000049> "form identifier"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000049> <http://purl.obolibrary.org/obo/IAO_0000030>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000049> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/IAO_0000219> <http://purl.obolibrary.org/obo/QUESTO_0000048>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000050> (answer characteristic specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000050> "Example 1:
+
+Each of the following specifications addressed to a respondant documenting a ZIP code (the first two are answer format specification and the third one is an answer content specification):
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX);
+ - 'No Canadian ZIP code'
+
+Example 2:
+
+Each of the following specifications (which are answer content specifications): 
+ - 'Yes'
+ - 'No'
+ - 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000050> "An answer specification that is a member of an answer item specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000050> "answer characteristic specification")
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000050> <http://purl.obolibrary.org/obo/QUESTO_0000004>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000050> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002350> <http://purl.obolibrary.org/obo/QUESTO_0000006>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000051> (answer reporting specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000051> "A directive information entity that specifies some constraints on the process of reporting an answer given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000051> "answer reporting specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000051> <http://purl.obolibrary.org/obo/IAO_0000033>)
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000052> (answering-reporting-storing item specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000052> "Here are three examples:
+ - 'Yes = 1'
+ - 'No = 0'
+ - 'Doesn't know = 9'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000052> "A directive information entity that specifies constraints pertaining to an answer item and possibly its associated answer reporting and storing item specification."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000052> "answering-reporting-storing item specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000052> <http://purl.obolibrary.org/obo/IAO_0000033>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000052> ObjectExactCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000006>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000052> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000008>))
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000052> ObjectMaxCardinality(1 <http://purl.obolibrary.org/obo/BFO_0000051> <http://purl.obolibrary.org/obo/QUESTO_0000040>))
+
+# Class: <http://purl.obolibrary.org/obo/QUESTO_0000053> (answer reporting item group specification)
+
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000112> <http://purl.obolibrary.org/obo/QUESTO_0000053> "Example 1:
+
+The collection of the followings answer reporting item specifications addressed to an angent in charge of reporting the answer of a respondant documenting a ZIP code:
+
+1) The collection of the two following answer reporting format specifications:
+ - 'letter digit letter digit letter digit' (e.g. A0A0A0);
+ - 'three characters, space, three characters' (e.g. XXX XXX)
+
+2) 'Z9Z 9Z9' ( in case the answer is 'No Canadian ZIP code')
+
+
+Example 2:
+
+The information content entity that has the three following members:
+ - '1' for 'Yes'
+ - '0' for 'No'
+ - '9' for 'Doesn't know'"@en)
+AnnotationAssertion(<http://purl.obolibrary.org/obo/IAO_0000115> <http://purl.obolibrary.org/obo/QUESTO_0000053> "An answer reporting specification that specifies some constraints on the process of reporting an answer given by a respondant to a question."@en)
+AnnotationAssertion(rdfs:label <http://purl.obolibrary.org/obo/QUESTO_0000053> "answer reporting item group specification"@en)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000053> <http://purl.obolibrary.org/obo/QUESTO_0000051>)
+SubClassOf(<http://purl.obolibrary.org/obo/QUESTO_0000053> ObjectSomeValuesFrom(<http://purl.obolibrary.org/obo/RO_0002351> <http://purl.obolibrary.org/obo/QUESTO_0000008>))
+
+
+)
