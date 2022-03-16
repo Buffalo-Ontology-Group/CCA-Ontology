@@ -1077,7 +1077,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00081 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00081">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</obo:IAO_0000115>
         <rdfs:label>Extended Right Hepatectomy</rdfs:label>
     </owl:Class>
@@ -1093,7 +1093,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00082">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</obo:IAO_0000115>
         <rdfs:label>Extended Left Hepatectomy</rdfs:label>
     </owl:Class>
@@ -1109,7 +1109,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00083 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00083">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</obo:IAO_0000115>
         <rdfs:label>Right Hepatic Trisectionectomy</rdfs:label>
     </owl:Class>
@@ -1125,7 +1125,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00084 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00084">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</obo:IAO_0000115>
         <rdfs:label>Left Hepatic Trisectionectomy</rdfs:label>
     </owl:Class>
@@ -1141,7 +1141,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00085 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00085">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15249"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</obo:IAO_0000115>
         <rdfs:label>Non-Anatomic Hepatic Resection</rdfs:label>
     </owl:Class>
@@ -1173,7 +1173,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00087 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00087">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15723"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00166"/>
         <oboInOwl:hasDbXref>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</oboInOwl:hasDbXref>
         <rdfs:label>Hepatic Duct Bypass</rdfs:label>
     </owl:Class>
@@ -1189,7 +1189,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00088 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00088">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00173"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00089"/>
         <obo:IAO_0000115>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</obo:IAO_0000115>
         <rdfs:label>Exploratory Laparotomy of Liver</rdfs:label>
@@ -1206,7 +1206,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00089 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00089">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C51779"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00173"/>
         <obo:IAO_0000115>An exploratory laparotomy of the liver which includes biopsy.</obo:IAO_0000115>
         <rdfs:label>Exploratory Laparotomy of Liver Including Biopsy</rdfs:label>
     </owl:Class>
@@ -1222,7 +1222,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00090 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00090">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00164"/>
         <obo:IAO_0000115>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</obo:IAO_0000115>
         <rdfs:label>Palliative Chemotherapy</rdfs:label>
     </owl:Class>
@@ -1238,7 +1238,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00091 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00091">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00175"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00092"/>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed prior to surgery.</obo:IAO_0000115>
         <oboInOwl:hasSynonym>Pre-Operative PTBD</oboInOwl:hasSynonym>
@@ -1250,11 +1250,11 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00092 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00092">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00175"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00164"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</obo:IAO_0000115>
@@ -1296,7 +1296,7 @@
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C15292"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00164"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -1502,7 +1502,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00105">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>A distal bile duct carcinoma that is a cholangiocarcinoma.</obo:IAO_0000115>
         <rdfs:label>distal bile duct cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1707,7 +1707,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00176"/>
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Restriction>
@@ -1719,7 +1719,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
         <rdfs:label>Bile Duct Papillary Non-Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1732,7 +1732,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00176"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
@@ -1740,7 +1740,7 @@
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96949"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
         <rdfs:label>Bile Duct Papillary Mucin Producing Invasive Cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1881,7 +1881,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00128">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
         <rdfs:label>Intrahepatic Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1897,7 +1897,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00129">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134598"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
         <rdfs:label>Intrahepatic Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1913,7 +1913,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00130 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00130">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</obo:IAO_0000115>
         <rdfs:label>Perihilar Bile Duct Cancer pT3A TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1929,7 +1929,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00131 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00131">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134729"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
         <oboInOwl:hasDbXref>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</oboInOwl:hasDbXref>
         <rdfs:label>Perihilar Bile Duct Cancer pT3B TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1945,7 +1945,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00132 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00132">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</obo:IAO_0000115>
         <rdfs:label>Perihilar Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1961,7 +1961,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00133 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00133">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134730"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
         <rdfs:label>Perihilar Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1977,7 +1977,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00134 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00134">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
         <rdfs:label>Distal Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -1993,7 +1993,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00135 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00135">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C134803"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
         <rdfs:label>Distal Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
     </owl:Class>
@@ -2009,7 +2009,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00136 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00136">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4583"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00172"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</obo:IAO_0000115>
         <rdfs:label>Metastatic Malignant Neoplasm in the Omentum</rdfs:label>
     </owl:Class>
@@ -2025,7 +2025,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00137 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</obo:IAO_0000115>
         <rdfs:label>Metastatic Malignant Neoplasm in the Diaphragm</rdfs:label>
     </owl:Class>
@@ -2041,7 +2041,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00138 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00138">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C36263"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</obo:IAO_0000115>
         <rdfs:label>Metastatic Malignant Neoplasm in the Lung, Metastatic Malignant Neoplasm in the Pleura</rdfs:label>
     </owl:Class>
@@ -2058,7 +2058,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00139 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00139">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3672"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00171"/>
         <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
         <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
         <rdfs:label>Hepatic Calcification</rdfs:label>
@@ -2087,7 +2087,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00141">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3044"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00169"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
         <rdfs:label>Periductal Fibrosis</rdfs:label>
     </owl:Class>
@@ -2189,12 +2189,6 @@ along the main bile duct wall running parallel with the portal vein in the perip
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCAO_00159"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001063"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A disorder involving tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</obo:IAO_0000115>
         <rdfs:label>neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3262</skos:closeMatch>
@@ -2278,6 +2272,286 @@ along the main bile duct wall running parallel with the portal vein in the perip
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00160">
+        <obo:IAO_0000115>Perihilar bile duct cancer with tumor invading unilateral branches of the portal vein or hepatic artery.</obo:IAO_0000115>
+        <rdfs:label>Perihilar Bile Duct Cancer pT3 TNM Finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134729</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00161 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00161">
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000115>Perihilar bile duct cancer with tumor invading the main portal vein or its branches bilaterally, or the common hepatic artery; or unilateral second-order biliary radicals with contralateral portal vein or hepatic artery involvement.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Cancer pT4 TNM Finding v8</rdfs:label>
+        <rdfs:label>Perihilar Bile Duct Cancer pT4 TNM Finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134730</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00162">
+        <obo:IAO_0000115>Distal bile duct cancer with tumor involving the celiac axis, superior mesenteric artery, and/or common hepatic artery.</obo:IAO_0000115>
+        <rdfs:label>Distal Bile Duct Cancer pT4 TNM Finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134803</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00163">
+        <obo:IAO_0000115>Surgical removal of all or part of the liver.</obo:IAO_0000115>
+        <rdfs:label>Hepatectomy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15249</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00164">
+        <obo:IAO_0000115>The patient- and family-centered active holistic care of patients with advanced, progressive disease. Essential components of palliative care are: pain and symptom control, communication regarding treatment and alternatives, prognosis, and available services, rehabilitation services, care that addresses treatment and palliative concerns, intellectual, emotional, social, and spiritual needs, terminal care, support in bereavement. The goal of palliative care is an achievement of the best quality of life for patients and their families.</obo:IAO_0000115>
+        <rdfs:label>Palliative Therapy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15292</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00165">
+        <obo:IAO_0000115>Partial removal of the liver</obo:IAO_0000115>
+        <rdfs:label>Partial Hepatectomy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15394</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00166 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00166">
+        <obo:IAO_0000115>A surgical procedure in which the doctor creates a new pathway for the flow of body fluids.</obo:IAO_0000115>
+        <rdfs:label>Bypass</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15723</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00167">
+        <obo:IAO_0000115>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</obo:IAO_0000115>
+        <rdfs:label>Intervention or Procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C25218</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00168 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00168">
+        <obo:IAO_0000115>A natural hollow or sinus within the body.</obo:IAO_0000115>
+        <rdfs:label>Body Cavity</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C25444</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00169 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00169">
+        <obo:IAO_0000115>The formation of fibrous tissue.</obo:IAO_0000115>
+        <rdfs:label>Fibrosis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3044</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00170 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00170">
+        <obo:IAO_0000115>A malignant tumor that has spread from its original (primary) site of growth to another site close to or distant from the primary site.</obo:IAO_0000115>
+        <rdfs:label>Metastatic Malignant Neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36263</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00171 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00171">
+        <obo:IAO_0000115>Deposition of calcium in the tissues. It may be the result of a metabolic disorder or long-standing infection, or it may be associated with the presence of cancer.</obo:IAO_0000115>
+        <rdfs:label>Calcification</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3672</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00172">
+        <obo:IAO_0000115>The spread of a malignant neoplasm to the peritoneum from another primary anatomic site.</obo:IAO_0000115>
+        <rdfs:label>Metastatic Malignant Neoplasm in the Peritoneum</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4583</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00173 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00173">
+        <obo:IAO_0000115>Surgical examination of the contents of the abdominal cavity as a means of diagnosis.</obo:IAO_0000115>
+        <rdfs:label>Exploratory Laparotomy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51779</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00175 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00175">
+        <obo:IAO_0000115>The drainage of fluid from the biliary tree via the insertion of a needle through the skin and liver.</obo:IAO_0000115>
+        <rdfs:label>Percutaneous Transhepatic Biliary Drainage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C93008</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00176 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00176">
+        <obo:IAO_0000115>A papillary neoplasm that arises from the epithelium of the intrahepatic bile ducts and it is associated with an invasive carcinomatous component. The carcinomatous component is an intrahepatic cholangiocarcinoma.</obo:IAO_0000115>
+        <rdfs:label>Intrahepatic Bile Duct Intraductal Papillary Neoplasm with an Associated Invasive Carcinoma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C96949</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00177">
+        <obo:IAO_0000115>A classification system of hilar cholangiocarcinoma that describes the location and extent of biliary infiltration by tumor.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Bismuth-Corlette Hilar Cholangiocarcinoma Classification</oboInOWL:hasExactSynonym>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Classification</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134736</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00178 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00178">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves only the common hepatic duct below the confluence of the left and right hepatic ducts</obo:IAO_0000115>
+        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type I</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00178"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves only the common hepatic duct below the confluence of the left and right hepatic ducts</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00179">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves the hepatic bile duct confluence, but there is no invasion above the confluence.</obo:IAO_0000115>
+        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type II</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00179"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves the hepatic bile duct confluence, but there is no invasion above the confluence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that affects the right hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00180"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar cholangiocarcinoma that affects the right hepatic duct in addition to the biliary confluence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00181 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00181">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that affects the left hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00181"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar cholangiocarcinoma that affects the left hepatic duct in addition to the biliary confluence.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00182 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00182">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</obo:IAO_0000115>
+        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
+        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00182"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00183 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00183">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>Any intervention for management of a malignant neoplasm.</obo:IAO_0000115>
+        <rdfs:label>Cancer Therapeutic Procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C16212</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00184 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00184">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:label>Complementary or Alternative Medical Procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51976</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCA_00147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCA_00147">
@@ -2308,264 +2582,20 @@ along the main bile duct wall running parallel with the portal vein in the perip
     
 
 
-    <!-- http://purl.obolibrary.org/obo/NCIT_C12219 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C12913 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12913">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C13018 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C13018">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C134598 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134598">
-        <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Cancer pT4 TNM Finding v8</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C134729 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134729"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C134730 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134730"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C134803 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C134803"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C14250 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C14250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15249 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15249"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15292 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15292"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15394 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C15723 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15723"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C16212 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C16612 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16612">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C17828 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17828">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C1908 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C1908">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C19157 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C19157">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C20047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C20181 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20181">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C20189 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20189">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C20633 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20633">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25218 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C25444 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25444"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C26548 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26548">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C3044 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3044"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C36263 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C36263"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C3672 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3672"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C3910 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C3910">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C43431 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C4583 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C4583"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C51779 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51779"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C51976 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C51976">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/NCIT_C62741 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C93008 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C93008"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C62741">
+        <obo:IAO_0000115>Surgical placement of a plastic or metal tube into the bile duct to treat bile duct stricture.</obo:IAO_0000115>
+        <rdfs:label>Biliary Stenting</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C62741</skos:closeMatch>
+    </owl:Class>
     
 
 
     <!-- http://purl.obolibrary.org/obo/NCIT_C96804 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C96949 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C96949"/>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/NCIT_C97325 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C97325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C96804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
     </owl:Class>
     
 
@@ -2603,7 +2633,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/UBERON_0001179 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001179">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00168"/>
     </rdf:Description>
     
 
@@ -2643,7 +2673,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/UBERON_0002402 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002402">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00168"/>
     </rdf:Description>
     
 
@@ -2661,91 +2691,6 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_I -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_I">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves only the common hepatic duct below the confluence of the left and right hepatic ducts</obo:IAO_0000115>
-        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
-        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type I</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_I"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves only the common hepatic duct below the confluence of the left and right hepatic ducts</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_II -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_II">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves the hepatic bile duct confluence, but there is no invasion above the confluence.</obo:IAO_0000115>
-        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
-        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type II</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_II"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves the hepatic bile duct confluence, but there is no invasion above the confluence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_III -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_III">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that affects the right hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
-        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
-        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_III"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar cholangiocarcinoma that affects the right hepatic duct in addition to the biliary confluence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IIIb -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IIIb">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that affects the left hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
-        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
-        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IIIb"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar cholangiocarcinoma that affects the left hepatic duct in addition to the biliary confluence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IV -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IV">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C96804"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</obo:IAO_0000115>
-        <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
-        <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Bismuth-Corlette_Classification_of_Perihilar_Cholangiocarcinoma_Type_IV"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A perihilar cholangiocarcinoma that involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21480336</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -2854,7 +2799,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00083"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00084"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00085"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C15394"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00165"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
