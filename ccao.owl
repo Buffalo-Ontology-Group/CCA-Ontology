@@ -22,7 +22,6 @@
     <owl:Ontology>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/foodon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oba.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
@@ -56,6 +55,12 @@
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasSynonym"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
@@ -77,6 +82,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00157">
         <obo:IAO_0000115>A role used to relate a disease to the anatomical site where the originating pathological process is located. The domain and the range for this role are &apos;Disease, Disorder or Finding&apos; and &apos;Anatomic Structure, System, or Substance&apos;, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_has_primary_anatomic_site</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R101</skos:closeMatch>
     </owl:ObjectProperty>
@@ -87,6 +93,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00158">
         <obo:IAO_0000115>A role used to represent that a clinical observation, sign or symptom will only be observed in some cases of the disease. Both the domain and range for this role are &apos;Disease, Disorder or Finding&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_may_have_finding</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R115</skos:closeMatch>
     </owl:ObjectProperty>
@@ -97,6 +104,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00159">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_has_abnormal_cell</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R105</skos:closeMatch>
     </owl:ObjectProperty>
@@ -113,7 +121,9 @@
 
     <!-- http://purl.obolibrary.org/obo/ccao.owl#hasQuality -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hasQuality">
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+    </owl:ObjectProperty>
     
 
 
@@ -142,6 +152,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00076"/>
         <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -167,6 +178,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCA0_00007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports attending junior high school</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports attending junior high school</rdfs:label>
     </owl:Class>
     
@@ -177,6 +189,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about his or her gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about gender</rdfs:label>
     </owl:Class>
     
@@ -188,6 +201,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00003"/>
         <obo:IAO_0000115>A conclusion that a participant reports female gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports female gender</rdfs:label>
     </owl:Class>
     
@@ -198,6 +212,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00001"/>
         <obo:IAO_0000115>A conclusion that a participant reports male gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports male gender</rdfs:label>
     </owl:Class>
     
@@ -208,6 +223,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their highest educational level</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about highest educational level</rdfs:label>
     </owl:Class>
     
@@ -218,6 +234,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports no education</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports no education</rdfs:label>
     </owl:Class>
     
@@ -228,6 +245,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports attending primary school</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports attending primary school</rdfs:label>
     </owl:Class>
     
@@ -238,6 +256,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports attending senior high school</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports attending senior high school</rdfs:label>
     </owl:Class>
     
@@ -248,6 +267,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports completing certificate degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing certificate degree</rdfs:label>
     </owl:Class>
     
@@ -258,6 +278,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a partipant reports completing bachelor degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing bachelor degree</rdfs:label>
     </owl:Class>
     
@@ -268,6 +289,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports completing master or higher degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing master or higher degree</rdfs:label>
     </owl:Class>
     
@@ -278,6 +300,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their education</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about occupation</rdfs:label>
     </owl:Class>
     
@@ -288,6 +311,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as unemployed</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as unemployed</rdfs:label>
     </owl:Class>
     
@@ -298,6 +322,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>conclusion that participant reports occupation as farmer</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as farmer</rdfs:label>
     </owl:Class>
     
@@ -308,6 +333,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as freelancer</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as freelancer</rdfs:label>
     </owl:Class>
     
@@ -318,6 +344,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as private business</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as private business</rdfs:label>
     </owl:Class>
     
@@ -328,6 +355,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as civil servant</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as civil servant</rdfs:label>
     </owl:Class>
     
@@ -338,6 +366,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as other</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as other</rdfs:label>
     </owl:Class>
     
@@ -348,6 +377,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their history of fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -358,6 +388,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had no fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had no fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -368,6 +399,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had one fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had one fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -378,6 +410,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had two fecal examinations for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had two fecal examinations for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -388,6 +421,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had three fecal examinations for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had three fecal examinations for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -398,6 +432,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had fecal examinations for liver fluke egg more than three times</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had fecal examinations for liver fluke egg more than three times</rdfs:label>
     </owl:Class>
     
@@ -408,6 +443,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being able to remember about having had fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being able to remember about having had fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -418,6 +454,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of found liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of found liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -428,6 +465,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports never having been examined for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports never having been examined for liver fluke egg</rdfs:label>
     </owl:Class>
     
@@ -438,6 +476,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports being examined but not having liver fluke egg found</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined but not having liver fluke egg found</rdfs:label>
     </owl:Class>
     
@@ -448,6 +487,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports being examined and having liver fluke egg found</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined and having liver fluke egg found</rdfs:label>
     </owl:Class>
     
@@ -458,6 +498,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</rdfs:label>
     </owl:Class>
     
@@ -468,6 +509,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -478,6 +520,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports never receiving treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports never receiving treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -488,6 +531,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having once received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having once received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -498,6 +542,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having twice received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having twice received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -508,6 +553,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having three times received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having three times received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -518,6 +564,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports more than three times having received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports more than three times having received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -528,6 +575,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being able to remember about having received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being able to remember about having received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
     
@@ -538,6 +586,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -548,6 +597,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -558,6 +608,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports parental grand father or mother</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant report parental grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -568,6 +619,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports maternal grandfather or grandmother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports maternal grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -578,6 +630,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports aunt or uncle has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports aunt or uncle has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -588,6 +641,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
         <obo:IAO_0000115>A conclusion that a participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:note>อาหรือน้า</oboInOwl:note>
         <rdfs:label>conclusion that participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -599,6 +653,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -609,6 +664,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports son or daughter</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports son or daughter has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -619,6 +675,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports cousin has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports cousin has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -629,6 +686,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports spouse has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports spouse has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -639,6 +697,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about smoking</rdfs:label>
     </owl:Class>
     
@@ -650,6 +709,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00051"/>
         <obo:IAO_0000115>A conclusion that a participant reports not smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not smoking</rdfs:label>
     </owl:Class>
     
@@ -660,6 +720,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <obo:IAO_0000115>A conclusion that a participant reports smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports smoking</rdfs:label>
     </owl:Class>
     
@@ -670,6 +731,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about alcohol consumption</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about alcohol consumption</rdfs:label>
     </owl:Class>
     
@@ -681,6 +743,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00054"/>
         <obo:IAO_0000115>A conclusion that a participant reports that they do not consume alcohol</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports that they do not consume alcohol</rdfs:label>
     </owl:Class>
     
@@ -691,6 +754,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <obo:IAO_0000115>A conclusion that a participant reports alcohol consumption</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports alcohol consumption</rdfs:label>
     </owl:Class>
     
@@ -701,6 +765,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about having alcoholism</rdfs:label>
     </owl:Class>
     
@@ -711,6 +776,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
         <obo:IAO_0000115>A conclusion that a participant reports not having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having alcoholism</rdfs:label>
     </owl:Class>
     
@@ -721,6 +787,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
         <obo:IAO_0000115>A conclusion that a participant reports having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having alcoholism</rdfs:label>
     </owl:Class>
     
@@ -729,19 +796,9 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00058 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00058">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0001909"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/FOODON_03301156"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
     
@@ -753,6 +810,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00060"/>
         <obo:IAO_0000115>A conclusion that a participant reports no consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports no consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
     
@@ -763,6 +821,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <obo:IAO_0000115>A conclusion that a participant reports consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
     
@@ -773,6 +832,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about diagnosis of disease by cilnician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about diagnosis of disease by cilnician</rdfs:label>
     </owl:Class>
     
@@ -783,6 +843,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being diagnosed with disease by cilnician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being diagnosed with disease by cilnician</rdfs:label>
     </owl:Class>
     
@@ -793,6 +854,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis c by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with hepatitis c by clinician</rdfs:label>
     </owl:Class>
     
@@ -803,6 +865,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with diabetes by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with diabetes by clinician</rdfs:label>
     </owl:Class>
     
@@ -813,6 +876,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes with other disease</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with other disease by clinician</rdfs:label>
     </owl:Class>
     
@@ -823,6 +887,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mass-forming intrahepatic cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -841,6 +906,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal infiltrating intrahepatic cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -858,6 +924,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intraductal intrahepatic cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -874,6 +941,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00070">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma that contains more than one of the mass forming type, periductal infiltrating type, or intraductal type.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic cholangiocarcinoma of mixed type</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -901,6 +969,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
         <obo:IAO_0000115>The morphology of a hepatic artery</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>hepatic artery morphology</rdfs:label>
     </owl:Class>
     
@@ -923,6 +992,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00073"/>
         <obo:IAO_0000115>A hepatic artery morphology with a normal phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic artery morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -940,6 +1010,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
         <obo:IAO_0000115>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Encasement Hepatic Artery</oboInOwl:hasSynonym>
         <rdfs:label>cholangiocarcinoma-encased hepatic artery</rdfs:label>
     </owl:Class>
@@ -969,6 +1040,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00075"/>
         <obo:IAO_0000115>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic vein morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -985,6 +1057,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
         <obo:IAO_0000115>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-encased vein</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1012,6 +1085,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
         <obo:IAO_0000115>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic portal vein morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1039,6 +1113,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
         <obo:IAO_0000115>A lymph node morphology in which the morphology of the main lymph node is no cholangiocarcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal lymph node morphology</rdfs:label>
     </owl:Class>
     
@@ -1055,6 +1130,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A lymph node morphology in which a lymph node along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-positive lymph node along hepatoduodenal ligament</rdfs:label>
     </owl:Class>
     
@@ -1071,6 +1147,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A lymph node morphology in which a lymph node not located along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-positive lymph node not located along hepatoduodenal ligament</rdfs:label>
     </owl:Class>
     
@@ -1081,6 +1158,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>extended right hepatectomy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1097,6 +1175,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>extended left hepatectomy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1113,6 +1192,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>right hepatic trisectionectomy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1129,6 +1209,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>left hepatic trisectionectomy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1145,6 +1226,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-anatomic hepatic resection</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1161,6 +1243,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>surgical resection of hilar cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1176,6 +1259,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00166"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasDbXref>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</oboInOwl:hasDbXref>
         <rdfs:label>hepatic duct bypass</rdfs:label>
     </owl:Class>
@@ -1194,6 +1278,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00173"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00089"/>
         <obo:IAO_0000115>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy of liver</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1243,6 +1328,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00175"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00092"/>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed prior to surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Pre-Operative PTBD</oboInOwl:hasSynonym>
         <rdfs:label>pre-operative percutaneous transhepatic biliary drainage</rdfs:label>
     </owl:Class>
@@ -1260,6 +1346,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Palliative PTDB</oboInOwl:hasSynonym>
         <rdfs:label>palliative percutaneous transhepatic biliary drainage</rdfs:label>
     </owl:Class>
@@ -1278,6 +1365,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00094"/>
         <obo:IAO_0000115>biliary stenting that is performed prior to surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>pre-operative biliary stenting</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1305,6 +1393,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00174"/>
         <obo:IAO_0000115>biliary stenting that is performed as palliative therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative biliar stenting</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1321,6 +1410,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115>The morphology of a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tumor morphology</rdfs:label>
     </owl:Class>
     
@@ -1331,6 +1421,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mass-forming tumor morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1347,6 +1438,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal infiltrating tumor morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1364,6 +1456,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intraductal intrahepatic tumor morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1391,6 +1484,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1412,6 +1506,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1433,6 +1528,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1454,6 +1550,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>Perihilar Mass-Forming Cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1475,6 +1572,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>Perihilar Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1496,6 +1594,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>Perihilar Intraductal Cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1504,8 +1603,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00105 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00105">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00145"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001174"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that locates in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1514,8 +1625,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00106 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00106">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1524,8 +1647,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00107 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00107">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00097"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1534,8 +1669,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00108 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00108">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00098"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1546,6 +1693,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology characterized by the presense of intracytoplasmic musin.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mucinous tumor morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1560,8 +1708,24 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00110 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00110">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00110"/>
+                    <owl:Class>
+                        <owl:complementOf>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                            </owl:Restriction>
+                        </owl:complementOf>
+                    </owl:Class>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-mucin producing cholangiocarcoma</rdfs:label>
     </owl:Class>
     
@@ -1570,8 +1734,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00111 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00111">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00111"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma with a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mucin-producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1582,6 +1758,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that lacks papillary or villous growth within the bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>mucinous</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>mucoid</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>mucus</oboInOwl:hasSynonym>
@@ -1610,6 +1787,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
         <obo:IAO_0000115>A non-papillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-papillary non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1631,6 +1809,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
         <obo:IAO_0000115>A non-papillary cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-papillary mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1641,6 +1820,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma with a non-invasive, papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1651,6 +1831,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma with papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1677,6 +1858,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00118"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1698,6 +1880,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive mucin produing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1723,6 +1906,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bile duct papillary non-mucin producing invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1744,6 +1928,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bile duct papillary mucin producing invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1754,6 +1939,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A intraductal cholangiocarcinoma with a predominant tubular growth pattern and contiguous non-neoplastic duct lining cells growing in solid sheets, and back-to-back tubules and lacking intracellular or extracellular mucin.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1780,6 +1966,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00123"/>
         <obo:IAO_0000115>A tubular cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1801,6 +1988,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
         <obo:IAO_0000115>A tubular cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1811,6 +1999,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1844,6 +2033,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00126"/>
         <obo:IAO_0000115>A tubulopapillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -1865,6 +2055,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
         <obo:IAO_0000115>A tubulopapillary bile duct adenocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary bile duct adenocarcinoma mucin producing</rdfs:label>
     </owl:Class>
     
@@ -1875,6 +2066,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that does not exhibit an adenocarcinoma morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma with non-adenocarcinoma  morphology</rdfs:label>
     </owl:Class>
     
@@ -1883,9 +2075,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00128 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00128">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00204"/>
         <obo:IAO_0000115>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
-        <rdfs:label>Intrahepatic Bile Duct Cancer pT4A TNM finding v8</rdfs:label>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>intrahepatic bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00128"/>
@@ -1899,8 +2092,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00129 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00129">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00204"/>
         <obo:IAO_0000115>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1917,6 +2111,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT3A TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1932,6 +2127,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasDbXref>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</oboInOwl:hasDbXref>
         <rdfs:label>perihilar bile duct cancer pT3B TNM finding v8</rdfs:label>
     </owl:Class>
@@ -1949,6 +2145,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1965,6 +2162,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1981,7 +2179,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cancer pT4A TNM Finding v8</rdfs:label>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>distal bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00134"/>
@@ -1997,7 +2196,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cancer pT4B TNM Finding v8</rdfs:label>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>distal bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00135"/>
@@ -2013,6 +2213,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00172"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the omentum</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2029,6 +2230,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the diaphragm</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2045,6 +2247,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the lung, metastatic malignant neoplasm in the pleura</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2062,6 +2265,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00171"/>
         <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
         <rdfs:label>hepatic calcification</rdfs:label>
     </owl:Class>
@@ -2080,6 +2284,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
         <obo:IAO_0000115>A conclusion that a participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:note>ลุงหรือป้า</oboInOwl:note>
         <rdfs:label>conclusion that participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2091,6 +2296,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00169"/>
         <obo:IAO_0000115>A  fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2107,6 +2313,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 1</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2123,6 +2330,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo along the segmental bile duct wall running parallel with the portal vein.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 2</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2140,6 +2348,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo
 along the main bile duct wall running parallel with the portal vein in the periportal space.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2160,7 +2369,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00149"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002394"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -2168,6 +2377,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00149"/>
         <obo:IAO_0000115>A adenocarcinoma that arises from a bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bile duct adenocarcinoma</oboInOWL:hasExactSynonym>
         <rdfs:label>cholangiocarcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C27813</skos:closeMatch>
@@ -2193,6 +2403,10 @@ along the main bile duct wall running parallel with the portal vein in the perip
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder involving tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>neoplasia</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>neoplastic disease</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>neoplastic growth</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>tumor</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3262</oboInOwl:source>
         <rdfs:label>neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3262</skos:closeMatch>
@@ -2204,6 +2418,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCA_00147"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>carcinoma</rdfs:label>
         <skos:closeMatch>A malignant neoplasm arising from epithelial cells. Carcinomas that arise from glandular epithelium are called adenocarcinomas, those that arise from squamous epithelium are called squamous cell carcinomas, and those that arise from transitional epithelium are called transitional cell carcinomas. Morphologically, the malignant epithelial cells may display abnormal mitotic figures, anaplasia, and necrosis. Carcinomas are graded by the degree of cellular differentiation as well, moderately, or poorly differentiated. Carcinomas invade the surrounding tissues and tend to metastasize to other anatomic sites. Lung carcinoma, skin carcinoma, breast carcinoma, colon carcinoma, and prostate carcinoma are the most frequently seen carcinomas.</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2916</skos:closeMatch>
@@ -2215,6 +2430,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00148"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>adenocarcinoma</rdfs:label>
         <skos:closeMatch>A carcinoma characterized by the presence of malignant glandular cells.  Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).  Representative examples of adenocarcinoma are ductal and lobular breast carcinoma, lung adenocarcinoma, renal cell carcinoma, hepatocellular carcinoma (hepatoma), colon adenocarcinoma, and prostate adenocarcinoma.</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2852</skos:closeMatch>
@@ -2225,7 +2441,19 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00151">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00145"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0003704"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic cholangiocarcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35417</skos:closeMatch>
     </owl:Class>
@@ -2237,6 +2465,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000085"/>
         <obo:IAO_0000115>Painful sensation in the abdominal region.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>abdominal pain</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26682</skos:closeMatch>
     </owl:Class>
@@ -2248,6 +2477,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
         <obo:IAO_0000115>An increase or decrease in the weight of an individual.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>weight change</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9232</skos:closeMatch>
     </owl:Class>
@@ -2259,6 +2489,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00154"/>
         <obo:IAO_0000115>A reduction in total body weight.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>weight loss</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3445</skos:closeMatch>
     </owl:Class>
@@ -2270,6 +2501,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
         <obo:IAO_0000115>A feeling of general discomfort or uneasiness, an out-of-sorts feeling.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malaise</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3832</skos:closeMatch>
     </owl:Class>
@@ -2279,8 +2511,9 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00160 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00160">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading unilateral branches of the portal vein or hepatic artery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT3 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134729</skos:closeMatch>
     </owl:Class>
@@ -2290,8 +2523,9 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00161 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00161">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading the main portal vein or its branches bilaterally, or the common hepatic artery; or unilateral second-order biliary radicals with contralateral portal vein or hepatic artery involvement.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134730</skos:closeMatch>
@@ -2302,9 +2536,10 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00162">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer with tumor involving the celiac axis, superior mesenteric artery, and/or common hepatic artery.</obo:IAO_0000115>
-        <rdfs:label>Distal Bile Duct Cancer pT4 TNM Finding v8</rdfs:label>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>distal bile duct cancer pT4 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134803</skos:closeMatch>
     </owl:Class>
     
@@ -2315,6 +2550,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>Surgical removal of all or part of the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>hepatectomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15249</skos:closeMatch>
     </owl:Class>
@@ -2326,6 +2562,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>The patient- and family-centered active holistic care of patients with advanced, progressive disease. Essential components of palliative care are: pain and symptom control, communication regarding treatment and alternatives, prognosis, and available services, rehabilitation services, care that addresses treatment and palliative concerns, intellectual, emotional, social, and spiritual needs, terminal care, support in bereavement. The goal of palliative care is an achievement of the best quality of life for patients and their families.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative therapy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15292</skos:closeMatch>
     </owl:Class>
@@ -2337,6 +2574,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>partial removal of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>partial hepatectomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15394</skos:closeMatch>
     </owl:Class>
@@ -2348,6 +2586,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>A surgical procedure in which the doctor creates a new pathway for the flow of body fluids.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bypass</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15723</skos:closeMatch>
     </owl:Class>
@@ -2359,6 +2598,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder resulting from the formation of excess fibrous connective tissue in an organ or tissue.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>fibrosis</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3044</skos:closeMatch>
     </owl:Class>
@@ -2370,6 +2610,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
         <obo:IAO_0000115>A malignant tumor that has spread from its original (primary) site of growth to another site close to or distant from the primary site.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36263</skos:closeMatch>
     </owl:Class>
@@ -2381,6 +2622,12 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A deposition of calcium in the tissues. It may be the result of a metabolic disorder or long-standing infection, or it may be associated with the presence of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>calcinosis</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>calcium deposit(s)</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>deposit(s), calcium</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>macrocalcification</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3672</oboInOwl:source>
         <rdfs:label>calcification</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3672</skos:closeMatch>
     </owl:Class>
@@ -2392,6 +2639,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
         <obo:IAO_0000115>The spread of a malignant neoplasm to the peritoneum from another primary anatomic site.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the peritoneum</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4583</skos:closeMatch>
     </owl:Class>
@@ -2403,6 +2651,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00186"/>
         <obo:IAO_0000115>Surgical examination of the contents of the abdominal cavity as a means of diagnosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51779</skos:closeMatch>
     </owl:Class>
@@ -2414,6 +2663,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>Surgical placement of a plastic or metal tube into the bile duct to treat bile duct stricture.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>biliary stenting</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C62741</skos:closeMatch>
     </owl:Class>
@@ -2425,6 +2675,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>The drainage of fluid from the biliary tree via the insertion of a needle through the skin and liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>percutaneous transhepatic biliary drainage</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C93008</skos:closeMatch>
     </owl:Class>
@@ -2436,6 +2687,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A papillary neoplasm that arises from the epithelium of the intrahepatic bile ducts and it is associated with an invasive carcinomatous component. The carcinomatous component is an intrahepatic cholangiocarcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct Intraductal papillary neoplasm with an associated invasive carcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C96949</skos:closeMatch>
     </owl:Class>
@@ -2447,6 +2699,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma according to the location of the tumor and the extent of biliary infiltration by the tumor, based on the Bismuth-Corlette Perihilar Cholangiocarcinoma Classification System.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Bismuth-Corlette Hilar Cholangiocarcinoma Classification</oboInOWL:hasExactSynonym>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Classification</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134736</skos:closeMatch>
@@ -2459,6 +2712,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type I, because the cholangiocarcinoma involves only the common hepatic duct below the confluence of the left and right hepatic ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type I</rdfs:label>
     </owl:Class>
@@ -2476,6 +2730,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type II, because the cholangiocarcinoma involves the hepatic bile duct confluence, but there is no invasion above the confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type II</rdfs:label>
     </owl:Class>
@@ -2493,6 +2748,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa, because the cholangiocarcinoma affects the right hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa</rdfs:label>
     </owl:Class>
@@ -2510,6 +2766,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb, because the cholangiocarcinoma affects the left hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb</rdfs:label>
     </owl:Class>
@@ -2527,6 +2784,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV, because the cholangiocarcinoma involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV</rdfs:label>
     </owl:Class>
@@ -2544,6 +2802,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>Any intervention for management of a malignant neoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cancer therapeutic procedure</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C16212</skos:closeMatch>
     </owl:Class>
@@ -2554,6 +2813,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>alternative medical procedure</oboInOwl:hasSynonym>
         <rdfs:label>complementary medical procedure</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51976</skos:closeMatch>
@@ -2571,6 +2831,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>diagnostic surgical procedure</rdfs:label>
     </owl:Class>
     
@@ -2579,9 +2840,452 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00190">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00145"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002131"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001175"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>a cholangiocarinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct inserti</obo:IAO_0000115>
+        <obo:IAO_0000115>a cholangiocarinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>https://www.karger.com/Article/FullText/360791</oboInOwl:source>
         <rdfs:label>perihilar cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>a cholangiocarinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion</owl:annotatedTarget>
+        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00191 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00191">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding about cancer using the TNM diagnosis system</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>cancer TNM finding</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C48232</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
+        <obo:IAO_0000115>A finding about one or more characteristics of distal bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to bile duct adenocarcinomas, biliary intraepithelial neoplasia, high-grade neuroendocrine carcinomas, and papillary carcinomas. Tumors arising in the ampulla of Vater, sarcomas, and well-differentiated neuroendocrine tumors (carcinoids) are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134788</oboInOwl:source>
+        <rdfs:label>distal bile duct cancer TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134788</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
+        <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth less than 5 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pT1 TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134800</oboInOwl:source>
+        <rdfs:label>distal bile duct cancer pT1 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134800</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00196 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00196">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
+        <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth of 5-12 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C134801</obo:IAO_0000119>
+        <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pT2 TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134801</oboInOwl:source>
+        <rdfs:label>distal bile duct cancer pT2 TNM finding v8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
+        <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth greater than 12 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C134802</obo:IAO_0000119>
+        <rdfs:label>distal bile duct cancer pT3 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134802</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00198 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00198">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
+        <obo:IAO_0000115>Distal bile duct cancer in which the primary tumor cannot be assessed. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pTX TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pTX</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134798</oboInOwl:source>
+        <rdfs:label>distal bile duct cancer pTX TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134798</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
+        <obo:IAO_0000115>A cancer TNM finding about one or more characteristics of intrahepatic bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to intrahepatic cholangiocarcinomas, combined hepatocellular-cholangiocarcinomas (mixed hepatocholangiocarcinomas), and primary neuroendocrine tumors of the liver. Primary sarcomas of the liver, pure hepatocellular carcinomas, hilar cholangiocarcinomas, and gallbladder carcinomas are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134577</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134577</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with no evidence of primary tumor. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT0 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134590</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pT0 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134590</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00201 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00201">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with solitary tumor equal to or less than 5 cm, or larger than 5 cm without vascular invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT1 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT1</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134593</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pT1 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134593</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with solitary tumor with intrahepatic vascular invasion, or multiple tumors, with or without vascular invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT2 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT2</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134596</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pT2 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134596</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor perforating the visceral peritoneum. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Intrahepatic Bile Duct Carcinoma pT3 TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT3</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134597</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pT3 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134597</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT4 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT4</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134598</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pT4 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00205">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
+        <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT4 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT4</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134598</oboInOwl:source>
+        <rdfs:label>intrahepatic bile duct cancer pTX TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00206 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00206">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
+        <obo:IAO_0000115>A cancer TNM finding about one or more characteristics of perihilar bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to perihilar cholangiocarcinomas. Well-differentiated neuroendocrine tumors and sarcomas are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Perihilar Cholangiocarcinoma TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134712</oboInOwl:source>
+        <rdfs:label>perihilar bile duct cancer TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134712</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00207 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00207">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
+        <obo:IAO_0000115>Perihilar bile duct cancer with no evidence of primary tumor. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Hilar Cholangiocarcinoma pT0 TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Perihilar Cholangiocarcinoma pT0 TNM Finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT0</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134723</oboInOwl:source>
+        <rdfs:label>perihilar bile duct cancer pT0 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134723</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00208 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00208">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
+        <obo:IAO_0000115>Perihilar bile duct cancer with tumor confined to the bile duct, with extension up to the muscle layer or fibrous tissue. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pT1 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT1</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>perihilar cholangiocarcinoma pT1 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134725</oboInOwl:source>
+        <rdfs:label>perihilar bile duct cancer pT1 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134725</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
+        <obo:IAO_0000115>Perihilar bile duct cancer with tumor invading beyond the wall of the bile duct to surrounding adipose tissue, or tumor invading adjacent hepatic parenchyma. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pT2 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pT2</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>perihilar cholangiocarcinoma pT2 TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134726</oboInOwl:source>
+        <rdfs:label>perihilar bile duct cancer pT2 TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134726</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
+        <obo:IAO_0000115>Perihilar bile duct cancer in which the primary tumor cannot be assessed. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pTX TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>pTX</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>perihilar cholangiocarcinoma pTX TNM finding v8</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134722</oboInOwl:source>
+        <rdfs:label>perihilar bile duct cancer pTX TNM finding v8</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134722</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <obo:IAO_0000115>A diagnotic process that uses of ultrasound for imaging or diagnostic purposes. Employs frequencies ranging from 1.6 to 10 megahertz. (DCTD-DIP).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Diagnosis (US)</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Diagnosis, Ultrasound</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C19337</oboInOwl:source>
+        <rdfs:label>diagnostic ultrasound</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C19337</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00212">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is acumulation of adipose tissue in intracytoplasmic or extracellular spaces.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>fatty change</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C36185</oboInOwl:source>
+        <rdfs:label>steatosis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36185</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00213 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00213">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00212"/>
+        <obo:IAO_0000115>A steatosis indicating intracytoplasmic fat accumulation in the liver parenchyma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Liver Steatosis</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C150596</oboInOwl:source>
+        <rdfs:label>hepatic steatosis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C150596</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00214">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCAO_00157"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001007"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCAO_00157"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001280"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/CCAO_00157"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder characterized by replacement of the liver parenchyma with fibrous tissue and regenerative nodules. It is usually caused by alcoholism, hepatitis B, and hepatitis C. Complications include the development of ascites, esophageal varices, bleeding, and hepatic encephalopathy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>cirrhosis of the liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>liver cirrhosis</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2951</oboInOwl:source>
+        <rdfs:label>cirrhosis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2951</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is a benign or malignant pathologic structure in any part of the body, resulting from a neoplastic accumulation of cells, inflammatory cells, or cystic changes.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34808</oboInOwl:source>
+        <rdfs:label>mass</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34808</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00216 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00216">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00215"/>
+        <obo:IAO_0000115>A mass that affects the liver parenchyma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>liver mass</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35294</oboInOwl:source>
+        <rdfs:label>hepatic mass</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35294</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that s a sac-like closed membranous structure that may be empty or contain fluid or amorphous material.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2978</oboInOwl:source>
+        <rdfs:label>cyst</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2978</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
+        <obo:IAO_0000115>A cystic lesion located in the liver.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Cyst of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Liver Cyst</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3960</oboInOwl:source>
+        <oboInOwl:source>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</oboInOwl:source>
+        <rdfs:label>hepatic cyst</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3960</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <obo:IAO_0000115>A benign neoplasm arising from arteries or veins.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Benign Blood Vessel Tumor</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C8537</oboInOwl:source>
+        <rdfs:label>benign blood vessel neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C8537</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00219"/>
+        <obo:IAO_0000115>A benign vascular lesion characterized by the formation of capillary-sized or cavernous vascular channels.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Angioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Benign Angioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Benign Hemangioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>HEMANGIOMA, BENIGN</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3085</oboInOwl:source>
+        <rdfs:label>hemangioma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3085</skos:closeMatch>
     </owl:Class>
     
 
@@ -2602,6 +3306,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
         <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malignant neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9305</skos:closeMatch>
     </owl:Class>
@@ -2699,6 +3404,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports brother or sister has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports brother or sister has cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -2709,19 +3415,57 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis b by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with hepatitis b by clinician</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#liver_hemangioma -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Cancer_TNM_Finding">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
-        <obo:IAO_0000115>A clinical finding about cancer using the TNM diagnosis system</obo:IAO_0000115>
-        <rdfs:label>cancer TNM finding</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C48232</skos:closeMatch>
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#liver_hemangioma">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00220"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00220"/>
+        <obo:IAO_0000115>A hemangioma arising from the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Angioma of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Angioma of the Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hemangioma of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hemangioma of the Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatic Angioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatic Hemangioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Liver Angioma</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3869</oboInOwl:source>
+        <rdfs:label>liver hemangioma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3869</skos:closeMatch>
     </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
+        <obo:IAO_0000115>A tumor morphologymixed type phenotypes in which contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>mixed type tumor morphology</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A tumor morphologymixed type phenotypes in which contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2851,6 +3595,26 @@ along the main bile duct wall running parallel with the portal vein in the perip
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00142"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00143"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00144"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00160"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00161"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00207"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00208"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00209"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00210"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00162"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00195"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00196"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00197"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
