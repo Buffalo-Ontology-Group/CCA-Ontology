@@ -939,6 +939,17 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00070 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00070">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00151"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma that contains more than one of the mass forming type, periductal infiltrating type, or intraductal type.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
