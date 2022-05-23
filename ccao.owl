@@ -2308,6 +2308,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00169"/>
         <obo:IAO_0000115>A  fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/24420706/</obo:IAO_0000119>
         <rdfs:label>periductal fibrosis</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2315,6 +2316,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#label"/>
         <owl:annotatedTarget>periductal fibrosis</owl:annotatedTarget>
         <ccao:PMID>PMID: 30898798</ccao:PMID>
+        <oboInOwl:hasDbXref>PMID: 30898798</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -2357,16 +2359,14 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
-        <obo:IAO_0000115>A periductal fibrosis which has a high echo
-along the main bile duct wall running parallel with the portal vein in the periportal space.</obo:IAO_0000115>
+        <obo:IAO_0000115>A periductal fibrosis which has a high echo along the main bile duct wall running parallel with the portal vein in the periportal space.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 3</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00144"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A periductal fibrosis which has a high echo
-along the main bile duct wall running parallel with the portal vein in the periportal space.</owl:annotatedTarget>
+        <owl:annotatedTarget>A periductal fibrosis which has a high echo along the main bile duct wall running parallel with the portal vein in the periportal space.</owl:annotatedTarget>
         <ccao:PMID>PMID: 30898798</ccao:PMID>
     </owl:Axiom>
     
@@ -3233,6 +3233,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00216">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00215"/>
         <obo:IAO_0000115>A mass that affects the liver parenchyma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>liver mass</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35294</oboInOwl:source>
@@ -3273,7 +3274,7 @@ along the main bile duct wall running parallel with the portal vein in the perip
     <!-- http://purl.obolibrary.org/obo/CCAO_00219 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00219">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00232"/>
         <obo:IAO_0000115>A benign neoplasm arising from arteries or veins.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Benign Blood Vessel Tumor</oboInOWL:hasExactSynonym>
@@ -3297,6 +3298,891 @@ along the main bile duct wall running parallel with the portal vein in the perip
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3085</oboInOwl:source>
         <rdfs:label>hemangioma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3085</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00221 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00221">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00220"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00220"/>
+        <obo:IAO_0000115>A hemangioma arising from the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Angioma of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Angioma of the Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hemangioma of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hemangioma of the Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatic Angioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatic Hemangioma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Liver Angioma</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3869</oboInOwl:source>
+        <rdfs:label>liver hemangioma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3869</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is a concretion of material in the body, usually composed of mineral salts. Representative examples include gallbladder stones, kidney stones, and salivary gland stones.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Calculi</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>calculus</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35708</oboInOwl:source>
+        <rdfs:label>stone</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35708</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00224 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00224">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
+        <obo:IAO_0000115>A stone in the bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>bile duct calculus</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35773</oboInOwl:source>
+        <rdfs:label>bile duct stone</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35773</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00225 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00225">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00224"/>
+        <obo:IAO_0000115>a bile duct stone that located within the intrahepatic bile duct specifically located proximal to the confluence of the left and right hepatic ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>https://www.kjg.or.kr/journal/view.html?doi=10.4166/kjg.2018.71.5.247</obo:IAO_0000119>
+        <rdfs:label>Intrahepatic bile duct stone</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00225"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>a bile duct stone that located within the intrahepatic bile duct specifically located proximal to the confluence of the left and right hepatic ducts.</owl:annotatedTarget>
+        <ccao:PMID>PMID: 29791982</ccao:PMID>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00226">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00226"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
+        <obo:IAO_0000115>A hepatic mass which is the only hepatic mass in a liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>single hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00227">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00226"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00226"/>
+        <obo:IAO_0000115>A single hepatic mass located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>right lobe single hepatic Mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00228 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00228">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00218"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00218"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>A hepatic cyst located in the right lobe of the liver</obo:IAO_0000119>
+        <rdfs:label>right lobe hepatic cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00229">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00221"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00221"/>
+        <obo:IAO_0000115>A hepatic hemangioma located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>right lobe hepatic hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00230">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00139"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00139"/>
+        <obo:IAO_0000115>A hepatic calicification located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>right lobe hepatic calcification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00225"/>
+        <obo:IAO_0000115>A intrahepatic duct stone located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>right lobe intrahepatic duct stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <obo:IAO_0000115>A neoplasm which is characterized by the absence of morphologic features associated with malignancy (severe cytologic atypia, tumor cell necrosis, and high mitotic rate). Benign neoplasms remain confined to the original site of growth and do not metastasize to other anatomic sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>benign</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>benign tumor</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>benign unclassifiable tumor</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3677</oboInOwl:source>
+        <rdfs:label>benign neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3677</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00211"/>
+        <obo:IAO_0000115>The use of ultrasound to produce images or diagnose of structures in the liver</obo:IAO_0000115>
+        <rdfs:label>liver diagnostic ultrasound</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00233"/>
+        <obo:IAO_0000115>A liver diagnostic ultrasound  which is used for diagnosis and management of  liver diseases</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141343</obo:IAO_0000119>
+        <rdfs:label>hepatic parenchymal echo</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00234"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A liver diagnostic ultrasound  which is used for diagnosis and management of  liver diseases</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID: 24859758</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID: 10535475</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00213"/>
+        <obo:IAO_0000115>A hepatic steatosis which shows a minor amount of intracytoplasmic fat accumulation in the liver parenchyma (5% - 33%).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836586/</obo:IAO_0000119>
+        <rdfs:label>mild hepatic steatosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00235"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic steatosis which shows a minor amount of intracytoplasmic fat accumulation in the liver parenchyma (5% - 33%).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID: 27099587</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00236 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00236">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00213"/>
+        <obo:IAO_0000115>A hepatic steatosis which shows a moderate amount of intracytoplasmic fat accumulation in the liver parenchyma (34%-66%).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836586/</obo:IAO_0000119>
+        <rdfs:label>moderate hepatic steatosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00236"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic steatosis which shows a moderate amount of intracytoplasmic fat accumulation in the liver parenchyma (34%-66%).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID: 27099587</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00237 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00237">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00213"/>
+        <obo:IAO_0000115>A hepatic steatosis which shows a severe intracytoplasmic fat accumulation in the liver parenchyma (&gt;66%).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836586/</obo:IAO_0000119>
+        <rdfs:label>severe hepatic steatosis</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00237"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic steatosis which shows a severe intracytoplasmic fat accumulation in the liver parenchyma (&gt;66%).</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID: 27099587</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>An image finding about a hepatic mass based on images produced through the use of hepatic ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>hepatic mass ultrasound echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>hyperechoic</oboInOwl:hasSynonym>
+        <rdfs:label>right lobe hepatic mass high echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding, showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>hypoechoic</oboInOwl:hasSynonym>
+        <rdfs:label>right lobe hepatic mass low echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00242">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00226"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00226"/>
+        <obo:IAO_0000115>A single hepatic mass located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe single hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00243">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00218"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00218"/>
+        <obo:IAO_0000115>A hepatic cyst located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00244 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00244">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00221"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00221"/>
+        <obo:IAO_0000115>A hepatic hemangioma located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00245">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00139"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00139"/>
+        <obo:IAO_0000115>A hepatic calicification located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic calcification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00246 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00246">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00225"/>
+        <obo:IAO_0000115>A intrahepatic duct stone located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe intrahepatic duct stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic mass high echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding, showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic mass low echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00249 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00249">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe hepatic mass mixed echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00250">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A finding that no hepatic mass exist based on images produced through the use of hepatic ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding of no hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
+        <obo:IAO_0000115>A hepatic mass which has many hepatic masses in a liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>multiple hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115></obo:IAO_0000115>
+        <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/MP_0003253</obo:IAO_0000119>
+        <rdfs:label>dilated bile duct</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/MP_0003253</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00253">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <obo:IAO_0000115>A dilated bile duct located in the left lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>right lobe dilated bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00254">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>left lobe dilated bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00255 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00255">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001174"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <obo:IAO_0000115>A dilated bile duct located in the common bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>dilated common bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about a gallbladder based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about a gallbladder which shows a thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000119>https://doi.org/10.1590/S0100-39842011000600010</obo:IAO_0000119>
+        <obo:IAO_0000119>https://radiologyassistant.nl/abdomen/biliary-system/gallbladder-wall-thickening</obo:IAO_0000119>
+        <rdfs:label>finding of thickening of wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00258 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00258">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00257"/>
+        <obo:IAO_0000115>A finding of a focal thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000119>https://radiopaedia.org/articles/focal-gallbladder-wall-thickening-differential?lang=us</obo:IAO_0000119>
+        <obo:IAO_0000119>https://www-ajronline-org.gate.lib.buffalo.edu/doi/full/10.2214/ajr.12.10386?mobileUi=0</obo:IAO_0000119>
+        <rdfs:label>finding of focal thickening of wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00257"/>
+        <obo:IAO_0000115>A finding of a diffuse thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding of diffuse thickening of wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00260 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about a polyp in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.mayoclinic.org/gallbladder-polyps/expert-answers/faq-20058450#:~:text=Gallbladder%20polyps%20are%20growths%20that,)%20or%20noncancerous%20(benign).</obo:IAO_0000119>
+        <rdfs:label>finding about a polyp in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00260"/>
+        <obo:IAO_0000115>A finding about a single polyp in the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about a single polyp in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00260"/>
+        <obo:IAO_0000115>A finding about the multiple polyps in the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about multiple polyps in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about a mass in the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about a mass in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00263"/>
+        <obo:IAO_0000115>A finding about a single mass in the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about a single mass in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00265 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00265">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00263"/>
+        <obo:IAO_0000115>A finding about the multiple masses in the wall of the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about multiple masses wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00266 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00266">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about a stone in the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about a stone in gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00266"/>
+        <obo:IAO_0000115>A finding about a single stone in the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about a single stone in gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00266"/>
+        <obo:IAO_0000115>A finding about the multiple stones in the gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about multiple stones in gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about a post cholecystectomy</obo:IAO_0000115>
+        <rdfs:label>finding about a post cholecystectomy</rdfs:label>
+        <skos:closeMatch>http://purl.bioontology.org/ontology/NDFRT/N0000003602</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00270 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00270">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about a gallbladder based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a cyst in the kidneys</obo:IAO_0000115>
+        <rdfs:label>finding about a cyst in kidneys</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
+        <obo:IAO_0000115>A finding about a cyst in the right kidney</obo:IAO_0000115>
+        <rdfs:label>finding about a cyst in right kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
+        <obo:IAO_0000115>A finding about a cyst in the left kidney</obo:IAO_0000115>
+        <rdfs:label>finding about a cyst in left kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a kidney parenchyma with an atypical abnormal function</obo:IAO_0000115>
+        <rdfs:label>finding about kidney parenchyma with atypical abnormal function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00274"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis without a hydronephrosis</obo:IAO_0000115>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C26796</obo:IAO_0000119>
+        <rdfs:label>finding about nephrolithiasis without hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>A surgical procedure to completely or partially remove a kidney. With a complete nephrectomy, the attached adrenal gland, perinephric fat, and regional lymph nodes are often removed as well. With a partial nephrectomy, the removed tissue contains the tumor and a rim of normal renal parenchyma only.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
+        <rdfs:label>nephrectomy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15284</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
+        <obo:IAO_0000115>A stone that forms in the gallbladder. Gallstones are made of cholesterol or other substances found in the gallbladder. They may occur as one large stone or as many small ones, and vary from the size of a golf ball to a grain of sand.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34443</oboInOwl:source>
+        <rdfs:label>gallbladder stone</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34443</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>Surgical removal of the gallbladder.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51676</oboInOwl:source>
+        <rdfs:label>cholecystectomy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51676</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
+        <obo:IAO_0000115>The presence of a calculus in the pelvis of the kidney; this is most often composed of mineral salts and proteins.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Kidney Stone</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Nephrolithiasis</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Renal Calculi</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C114667</oboInOwl:source>
+        <rdfs:label>nephrolithiasis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C114667</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00281 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00281">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is the accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>INCREASING ABDOMINAL DISTENTION</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2885</oboInOwl:source>
+        <rdfs:label>ascites</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2885</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that is abnormal enlargement of the spleen.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3384</oboInOwl:source>
+        <rdfs:label>splenomegaly</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3384</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
+        <obo:IAO_0000115>Abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Cyst of Kidney</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Cyst of the Kidney</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Kidney Cyst</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Renal Cyst</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3970</oboInOwl:source>
+        <rdfs:label>kidney cyst</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3970</skos:closeMatch>
     </owl:Class>
     
 
@@ -3432,33 +4318,16 @@ along the main bile duct wall running parallel with the portal vein in the perip
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#liver_hemangioma -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#Right_Lobe_Hepatic_Mass_Mixed_echo_finding -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#liver_hemangioma">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00220"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00220"/>
-        <obo:IAO_0000115>A hemangioma arising from the liver.</obo:IAO_0000115>
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Right_Lobe_Hepatic_Mass_Mixed_echo_finding">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <oboInOWL:hasExactSynonym>Angioma of Liver</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Angioma of the Liver</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Hemangioma of Liver</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Hemangioma of the Liver</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Hepatic Angioma</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Hepatic Hemangioma</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Liver Angioma</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3869</oboInOwl:source>
-        <rdfs:label>liver hemangioma</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3869</skos:closeMatch>
+        <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>mixed in echogenicity</oboInOwl:hasSynonym>
+        <rdfs:label>right lobe hepatic mass mixed echo finding</rdfs:label>
     </owl:Class>
     
 
@@ -3626,6 +4495,14 @@ along the main bile duct wall running parallel with the portal vein in the perip
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00195"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00196"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00197"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00235"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00236"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00237"/>
         </owl:members>
     </rdf:Description>
 </rdf:RDF>
