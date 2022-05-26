@@ -1252,7 +1252,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00086 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00086">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>surgical resection of hilar cholangiocarcinoma</rdfs:label>
@@ -2559,7 +2559,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00163 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00163">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical removal of all or part of the liver.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>hepatectomy</rdfs:label>
@@ -2571,7 +2571,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00164">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#supportive_care"/>
         <obo:IAO_0000115>The patient- and family-centered active holistic care of patients with advanced, progressive disease. Essential components of palliative care are: pain and symptom control, communication regarding treatment and alternatives, prognosis, and available services, rehabilitation services, care that addresses treatment and palliative concerns, intellectual, emotional, social, and spiritual needs, terminal care, support in bereavement. The goal of palliative care is an achievement of the best quality of life for patients and their families.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative therapy</rdfs:label>
@@ -2595,7 +2595,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00166 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00166">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical procedure in which the doctor creates a new pathway for the flow of body fluids.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bypass</rdfs:label>
@@ -2648,7 +2648,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00172 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00172">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>The spread of a malignant neoplasm to the peritoneum from another primary anatomic site.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the peritoneum</rdfs:label>
@@ -2672,7 +2672,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00174 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00174">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical placement of a plastic or metal tube into the bile duct to treat bile duct stricture.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>biliary stenting</rdfs:label>
@@ -4036,7 +4036,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00270">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
-        <obo:IAO_0000115>A finding about a gallbladder based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000115>A finding about kidney based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
         <rdfs:label>finding about kidney</rdfs:label>
     </owl:Class>
     
@@ -4085,9 +4085,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00274"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis without a hydronephrosis</obo:IAO_0000115>
-        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C26796</obo:IAO_0000119>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about nephrolithiasis without hydronephrosis</rdfs:label>
     </owl:Class>
     
@@ -4096,7 +4096,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00276 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00276">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical procedure to completely or partially remove a kidney. With a complete nephrectomy, the attached adrenal gland, perinephric fat, and regional lymph nodes are often removed as well. With a partial nephrectomy, the removed tissue contains the tumor and a rim of normal renal parenchyma only.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
@@ -4121,12 +4121,28 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00278 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00278">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical removal of the gallbladder.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51676</oboInOwl:source>
         <rdfs:label>cholecystectomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51676</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00279 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00279">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
+        <obo:IAO_0000115>Abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Cyst of Kidney</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Cyst of the Kidney</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Kidney Cyst</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Renal Cyst</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3970</oboInOwl:source>
+        <rdfs:label>kidney cyst</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3970</skos:closeMatch>
     </owl:Class>
     
 
@@ -4171,18 +4187,335 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00284 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00284">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283"/>
+        <obo:IAO_0000115>A finding about the right post nephrectomy</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
+        <rdfs:label>finding about right post nephrectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00285 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00285">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283"/>
+        <obo:IAO_0000115>A finding about the left post nephrectomy</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
+        <rdfs:label>finding about left post nephrectomy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00286 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00275"/>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about right nephrolithiasis without hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00287 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00287">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00275"/>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about left nephrolithiasis without hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <obo:IAO_0000115>believed likely</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C71458</oboInOwl:source>
+        <rdfs:label>suspected</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C71458</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00292 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00292">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00291"/>
+        <obo:IAO_0000115>A suspected that believed likely to have cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:label>suspected cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00293 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00293">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process by which information about the health status of an individual is obtained after a study has officially closed; an activity that continues something that has already begun or that repeats something that has already been done.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Active Follow-up</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Clinical Signs Follow-up</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Follow-Up</oboInOWL:hasExactSynonym>
+        <rdfs:label>follow up</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process that is to plan and establish the time for an event</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C172421</oboInOwl:source>
+        <rdfs:label>schedule</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C172421</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00295 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00295">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>The act of conveying or transporting from one place to another.</obo:IAO_0000115>
+        <rdfs:label>transfer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00296 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00296">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
+        <obo:IAO_0000115>The spread of a malignant neoplasm from a primary site to the skeletal system.  The majority of metastatic neoplasms to the bone are carcinomas.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3580</oboInOwl:source>
+        <rdfs:label>metastatic malignant neoplasm in the bone</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3580</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00297 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00297">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
-        <obo:IAO_0000115>Abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>Cyst of Kidney</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Cyst of the Kidney</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Kidney Cyst</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Renal Cyst</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3970</oboInOwl:source>
-        <rdfs:label>kidney cyst</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3970</skos:closeMatch>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
+        <obo:IAO_0000115>A malignant neoplasm that has spread to the brain from another anatomic site or system. The majority are carcinomas (usually lung or breast carcinomas)</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3813</oboInOwl:source>
+        <rdfs:label>metastatic malignant neoplasm in the brain</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3813</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <obo:IAO_0000115>A neoplasm that is confined to the site in which it initially manifested.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C36037</oboInOwl:source>
+        <rdfs:label>non-metastatic neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36037</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <obo:IAO_0000115>A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>CAT</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>CAT Scan</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>CT scan</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Computerized Axial Tomography</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>computerized axial tomography</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>computerized tomography</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C17204</oboInOwl:source>
+        <rdfs:label>computed tomography</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C17204</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <obo:IAO_0000115>A diagnostic process that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000115>
+        <obo:IAO_0000118>A procedure in which radio waves and a powerful magnet linked to a computer are used to create detailed pictures of areas inside the body. These pictures can show the difference between normal and diseased tissue. NMRI makes better images of organs and soft tissue than other scanning techniques, such as computed tomography (CT) or x-ray. NMRI is especially useful for imaging the brain, the spine, the soft tissue of joints, and the inside of bones.</obo:IAO_0000118>
+        <obo:IAO_0000118>Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000118>
+        <oboInOWL:hasExactSynonym>MR Imaging</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>MRI</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>MRI Scan</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Magnetic Resonance</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Magnetic Resonance Imaging</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Magnetic Resonance Imaging Scan</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Medical Imaging</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>NMR Imaging</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>NMRI</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Nuclear Magnetic Resonance</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>nuclear magnetic resonance imaging</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C16809</oboInOwl:source>
+        <rdfs:label>magnetic resonance imaging</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C16809</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00301 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00301">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00300"/>
+        <obo:IAO_0000115>A  non-invasive procedure in which magnetic resonance imaging is used to visualize the intrahepatic and extrahepatic bile ducts, the pancreatic duct, and the surrounding parenchyma.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>MRCP</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C113775</oboInOwl:source>
+        <rdfs:label>magnetic resonance cholangiopancreatography</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C113775</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>A therapeutiv procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Operation</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Surgery</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Surgical</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Surgical Interventions</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Surgical Procedure</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Surgically</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15329</oboInOwl:source>
+        <rdfs:label>surgical procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15329</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00303 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00303">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
+        <obo:IAO_0000115>A diagnostic process which is the removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Bx</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15189</oboInOwl:source>
+        <rdfs:label>biopsy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15189</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00304 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00304">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
+        <obo:IAO_0000115>A biopsy that is removal of tissue from the bile duct for microscopic examination.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51642</oboInOwl:source>
+        <rdfs:label>biopsy of bile duct</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51642</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
+        <obo:IAO_0000115>A biopsy which is removal of tissue from the liver for microscopic examination.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Biopsy of Liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>http://purl.obolibrary.org/obo/NCIT_C51677</oboInOWL:hasExactSynonym>
+        <rdfs:label>liver biopsy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00308 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00308">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
+        <obo:IAO_0000115>A surgical procedure which is surgical removal of part of the pancreas, duodenum, and distal part of the bile duct.  Sometimes, the lower portion of the stomach and the gallbladder are also removed.  This procedure is performed for pancreatic, ampullary, duodenal and distal bile duct cancers.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Pancreaticoduodenectomy</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15356</oboInOwl:source>
+        <rdfs:label>whipple procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15356</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00183"/>
+        <obo:IAO_0000115>Any therapy that is administered to augment or stimulate other treatment modalities or to minimize or prevent disease recurrence subsequent to the main treatment plan.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15675</oboInOwl:source>
+        <rdfs:label>adjuvant therapy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15675</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00310 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00310">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00309"/>
+        <obo:IAO_0000115>A chemotherapy that is administered subsequent to the main treatment plan to minimize or prevent disease recurrence.</obo:IAO_0000115>
+        <rdfs:label>adjuvant chemotherapy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
+        <obo:IAO_0000115>Treatment of disease through the use of drugs.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15986</oboInOwl:source>
+        <rdfs:label>pharmacotherapy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15986</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>An active process; excludes processes and mechanisms which fulfill biological functions.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>General activity</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C43431</oboInOwl:source>
+        <rdfs:label>activity</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C43431</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
+        <obo:IAO_0000115>An activity involved in the performance of executive, supervisory, or managerial duties.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C49235</oboInOwl:source>
+        <rdfs:label>administrative activity</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C49235</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00315 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00315">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00314"/>
+        <obo:IAO_0000115>An administrative activity that is the release of a patient from a course of care.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Discharge</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Discharge from Healthcare Facility</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Release</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C25166</oboInOwl:source>
+        <rdfs:label>patient discharge</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C25166</skos:closeMatch>
     </owl:Class>
     
 
@@ -4332,6 +4665,49 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#cholangitis -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#cholangitis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
+        <rdfs:label>cholangitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about left nephrolithiasis with hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about nephrolithiasis with hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_right_nephrolithiasis_with_hydronephrosis -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_right_nephrolithiasis_with_hydronephrosis">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about right nephrolithiasis with hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology">
@@ -4346,6 +4722,68 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:annotatedTarget>A tumor morphologymixed type phenotypes in which contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#needle_biopsy -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
+        <obo:IAO_0000115>A biopsy that is the removal of a tissue sample using a needle, for microscopic examination.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Aspiration Biopsy</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Puncture Biopsy</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15190</oboInOwl:source>
+        <rdfs:label>needle biopsy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15190</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#needle_biopsy_of_liver -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy_of_liver">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy"/>
+        <obo:IAO_0000115>A biopsy thay is removal of tissue from the liver for microscopic examination, using a needle.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51675</oboInOwl:source>
+        <rdfs:label>needle biopsy of liver</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51675</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#referal -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#referal">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
+        <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
+        <rdfs:label>referal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#supportive_care -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#supportive_care">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>A therapeutic procedure which helps the patient and their family to cope with cancer and treatment of it from pre-diagnosis, through the process of diagnosis and treatment, to cure, continuing illness or death and into bereavement. It helps the patient to maximize the benefits of treatment and to live as well as possible with the effects of the disease. Supportive therapy may provide a patient with friendship, encouragement, practical advice such as access to community resources or how to develop a more active social life, vocational counseling, suggestions for minimizing friction with family members, and, above all, hope that the life of the patient may be improved. In all situations, supportive therapy involves the teaching of such life skills as managing medication, learning to socialize, handling finances, and getting a job.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Supportive Therapy</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Symptom Management</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Therapy, Supportive</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15747</oboInOwl:source>
+        <rdfs:label>supportive care</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15747</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283 -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a post nephrectomy</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
+        <rdfs:label>finding about post nephrectomy</rdfs:label>
+    </owl:Class>
     
 
 
