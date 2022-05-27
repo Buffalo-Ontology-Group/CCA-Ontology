@@ -10,3 +10,4 @@ http://purl.obolibrary.org/obo/PATO_0000912
 http://purl.obolibrary.org/obo/PATO_0000586
 http://purl.obolibrary.org/obo/PATO_0001511
 http://purl.obolibrary.org/obo/PATO_0001236
+http://purl.obolibrary.org/obo/PATO_0001422 

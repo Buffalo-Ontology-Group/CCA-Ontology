@@ -105,3 +105,9 @@ robot extract --method BOT --input C:\Users\anuwatpe\Documents\GitHub\CCA-Ontolo
 
 CL
 robot extract --method BOT --input C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\ontology_files\cl.owl --term-file C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\Input\CL_Robot.txt --output C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\Import/cl_robot_import.owl
+
+
+May 27, 2022
+robot extract --method BOT --input C:\Users\bob_b\Desktop\robotfile\pato.owl --term-file C:\Users\bob_b\Desktop\robotfile\Input\PATO_Robot.txt --output C:\Users\bob_b\Desktop\robotfile\import_mir/pato_mirt_import.owl
+
+robot extract --method BOT --input C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\ontology_files\pato.owl --term-file C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\Input\CL_Robot.txt --output C:\Users\anuwatpe\Documents\GitHub\CCA-Ontology\Import/pato_robot_import_05272022.owl

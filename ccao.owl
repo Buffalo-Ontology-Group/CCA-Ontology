@@ -885,54 +885,40 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00067 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00067">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>mass-forming intrahepatic cholangiocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder characterized by the inability of the liver to metabolize chemicals in the body. Causes include cirrhosis and drug-induced hepatotoxicity. Signs and symptoms include jaundice and encephalopathy. Laboratory test results reveal abnormal plasma levels of ammonia, bilirubin, lactic dehydrogenase, and alkaline phosphatase.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>hepatic failure</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26922</oboInOwl:source>
+        <rdfs:label>liver failure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26922</skos:closeMatch>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00067"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:12933488</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CCAO_00068 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00068">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>periductal infiltrating intrahepatic cholangiocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>Inflammation of the pancreas.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3306</oboInOwl:source>
+        <rdfs:label>pancreatitis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3306</skos:closeMatch>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00068"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that spreads along the biliary tree, characterized by growth along a bile duct, without mass formation.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
     <!-- http://purl.obolibrary.org/obo/CCAO_00069 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>intraductal intrahepatic cholangiocarcinoma</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is an acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>kidney failure</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>renal failure syndrome</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>renal insufficiency</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4376</oboInOwl:source>
+        <rdfs:label>renal failure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4376</skos:closeMatch>
     </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00069"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An Intrahepatic Cholangiocarcinoma that shows papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
-    </owl:Axiom>
     
 
 
@@ -1494,10 +1480,18 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology, consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00099"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology, consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</owl:annotatedTarget>
+        <oboInOWL:hasExactSynonym>PMID:21191517</oboInOWL:hasExactSynonym>
+        <oboInOwl:hasDbXref>PMID:12933488</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1516,10 +1510,17 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology characterized by growth along the biliary tree, without mass formation.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>intrahepatic bile duct periductal infiltrating cholangiocarcinoma</rdfs:label>
+        <rdfs:label>intrahepatic periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00100"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology characterized by growth along the biliary tree, without mass formation.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -1538,10 +1539,16 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
-        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>intrahepatic bile duct intraductal cholangiocarcinoma</rdfs:label>
+        <rdfs:label>intrahepatic intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00101"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>PMID:21191517</oboInOwl:hasDbXref>
+    </owl:Axiom>
     
 
 
@@ -2257,14 +2264,14 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
-        <obo:IAO_0000115>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</obo:IAO_0000115>
+        <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the lung or pleura.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>metastatic malignant neoplasm in the lung, metastatic malignant neoplasm in the pleura</rdfs:label>
+        <rdfs:label>metastatic malignant neoplasm in the lung or pleura</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00138"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A metastatic malignant neoplasm in which the  neoplasm is present in the pleura or lung.</owl:annotatedTarget>
+        <owl:annotatedTarget>A metastatic malignant neoplasm in which the neoplasm is present in the lung or pleura.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>NCIT_C3577</oboInOwl:hasDbXref>
         <oboInOwl:hasDbXref>NCIT_C3579</oboInOwl:hasDbXref>
     </owl:Axiom>
@@ -4167,7 +4174,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder which is the accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>INCREASING ABDOMINAL DISTENTION</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>increasing abdominal distention</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2885</oboInOwl:source>
         <rdfs:label>ascites</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2885</skos:closeMatch>
@@ -4229,23 +4236,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00291 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00291">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <obo:IAO_0000115>believed likely</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C71458</oboInOwl:source>
-        <rdfs:label>suspected</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C71458</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00291"/>
-        <obo:IAO_0000115>A suspected that believed likely to have cholangiocarcinoma</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00318"/>
+        <obo:IAO_0000115>A clinical finding that a patient is likely to have cholangiocarcinoma</obo:IAO_0000115>
         <rdfs:label>suspected cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -4509,13 +4504,167 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00315">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00314"/>
-        <obo:IAO_0000115>An administrative activity that is the release of a patient from a course of care.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
+        <obo:IAO_0000115>A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
+        <obo:IAO_0000118>discharge process</obo:IAO_0000118>
         <oboInOWL:hasExactSynonym>Discharge</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Discharge from Healthcare Facility</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Release</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C25166</oboInOwl:source>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/OMRSE_00000126</oboInOwl:source>
         <rdfs:label>patient discharge</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C25166</skos:closeMatch>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/OMRSE_00000126</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
+        <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
+        <rdfs:label>referal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding about cancer</obo:IAO_0000115>
+        <rdfs:label>clinical finding about cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is the flow of blood from a ruptured blood vessel.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>bleeding</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26791</oboInOwl:source>
+        <rdfs:label>hemorrhage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26791</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00321"/>
+        <obo:IAO_0000115>A hemorrhage characterized by bleeding in the abdominal cavity.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C78372</oboInOwl:source>
+        <rdfs:label>intra-abdominal hemorrhage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C78372</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder resulting from the presence and activity of a microbial, viral, fungal, or parasitic agent. It can be transmitted by direct or indirect contact.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Clinical Infection</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>ID</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Infection</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26726</oboInOwl:source>
+        <rdfs:label>infectious disorder</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26726</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00323"/>
+        <obo:IAO_0000115>Infection of a break in the skin or other tissue.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C45234</oboInOwl:source>
+        <rdfs:label>wound infection</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C45234</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that is the unintentional discharge of a substance from a container or enclosed space.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>spillage</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C40416</oboInOwl:source>
+        <rdfs:label>leakage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C40416</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00325"/>
+        <obo:IAO_0000115>A leakage that is the loss of any normal body fluid into the surrounding tissue or body cavity.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>body fluid spillage</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C40419</oboInOwl:source>
+        <rdfs:label>body fluid leakage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C40419</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00327 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00327">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00326"/>
+        <obo:IAO_0000115>A body fluid leakage of bile into the abdominal cavity as a result of injury to the bile duct.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C141238</oboInOwl:source>
+        <rdfs:label>bile duct leakage</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C141238</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A process that manifests as the worsening of a disease over time.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C17747</oboInOwl:source>
+        <rdfs:label>disease progression</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C17747</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+        <obo:IAO_0000115>A clinical finding that a person has no significant health-related issues.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C115935</oboInOwl:source>
+        <rdfs:label>healthy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C115935</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00331 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00331">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
+        <rdfs:label>withdraw</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00332">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00331"/>
+        <rdfs:label>consent withdrawn</rdfs:label>
     </owl:Class>
     
 
@@ -4547,6 +4696,46 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0020000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0020000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
+        <rdfs:label>identifier</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021009"/>
+        <obo:IAO_0000115>A deontic declaration creating or revoking a deontic role by lawfully manipulating (signing, stamping, publishing) a document.</obo:IAO_0000115>
+        <rdfs:label>deontic document act</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <obo:IAO_0000115>A planned process that is carried out by a conscious being or an organization, and is self-generated, directed towards another conscious being or an aggregate of conscious beings, an organization or an aggregate of organizations, and that is in need of being perceived.</obo:IAO_0000115>
+        <rdfs:label>social act</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0021009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
+        <obo:IAO_0000115>A social act that creates or revokes a deontic role.</obo:IAO_0000115>
+        <rdfs:label>deontic declaration</rdfs:label>
     </owl:Class>
     
 
@@ -4675,6 +4864,18 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://www.co-ode.org/ontologies/ont.owl#effusion -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#effusion">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A disorder which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3003</oboInOwl:source>
+        <rdfs:label>effusion</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3003</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis">
@@ -4712,14 +4913,14 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
-        <obo:IAO_0000115>A tumor morphologymixed type phenotypes in which contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</obo:IAO_0000115>
+        <obo:IAO_0000115>A tumor morphology of mixed phenotype which contains more than one of the following types: mass forming, periductal infiltrating, or intraductal.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mixed type tumor morphology</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A tumor morphologymixed type phenotypes in which contains more than one of the mass forming type, Periductal infiltrating type, or Intraductal type.</owl:annotatedTarget>
+        <owl:annotatedTarget>A tumor morphology of mixed phenotype which contains more than one of the following types: mass forming, periductal infiltrating, or intraductal.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
     </owl:Axiom>
     
@@ -4751,12 +4952,26 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#referal -->
+    <!-- http://www.co-ode.org/ontologies/ont.owl#pleural_effusion -->
 
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#referal">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
-        <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
-        <rdfs:label>referal</rdfs:label>
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#pleural_effusion">
+        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#effusion"/>
+        <obo:IAO_0000115>An effusion that is Increased amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough, and chest pain. It is usually caused by lung infections, congestive heart failure, pleural and lung tumors, connective tissue disorders, and trauma.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3331</oboInOwl:source>
+        <rdfs:label>pleural effusion</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3331</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm -->
+
+    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
+        <rdfs:label>recurrent neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4798</skos:closeMatch>
     </owl:Class>
     
 
@@ -4834,26 +5049,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00065"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00066"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00067"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00068"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00069"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00067"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00068"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00069"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00070"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00099"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00100"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00101"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
