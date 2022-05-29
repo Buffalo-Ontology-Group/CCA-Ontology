@@ -2578,7 +2578,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00164 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00164">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#supportive_care"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00312"/>
         <obo:IAO_0000115>The patient- and family-centered active holistic care of patients with advanced, progressive disease. Essential components of palliative care are: pain and symptom control, communication regarding treatment and alternatives, prognosis, and available services, rehabilitation services, care that addresses treatment and palliative concerns, intellectual, emotional, social, and spiritual needs, terminal care, support in bereavement. The goal of palliative care is an achievement of the best quality of life for patients and their families.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative therapy</rdfs:label>
@@ -2590,7 +2590,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00165 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00165">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>partial removal of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>partial hepatectomy</rdfs:label>
@@ -2668,7 +2668,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00186"/>
-        <obo:IAO_0000115>Surgical examination of the contents of the abdominal cavity as a means of diagnosis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A diagnostic surgical procedure which is a surgical examination of the contents of the abdominal cavity as a means of diagnosis.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51779</skos:closeMatch>
@@ -2892,6 +2892,19 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cancer TNM finding</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C48232</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00192 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00192">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115></obo:IAO_0000115>
+        <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/MP_0003253</obo:IAO_0000119>
+        <rdfs:label>dilated bile duct</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/MP_0003253</skos:closeMatch>
     </owl:Class>
     
 
@@ -3813,26 +3826,13 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00252 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00252">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
-        <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
-        <obo:IAO_0000119>http://purl.obolibrary.org/obo/MP_0003253</obo:IAO_0000119>
-        <rdfs:label>dilated bile duct</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/MP_0003253</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00253 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00253">
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00192"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
@@ -3840,7 +3840,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
         <obo:IAO_0000115>A dilated bile duct located in the left lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -3855,7 +3855,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00192"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
@@ -3863,7 +3863,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>left lobe dilated bile duct</rdfs:label>
@@ -3877,7 +3877,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00252"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00192"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001174"/>
@@ -3885,7 +3885,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00252"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
         <obo:IAO_0000115>A dilated bile duct located in the common bile duct</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>dilated common bile duct</rdfs:label>
@@ -4254,7 +4254,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <oboInOWL:hasExactSynonym>Active Follow-up</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Clinical Signs Follow-up</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Follow-Up</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C16033</oboInOwl:source>
         <rdfs:label>follow up</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C16033</skos:closeMatch>
     </owl:Class>
     
 
@@ -4422,8 +4424,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
         <obo:IAO_0000115>A biopsy which is removal of tissue from the liver for microscopic examination.</obo:IAO_0000115>
         <oboInOWL:hasExactSynonym>Biopsy of Liver</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>http://purl.obolibrary.org/obo/NCIT_C51677</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51677</oboInOwl:source>
         <rdfs:label>liver biopsy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51677</skos:closeMatch>
     </owl:Class>
     
 
@@ -4471,6 +4474,21 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15986</oboInOwl:source>
         <rdfs:label>pharmacotherapy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15986</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000115>A therapeutic procedure which helps the patient and their family to cope with cancer and treatment of it from pre-diagnosis, through the process of diagnosis and treatment, to cure, continuing illness or death and into bereavement. It helps the patient to maximize the benefits of treatment and to live as well as possible with the effects of the disease. Supportive therapy may provide a patient with friendship, encouragement, practical advice such as access to community resources or how to develop a more active social life, vocational counseling, suggestions for minimizing friction with family members, and, above all, hope that the life of the patient may be improved. In all situations, supportive therapy involves the teaching of such life skills as managing medication, learning to socialize, handling finances, and getting a job.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Supportive Therapy</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Symptom Management</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Therapy, Supportive</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15747</oboInOwl:source>
+        <rdfs:label>supportive care</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15747</skos:closeMatch>
     </owl:Class>
     
 
@@ -4533,6 +4551,30 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about cancer</obo:IAO_0000115>
         <rdfs:label>clinical finding about cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00319 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3003</oboInOwl:source>
+        <rdfs:label>effusion</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3003</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00319"/>
+        <obo:IAO_0000115>An effusion that is Increased amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough, and chest pain. It is usually caused by lung infections, congestive heart failure, pleural and lung tumors, connective tissue disorders, and trauma.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3331</oboInOwl:source>
+        <rdfs:label>pleural effusion</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3331</skos:closeMatch>
     </owl:Class>
     
 
@@ -4864,18 +4906,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#effusion -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#effusion">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <obo:IAO_0000115>A disorder which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3003</oboInOwl:source>
-        <rdfs:label>effusion</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3003</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis">
@@ -4952,18 +4982,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://www.co-ode.org/ontologies/ont.owl#pleural_effusion -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#pleural_effusion">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#effusion"/>
-        <obo:IAO_0000115>An effusion that is Increased amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough, and chest pain. It is usually caused by lung infections, congestive heart failure, pleural and lung tumors, connective tissue disorders, and trauma.</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3331</oboInOwl:source>
-        <rdfs:label>pleural effusion</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3331</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm">
@@ -4972,21 +4990,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
         <rdfs:label>recurrent neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4798</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#supportive_care -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#supportive_care">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
-        <obo:IAO_0000115>A therapeutic procedure which helps the patient and their family to cope with cancer and treatment of it from pre-diagnosis, through the process of diagnosis and treatment, to cure, continuing illness or death and into bereavement. It helps the patient to maximize the benefits of treatment and to live as well as possible with the effects of the disease. Supportive therapy may provide a patient with friendship, encouragement, practical advice such as access to community resources or how to develop a more active social life, vocational counseling, suggestions for minimizing friction with family members, and, above all, hope that the life of the patient may be improved. In all situations, supportive therapy involves the teaching of such life skills as managing medication, learning to socialize, handling finances, and getting a job.</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>Supportive Therapy</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Symptom Management</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Therapy, Supportive</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15747</oboInOwl:source>
-        <rdfs:label>supportive care</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15747</skos:closeMatch>
     </owl:Class>
     
 
