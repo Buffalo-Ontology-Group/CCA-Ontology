@@ -146,25 +146,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/CCAO_00077 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/CCAO_00077">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
-        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00076"/>
-        <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/CCAO_00077"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref>ISBN:9780443103735</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
@@ -670,6 +651,17 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <obo:IAO_0000115>A conclusion that a participant reports brother or sister has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>conclusion that participant reports brother or sister has cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00047 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00047">
@@ -845,6 +837,17 @@
         <obo:IAO_0000115>A conclusion that a participant reports not being diagnosed with disease by cilnician</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being diagnosed with disease by cilnician</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis b by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>conclusion that participant reports being diagnosed with hepatitis b by clinician</rdfs:label>
     </owl:Class>
     
 
@@ -1081,6 +1084,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00077"/>
         <obo:IAO_0000115>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic portal vein morphology</rdfs:label>
@@ -1090,6 +1094,24 @@
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</owl:annotatedTarget>
         <obo:IAO_0000119>https://doi.org/10.1016/B978-0-443-10373-5.50007-5</obo:IAO_0000119>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
+        <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00077"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>ISBN:9780443103735</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19890198</oboInOwl:hasDbXref>
     </owl:Axiom>
     
 
@@ -1611,7 +1633,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
-        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>Perihilar Intraductal Cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1637,6 +1659,12 @@
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal cholangiocarcinoma</rdfs:label>
     </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A cholangiocarcinoma that locates in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</owl:annotatedTarget>
+        <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
+    </owl:Axiom>
     
 
 
@@ -1655,7 +1683,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
-        <obo:IAO_0000115>A distal cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>A distal cholangiocarcinoma that has a mass-forming tumor morphology, consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1677,7 +1705,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
-        <obo:IAO_0000115>A distal cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>A distal cholangiocarcinoma that has a periductal infiltrating tumor morphology, characterized by growth along the biliary tree, without mass formation.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1699,7 +1727,7 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
-        <obo:IAO_0000115>A distal cholangiocarcinoma that has an intraductal tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000115>A distal cholangiocarcinoma that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2432,10 +2460,33 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00147">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001064"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>malignant neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9305</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00148 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00148">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCA_00147"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>carcinoma</rdfs:label>
         <skos:closeMatch>A malignant neoplasm arising from epithelial cells. Carcinomas that arise from glandular epithelium are called adenocarcinomas, those that arise from squamous epithelium are called squamous cell carcinomas, and those that arise from transitional epithelium are called transitional cell carcinomas. Morphologically, the malignant epithelial cells may display abnormal mitotic figures, anaplasia, and necrosis. Carcinomas are graded by the degree of cellular differentiation as well, moderately, or poorly differentiated. Carcinomas invade the surrounding tissues and tend to metastasize to other anatomic sites. Lung carcinoma, skin carcinoma, breast carcinoma, colon carcinoma, and prostate carcinoma are the most frequently seen carcinomas.</skos:closeMatch>
@@ -2452,6 +2503,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:label>adenocarcinoma</rdfs:label>
         <skos:closeMatch>A carcinoma characterized by the presence of malignant glandular cells.  Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).  Representative examples of adenocarcinoma are ductal and lobular breast carcinoma, lung adenocarcinoma, renal cell carcinoma, hepatocellular carcinoma (hepatoma), colon adenocarcinoma, and prostate adenocarcinoma.</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2852</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00150">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
+        <obo:IAO_0000115>A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
+        <obo:IAO_0000118>discharge process</obo:IAO_0000118>
+        <oboInOWL:hasExactSynonym>Discharge</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Discharge from Healthcare Facility</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Release</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/OMRSE_00000126</oboInOwl:source>
+        <rdfs:label>patient discharge</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/OMRSE_00000126</skos:closeMatch>
     </owl:Class>
     
 
@@ -2545,7 +2612,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading the main portal vein or its branches bilaterally, or the common hepatic artery; or unilateral second-order biliary radicals with contralateral portal vein or hepatic artery involvement.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4 TNM finding v8</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134598</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134730</skos:closeMatch>
     </owl:Class>
     
@@ -2851,6 +2917,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </rdfs:subClassOf>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>diagnostic surgical procedure</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C64979</skos:closeMatch>
     </owl:Class>
     
 
@@ -2870,7 +2937,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>a cholangiocarinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion</obo:IAO_0000115>
+        <obo:IAO_0000115>a cholangiocarcinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>https://www.karger.com/Article/FullText/360791</oboInOwl:source>
         <rdfs:label>perihilar cholangiocarcinoma</rdfs:label>
@@ -2878,7 +2945,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a cholangiocarinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion</owl:annotatedTarget>
+        <owl:annotatedTarget>a cholangiocarcinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion.</owl:annotatedTarget>
         <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
     </owl:Axiom>
     
@@ -3662,6 +3729,20 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the right lobe of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
+        <oboInOwl:hasSynonym>mixed in echogenicity</oboInOwl:hasSynonym>
+        <rdfs:label>right lobe hepatic mass mixed echo finding</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00242 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00242">
@@ -4194,10 +4275,21 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a post nephrectomy</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
+        <rdfs:label>finding about post nephrectomy</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00284 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00284">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00283"/>
         <obo:IAO_0000115>A finding about the right post nephrectomy</obo:IAO_0000115>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>finding about right post nephrectomy</rdfs:label>
@@ -4208,7 +4300,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00285 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00285">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00283"/>
         <obo:IAO_0000115>A finding about the left post nephrectomy</obo:IAO_0000115>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>finding about left post nephrectomy</rdfs:label>
@@ -4232,6 +4324,39 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00275"/>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about left nephrolithiasis without hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about nephrolithiasis with hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00289">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00288"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about right nephrolithiasis with hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00288"/>
+        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
+        <rdfs:label>finding about left nephrolithiasis with hydronephrosis</rdfs:label>
     </owl:Class>
     
 
@@ -4431,6 +4556,32 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
+        <obo:IAO_0000115>A biopsy that is the removal of a tissue sample using a needle, for microscopic examination.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Aspiration Biopsy</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Puncture Biopsy</oboInOWL:hasExactSynonym>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15190</oboInOwl:source>
+        <rdfs:label>needle biopsy</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15190</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00306"/>
+        <obo:IAO_0000115>A biopsy thay is removal of tissue from the liver for microscopic examination, using a needle.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51675</oboInOwl:source>
+        <rdfs:label>needle biopsy of liver</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51675</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00308 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00308">
@@ -4518,29 +4669,24 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00315 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00315">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00314"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115>A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
-        <obo:IAO_0000118>discharge process</obo:IAO_0000118>
-        <oboInOWL:hasExactSynonym>Discharge</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Discharge from Healthcare Facility</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Release</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/OMRSE_00000126</oboInOwl:source>
-        <rdfs:label>patient discharge</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/OMRSE_00000126</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00316 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
         <rdfs:label>referal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26718</oboInOwl:source>
+        <rdfs:label>cholangitis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26718</skos:closeMatch>
     </owl:Class>
     
 
@@ -4705,31 +4851,13 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00332">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00331"/>
-        <rdfs:label>consent withdrawn</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CCA_00147 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCA_00147">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00146"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001064"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
-        <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>malignant neoplasm</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9305</skos:closeMatch>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00331"/>
+        <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
+        <rdfs:label>consent withdrawn</rdfs:label>
+        <rdfs:label>recurrent neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4798</skos:closeMatch>
     </owl:Class>
     
 
@@ -4860,85 +4988,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reports_brother_or_sister">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
-        <obo:IAO_0000115>A conclusion that a participant reports brother or sister has cholangiocarcinoma</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>conclusion that participant reports brother or sister has cholangiocarcinoma</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis b by clinician</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>conclusion that participant reports being diagnosed with hepatitis b by clinician</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#Right_Lobe_Hepatic_Mass_Mixed_echo_finding -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#Right_Lobe_Hepatic_Mass_Mixed_echo_finding">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the right lobe of the liver</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
-        <oboInOwl:hasSynonym>mixed in echogenicity</oboInOwl:hasSynonym>
-        <rdfs:label>right lobe hepatic mass mixed echo finding</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#cholangitis -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#cholangitis">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
-        <rdfs:label>cholangitis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_left_nephrolithiasis_with_hydronephrosis">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis"/>
-        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
-        <rdfs:label>finding about left nephrolithiasis with hydronephrosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
-        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
-        <rdfs:label>finding about nephrolithiasis with hydronephrosis</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#finding_about_right_nephrolithiasis_with_hydronephrosis -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#finding_about_right_nephrolithiasis_with_hydronephrosis">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#finding_about_nephrolithiasis_with_hydronephrosis"/>
-        <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
-        <rdfs:label>finding about right nephrolithiasis with hydronephrosis</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology -->
 
     <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#mixed_type_tumor_morphology">
@@ -4953,55 +5002,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:annotatedTarget>A tumor morphology of mixed phenotype which contains more than one of the following types: mass forming, periductal infiltrating, or intraductal.</owl:annotatedTarget>
         <oboInOwl:hasDbXref>PMID:28261592</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#needle_biopsy -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
-        <obo:IAO_0000115>A biopsy that is the removal of a tissue sample using a needle, for microscopic examination.</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>Aspiration Biopsy</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Puncture Biopsy</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15190</oboInOwl:source>
-        <rdfs:label>needle biopsy</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15190</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#needle_biopsy_of_liver -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy_of_liver">
-        <rdfs:subClassOf rdf:resource="http://www.co-ode.org/ontologies/ont.owl#needle_biopsy"/>
-        <obo:IAO_0000115>A biopsy thay is removal of tissue from the liver for microscopic examination, using a needle.</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51675</oboInOwl:source>
-        <rdfs:label>needle biopsy of liver</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51675</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#recurrent_neoplasm">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
-        <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
-        <rdfs:label>recurrent neoplasm</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4798</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283 -->
-
-    <owl:Class rdf:about="http://www.co-ode.org/ontologies/ont.owl#http://purl.obolibrary.org/obo/CCAO_00283">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
-        <obo:IAO_0000115>A finding about a post nephrectomy</obo:IAO_0000115>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
-        <rdfs:label>finding about post nephrectomy</rdfs:label>
-    </owl:Class>
     
 
 
@@ -5048,10 +5048,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
         <owl:members rdf:parseType="Collection">
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00062"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00063"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00064"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00065"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00066"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#participant_reportshepatitis_B"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
