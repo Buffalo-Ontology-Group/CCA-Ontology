@@ -24,9 +24,11 @@
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oba.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/omrse.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/pato.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/uberon.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
         <owl:imports rdf:resource="https://github.com/OGMS/ogms/releases/tag/v2019-04-30"/>
     </owl:Ontology>
     
@@ -2507,22 +2509,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021001"/>
-        <obo:IAO_0000115>A deontic document act that concludes an inpatient encounter.</obo:IAO_0000115>
-        <obo:IAO_0000118>discharge process</obo:IAO_0000118>
-        <oboInOWL:hasExactSynonym>Discharge</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Discharge from Healthcare Facility</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Release</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/OMRSE_00000126</oboInOwl:source>
-        <rdfs:label>patient discharge</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/OMRSE_00000126</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00151 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00151">
@@ -4876,36 +4862,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
         <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
         <rdfs:label>identifier</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021001 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021001">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021009"/>
-        <obo:IAO_0000115>A deontic declaration creating or revoking a deontic role by lawfully manipulating (signing, stamping, publishing) a document.</obo:IAO_0000115>
-        <rdfs:label>deontic document act</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021003 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021003">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <obo:IAO_0000115>A planned process that is carried out by a conscious being or an organization, and is self-generated, directed towards another conscious being or an aggregate of conscious beings, an organization or an aggregate of organizations, and that is in need of being perceived.</obo:IAO_0000115>
-        <rdfs:label>social act</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/IAO_0021009 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0021009">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0021003"/>
-        <obo:IAO_0000115>A social act that creates or revokes a deontic role.</obo:IAO_0000115>
-        <rdfs:label>deontic declaration</rdfs:label>
     </owl:Class>
     
 
