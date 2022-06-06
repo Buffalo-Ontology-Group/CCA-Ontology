@@ -19,7 +19,8 @@
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
-    <owl:Ontology>
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ccca.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ccca.owl/1.0"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oba.owl"/>
@@ -892,6 +893,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00067">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder characterized by the inability of the liver to metabolize chemicals in the body. Causes include cirrhosis and drug-induced hepatotoxicity. Signs and symptoms include jaundice and encephalopathy. Laboratory test results reveal abnormal plasma levels of ammonia, bilirubin, lactic dehydrogenase, and alkaline phosphatase.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>hepatic failure</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26922</oboInOwl:source>
         <rdfs:label>liver failure</rdfs:label>
@@ -1657,14 +1659,14 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>A cholangiocarcinoma that locates in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cholangiocarcinoma that is located in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cholangiocarcinoma that locates in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</owl:annotatedTarget>
+        <owl:annotatedTarget>A cholangiocarcinoma that is located in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</owl:annotatedTarget>
         <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
     </owl:Axiom>
     
@@ -2125,6 +2127,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00128">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00204"/>
         <obo:IAO_0000115>An Intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2142,6 +2145,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00204"/>
         <obo:IAO_0000115>An intrahepatic bile duct cancer pT4 TNM finding v8 that the intrahepatic Bile Duct Cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2193,6 +2197,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00132">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 that the perihilar bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2210,6 +2215,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00133">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00161"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT4 TNM finding v8 in that the perihilar bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2227,6 +2233,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00134">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer is growing and has spread to the main blood vessel and the lymph nodes but not distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal bile duct cancer pT4A TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2244,6 +2251,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00135">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00162"/>
         <obo:IAO_0000115>A distal bile duct cancer pT4 TNM Finding v8 that the distal bile duct cancer has either spread to lymph nodes away from the tumor or it has spread to distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal bile duct cancer pT4B TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2313,6 +2321,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00139">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00171"/>
         <obo:IAO_0000115>A calcification in the hepatic tissue</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Liver Calcification</oboInOWL:hasExactSynonym>
         <rdfs:label>hepatic calcification</rdfs:label>
@@ -2344,6 +2353,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00141">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00169"/>
         <obo:IAO_0000115>A  fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/24420706/</obo:IAO_0000119>
         <rdfs:label>periductal fibrosis</rdfs:label>
@@ -2363,6 +2373,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00142">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 1</rdfs:label>
     </owl:Class>
@@ -2380,6 +2391,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00143">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo along the segmental bile duct wall running parallel with the portal vein.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 2</rdfs:label>
     </owl:Class>
@@ -2397,6 +2409,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
         <obo:IAO_0000115>A periductal fibrosis which has a high echo along the main bile duct wall running parallel with the portal vein in the periportal space.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal fibrosis 3</rdfs:label>
     </owl:Class>
@@ -2548,6 +2561,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
         <obo:IAO_0000115>An increase or decrease in the weight of an individual.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>weight change</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9232</skos:closeMatch>
@@ -2560,6 +2574,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00155">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00154"/>
         <obo:IAO_0000115>A reduction in total body weight.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>weight loss</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3445</skos:closeMatch>
@@ -2572,6 +2587,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
         <obo:IAO_0000115>A feeling of general discomfort or uneasiness, an out-of-sorts feeling.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malaise</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3832</skos:closeMatch>
@@ -2596,6 +2612,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00161">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading the main portal vein or its branches bilaterally, or the common hepatic artery; or unilateral second-order biliary radicals with contralateral portal vein or hepatic artery involvement.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT4 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134730</skos:closeMatch>
@@ -2608,6 +2625,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00162">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer with tumor involving the celiac axis, superior mesenteric artery, and/or common hepatic artery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal bile duct cancer pT4 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134803</skos:closeMatch>
@@ -2668,6 +2686,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00169">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder resulting from the formation of excess fibrous connective tissue in an organ or tissue.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>fibrosis</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3044</skos:closeMatch>
@@ -2692,6 +2711,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00171">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A deposition of calcium in the tissues. It may be the result of a metabolic disorder or long-standing infection, or it may be associated with the presence of cancer.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>calcinosis</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>calcium deposit(s)</oboInOWL:hasExactSynonym>
@@ -2769,6 +2789,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00177">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma according to the location of the tumor and the extent of biliary infiltration by the tumor, based on the Bismuth-Corlette Perihilar Cholangiocarcinoma Classification System.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Bismuth-Corlette Hilar Cholangiocarcinoma Classification</oboInOWL:hasExactSynonym>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Classification</rdfs:label>
@@ -2782,6 +2803,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type I, because the cholangiocarcinoma involves only the common hepatic duct below the confluence of the left and right hepatic ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type I</rdfs:label>
@@ -2800,6 +2822,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00179">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type II, because the cholangiocarcinoma involves the hepatic bile duct confluence, but there is no invasion above the confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type II</rdfs:label>
@@ -2818,6 +2841,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00180">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa, because the cholangiocarcinoma affects the right hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIa</rdfs:label>
@@ -2836,6 +2860,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00181">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb, because the cholangiocarcinoma affects the left hepatic duct in addition to the biliary confluence.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IIIb</rdfs:label>
@@ -2854,6 +2879,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00182">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00177"/>
         <obo:IAO_0000115>A clinical finding about a perihilar cholangiocarcinoma that classifies the carcinoma as a Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV, because the cholangiocarcinoma involves both the right and left hepatic ducts and the confluence and reaches the secondary intrahepatic biliary system or involves multiple discontinuous sites in the right and left ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Based upon Bismuth-Corette Classification of Perihilar Cholangiocarcinoma</rdfs:comment>
         <rdfs:label>Bismuth-Corlette Perihilar Cholangiocarcinoma Type IV</rdfs:label>
@@ -2942,6 +2968,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00191">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about cancer using the TNM diagnosis system</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cancer TNM finding</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C48232</skos:closeMatch>
@@ -2955,6 +2982,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/MP_0003253</obo:IAO_0000119>
         <rdfs:label>dilated bile duct</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/MP_0003253</skos:closeMatch>
@@ -2967,6 +2995,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
         <obo:IAO_0000115>A finding about one or more characteristics of distal bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to bile duct adenocarcinomas, biliary intraepithelial neoplasia, high-grade neuroendocrine carcinomas, and papillary carcinomas. Tumors arising in the ampulla of Vater, sarcomas, and well-differentiated neuroendocrine tumors (carcinoids) are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134788</oboInOwl:source>
         <rdfs:label>distal bile duct cancer TNM finding v8</rdfs:label>
@@ -2980,6 +3009,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth less than 5 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pT1 TNM Finding v8</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134800</oboInOwl:source>
@@ -2994,6 +3024,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00196">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth of 5-12 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C134801</obo:IAO_0000119>
         <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pT2 TNM Finding v8</oboInOWL:hasExactSynonym>
@@ -3008,6 +3039,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00197">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer with tumor invading the bile duct wall with a depth greater than 12 mm. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C134802</obo:IAO_0000119>
         <rdfs:label>distal bile duct cancer pT3 TNM finding v8</rdfs:label>
@@ -3021,6 +3053,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00198">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00194"/>
         <obo:IAO_0000115>Distal bile duct cancer in which the primary tumor cannot be assessed. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Distal Bile Duct Carcinoma pTX TNM Finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pTX</oboInOWL:hasExactSynonym>
@@ -3050,6 +3083,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00200">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with no evidence of primary tumor. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT0 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134590</oboInOwl:source>
@@ -3064,6 +3098,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00201">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with solitary tumor equal to or less than 5 cm, or larger than 5 cm without vascular invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT1 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT1</oboInOWL:hasExactSynonym>
@@ -3079,6 +3114,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00202">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with solitary tumor with intrahepatic vascular invasion, or multiple tumors, with or without vascular invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT2 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT2</oboInOWL:hasExactSynonym>
@@ -3094,6 +3130,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00203">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor perforating the visceral peritoneum. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Intrahepatic Bile Duct Carcinoma pT3 TNM Finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT3</oboInOWL:hasExactSynonym>
@@ -3109,6 +3146,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00204">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT4 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT4</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134598</oboInOwl:source>
@@ -3123,6 +3161,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00205">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00199"/>
         <obo:IAO_0000115>Intrahepatic bile duct cancer with tumor involving local extrahepatic structures by direct invasion. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma pT4 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT4</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134598</oboInOwl:source>
@@ -3137,6 +3176,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00206">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
         <obo:IAO_0000115>A cancer TNM finding about one or more characteristics of perihilar bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to perihilar cholangiocarcinomas. Well-differentiated neuroendocrine tumors and sarcomas are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Perihilar Cholangiocarcinoma TNM Finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma TNM finding v8</oboInOWL:hasExactSynonym>
@@ -3152,6 +3192,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00207">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>Perihilar bile duct cancer with no evidence of primary tumor. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Hilar Cholangiocarcinoma pT0 TNM Finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Perihilar Cholangiocarcinoma pT0 TNM Finding v8</oboInOWL:hasExactSynonym>
@@ -3167,7 +3208,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00208">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
-        <obo:IAO_0000115>Perihilar bile duct cancer with tumor confined to the bile duct, with extension up to the muscle layer or fibrous tissue. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000115>A perihilar bile duct cancer with tumor confined to the bile duct, with extension up to the muscle layer or fibrous tissue. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pT1 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT1</oboInOWL:hasExactSynonym>
@@ -3183,7 +3225,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00209">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
-        <obo:IAO_0000115>Perihilar bile duct cancer with tumor invading beyond the wall of the bile duct to surrounding adipose tissue, or tumor invading adjacent hepatic parenchyma. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading beyond the wall of the bile duct to surrounding adipose tissue, or tumor invading adjacent hepatic parenchyma. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pT2 TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pT2</oboInOWL:hasExactSynonym>
@@ -3200,6 +3243,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00210">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>Perihilar bile duct cancer in which the primary tumor cannot be assessed. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>hilar cholangiocarcinoma pTX TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>pTX</oboInOWL:hasExactSynonym>
@@ -3278,6 +3322,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder characterized by replacement of the liver parenchyma with fibrous tissue and regenerative nodules. It is usually caused by alcoholism, hepatitis B, and hepatitis C. Complications include the development of ascites, esophageal varices, bleeding, and hepatic encephalopathy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>cirrhosis of the liver</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>liver cirrhosis</oboInOWL:hasExactSynonym>
@@ -3288,23 +3333,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00215 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00215">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder which is a benign or malignant pathologic structure in any part of the body, resulting from a neoplastic accumulation of cells, inflammatory cells, or cystic changes.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34808</oboInOwl:source>
-        <rdfs:label>mass</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34808</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00215"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
         <obo:IAO_0000115>A mass that affects the liver parenchyma.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -3321,6 +3353,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that s a sac-like closed membranous structure that may be empty or contain fluid or amorphous material.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2978</oboInOwl:source>
         <rdfs:label>cyst</rdfs:label>
@@ -3334,6 +3367,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00218">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
         <obo:IAO_0000115>A cystic lesion located in the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Cyst of Liver</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Liver Cyst</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3960</oboInOwl:source>
@@ -3409,12 +3443,13 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder which is a concretion of material in the body, usually composed of mineral salts. Representative examples include gallbladder stones, kidney stones, and salivary gland stones.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000115>An object aggregate that is a concretion of material in the body, usually composed of mineral salts. Representative examples include gallbladder stones, kidney stones, and salivary gland stones.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <oboInOWL:hasExactSynonym>Calculi</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>calculi</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>calculus</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35708</oboInOwl:source>
+        <rdfs:comment>Accumulated material from the secretions of an organ. It is solid and representative examples include gallbladder stones, kidney stones, and salivary gland stones. (alternative definition)</rdfs:comment>
         <rdfs:label>stone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35708</skos:closeMatch>
     </owl:Class>
@@ -3494,7 +3529,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A single hepatic mass located in the right lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>right lobe single hepatic Mass</rdfs:label>
+        <rdfs:label>right lobe single hepatic mass</rdfs:label>
     </owl:Class>
     
 
@@ -3954,6 +3989,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
         <obo:IAO_0000115>A dilated bile duct located in the common bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>dilated common bile duct</rdfs:label>
     </owl:Class>
@@ -3965,6 +4001,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00256">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
         <obo:IAO_0000115>A finding about a gallbladder based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about gallbladder</rdfs:label>
     </owl:Class>
     
@@ -3975,6 +4012,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00257">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about a gallbladder which shows a thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>https://doi.org/10.1590/S0100-39842011000600010</obo:IAO_0000119>
         <obo:IAO_0000119>https://radiologyassistant.nl/abdomen/biliary-system/gallbladder-wall-thickening</obo:IAO_0000119>
         <rdfs:label>finding of thickening of wall of gallbladder</rdfs:label>
@@ -3987,6 +4025,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00258">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00257"/>
         <obo:IAO_0000115>A finding of a focal thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>https://radiopaedia.org/articles/focal-gallbladder-wall-thickening-differential?lang=us</obo:IAO_0000119>
         <obo:IAO_0000119>https://www-ajronline-org.gate.lib.buffalo.edu/doi/full/10.2214/ajr.12.10386?mobileUi=0</obo:IAO_0000119>
         <rdfs:label>finding of focal thickening of wall of gallbladder</rdfs:label>
@@ -3999,6 +4038,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00259">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00257"/>
         <obo:IAO_0000115>A finding of a diffuse thickening of the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding of diffuse thickening of wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4009,6 +4049,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00260">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about a polyp in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.mayoclinic.org/gallbladder-polyps/expert-answers/faq-20058450#:~:text=Gallbladder%20polyps%20are%20growths%20that,)%20or%20noncancerous%20(benign).</obo:IAO_0000119>
         <rdfs:label>finding about a polyp in wall of gallbladder</rdfs:label>
     </owl:Class>
@@ -4020,6 +4061,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00261">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00260"/>
         <obo:IAO_0000115>A finding about a single polyp in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a single polyp in wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4030,6 +4072,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00262">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00260"/>
         <obo:IAO_0000115>A finding about the multiple polyps in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about multiple polyps in wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4040,6 +4083,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00263">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about a mass in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a mass in wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4050,6 +4094,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00263"/>
         <obo:IAO_0000115>A finding about a single mass in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a single mass in wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4060,6 +4105,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00265">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00263"/>
         <obo:IAO_0000115>A finding about the multiple masses in the wall of the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about multiple masses wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4070,6 +4116,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00266">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about a stone in the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a stone in gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4080,6 +4127,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00267">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00266"/>
         <obo:IAO_0000115>A finding about a single stone in the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a single stone in gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4090,6 +4138,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00268">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00266"/>
         <obo:IAO_0000115>A finding about the multiple stones in the gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about multiple stones in gallbladder</rdfs:label>
     </owl:Class>
     
@@ -4100,6 +4149,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00269">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about a post cholecystectomy</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a post cholecystectomy</rdfs:label>
         <skos:closeMatch>http://purl.bioontology.org/ontology/NDFRT/N0000003602</skos:closeMatch>
     </owl:Class>
@@ -4121,6 +4171,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00271">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a cyst in the kidneys</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a cyst in kidneys</rdfs:label>
     </owl:Class>
     
@@ -4131,6 +4182,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00272">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
         <obo:IAO_0000115>A finding about a cyst in the right kidney</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a cyst in right kidney</rdfs:label>
     </owl:Class>
     
@@ -4151,6 +4203,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00274">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a kidney parenchyma with an atypical abnormal function</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about kidney parenchyma with atypical abnormal function</rdfs:label>
     </owl:Class>
     
@@ -4161,6 +4214,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00275">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis without a hydronephrosis</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about nephrolithiasis without hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4210,6 +4264,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
         <obo:IAO_0000115>Abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Cyst of Kidney</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Cyst of the Kidney</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Kidney Cyst</oboInOWL:hasExactSynonym>
@@ -4226,11 +4281,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
         <obo:IAO_0000115>The presence of a calculus in the pelvis of the kidney; this is most often composed of mineral salts and proteins.</obo:IAO_0000115>
-        <oboInOWL:hasExactSynonym>Kidney Stone</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Nephrolithiasis</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Renal Calculi</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>kidney stone</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C114667</oboInOwl:source>
-        <rdfs:label>nephrolithiasis</rdfs:label>
+        <rdfs:label>kidney stone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C114667</skos:closeMatch>
     </owl:Class>
     
@@ -4241,6 +4296,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00281">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder which is the accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>increasing abdominal distention</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2885</oboInOwl:source>
         <rdfs:label>ascites</rdfs:label>
@@ -4266,6 +4322,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a post nephrectomy</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>finding about post nephrectomy</rdfs:label>
     </owl:Class>
@@ -4277,6 +4334,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00284">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00283"/>
         <obo:IAO_0000115>A finding about the right post nephrectomy</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>finding about right post nephrectomy</rdfs:label>
     </owl:Class>
@@ -4288,6 +4346,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00283"/>
         <obo:IAO_0000115>A finding about the left post nephrectomy</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>finding about left post nephrectomy</rdfs:label>
     </owl:Class>
@@ -4298,6 +4357,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00286">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00275"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about right nephrolithiasis without hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4308,6 +4368,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00287">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00275"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about left nephrolithiasis without hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4319,6 +4380,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about nephrolithiasis with hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4330,6 +4392,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00289">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00288"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about right nephrolithiasis with hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4341,6 +4404,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00290">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00288"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26796</oboInOwl:source>
         <rdfs:label>finding about left nephrolithiasis with hydronephrosis</rdfs:label>
     </owl:Class>
@@ -4352,6 +4416,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00292">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00318"/>
         <obo:IAO_0000115>A clinical finding that a patient is likely to have cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>suspected cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
@@ -4377,6 +4442,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00294">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A process that is to plan and establish the time for an event</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C172421</oboInOwl:source>
         <rdfs:label>schedule</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C172421</skos:closeMatch>
@@ -4389,6 +4455,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00295">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>The act of conveying or transporting from one place to another.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>transfer</rdfs:label>
     </owl:Class>
     
@@ -4635,6 +4702,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00313">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>An active process; excludes processes and mechanisms which fulfill biological functions.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>General activity</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C43431</oboInOwl:source>
         <rdfs:label>activity</rdfs:label>
@@ -4648,6 +4716,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00314">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000115>An activity involved in the performance of executive, supervisory, or managerial duties.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C49235</oboInOwl:source>
         <rdfs:label>administrative activity</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C49235</skos:closeMatch>
@@ -4660,6 +4729,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>referal</rdfs:label>
     </owl:Class>
     
@@ -4670,6 +4740,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00317">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26718</oboInOwl:source>
         <rdfs:label>cholangitis</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26718</skos:closeMatch>
@@ -4682,6 +4753,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00318">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about cancer</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>clinical finding about cancer</rdfs:label>
     </owl:Class>
     
@@ -4692,6 +4764,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00319">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3003</oboInOwl:source>
         <rdfs:label>effusion</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3003</skos:closeMatch>
@@ -4704,6 +4777,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00320">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00319"/>
         <obo:IAO_0000115>An effusion that is Increased amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough, and chest pain. It is usually caused by lung infections, congestive heart failure, pleural and lung tumors, connective tissue disorders, and trauma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3331</oboInOwl:source>
         <rdfs:label>pleural effusion</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3331</skos:closeMatch>
@@ -4716,6 +4790,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00321">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder which is the flow of blood from a ruptured blood vessel.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bleeding</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26791</oboInOwl:source>
         <rdfs:label>hemorrhage</rdfs:label>
@@ -4729,6 +4804,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00322">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00321"/>
         <obo:IAO_0000115>A hemorrhage characterized by bleeding in the abdominal cavity.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C78372</oboInOwl:source>
         <rdfs:label>intra-abdominal hemorrhage</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C78372</skos:closeMatch>
@@ -4741,6 +4817,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder resulting from the presence and activity of a microbial, viral, fungal, or parasitic agent. It can be transmitted by direct or indirect contact.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Clinical Infection</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>ID</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Infection</oboInOWL:hasExactSynonym>
@@ -4756,6 +4833,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00324">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00323"/>
         <obo:IAO_0000115>Infection of a break in the skin or other tissue.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C45234</oboInOwl:source>
         <rdfs:label>wound infection</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C45234</skos:closeMatch>
@@ -4768,6 +4846,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00325">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is the unintentional discharge of a substance from a container or enclosed space.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>spillage</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C40416</oboInOwl:source>
         <rdfs:label>leakage</rdfs:label>
@@ -4781,6 +4860,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00326">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00325"/>
         <obo:IAO_0000115>A leakage that is the loss of any normal body fluid into the surrounding tissue or body cavity.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>body fluid spillage</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C40419</oboInOwl:source>
         <rdfs:label>body fluid leakage</rdfs:label>
@@ -4794,6 +4874,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00327">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00326"/>
         <obo:IAO_0000115>A body fluid leakage of bile into the abdominal cavity as a result of injury to the bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C141238</oboInOwl:source>
         <rdfs:label>bile duct leakage</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C141238</skos:closeMatch>
@@ -4806,6 +4887,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00328">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A process that manifests as the worsening of a disease over time.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C17747</oboInOwl:source>
         <rdfs:label>disease progression</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C17747</skos:closeMatch>
@@ -4818,6 +4900,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00329">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding that a person has no significant health-related issues.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C115935</oboInOwl:source>
         <rdfs:label>healthy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C115935</skos:closeMatch>
@@ -4829,6 +4912,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>withdraw</rdfs:label>
     </owl:Class>
     
@@ -4840,6 +4924,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00331"/>
         <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
         <rdfs:label>consent withdrawn</rdfs:label>
         <rdfs:label>recurrent neoplasm</rdfs:label>
