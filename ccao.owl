@@ -20,7 +20,7 @@
      xmlns:oboInOWL="http://www.geneontology.org/formats/oboInOWL#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ccca.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ccca.owl/1.0"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ccca.owl/0.2"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/dron.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/oba.owl"/>
@@ -3333,10 +3333,39 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00215 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00215">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder that is a benign or malignant pathologic structure in any part of the body, resulting from a neoplastic accumulation of cells, inflammatory cells, or cystic changes.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34808</oboInOwl:source>
+        <rdfs:label>mass</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34808</skos:closeMatch>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00216 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000125"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000087"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00215"/>
         <obo:IAO_0000115>A mass that affects the liver parenchyma.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -3443,7 +3472,26 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00223 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00223">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000030"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000087"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000463"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115>An object aggregate that is a concretion of material in the body, usually composed of mineral salts. Representative examples include gallbladder stones, kidney stones, and salivary gland stones.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>calculi</oboInOWL:hasExactSynonym>
@@ -3491,17 +3539,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00226 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00226">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00226"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
         <obo:IAO_0000115>A hepatic mass which is the only hepatic mass in a liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -4922,11 +4959,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00332">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00331"/>
         <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
-        <rdfs:label>consent withdrawn</rdfs:label>
         <rdfs:label>recurrent neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4798</skos:closeMatch>
     </owl:Class>
@@ -4948,6 +4983,41 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
         <rdfs:label>identifier</rdfs:label>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000045 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000087"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000069"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000087 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000087">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
