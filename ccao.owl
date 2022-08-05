@@ -116,6 +116,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00157">
         <obo:IAO_0000115>A role used to relate a disease to the anatomical site where the originating pathological process is located. The domain and the range for this role are &apos;Disease, Disorder or Finding&apos; and &apos;Anatomic Structure, System, or Substance&apos;, respectively.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_has_primary_anatomic_site</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R101</skos:closeMatch>
@@ -127,6 +128,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00158">
         <obo:IAO_0000115>A role used to represent that a clinical observation, sign or symptom will only be observed in some cases of the disease. Both the domain and range for this role are &apos;Disease, Disorder or Finding&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_may_have_finding</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R115</skos:closeMatch>
@@ -138,6 +140,7 @@
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/CCAO_00159">
         <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>disorder_has_abnormal_cell</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_R105</skos:closeMatch>
@@ -204,6 +207,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about his or her gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about gender</rdfs:label>
     </owl:Class>
@@ -216,6 +220,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00001"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00003"/>
         <obo:IAO_0000115>A conclusion that a participant reports female gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports female gender</rdfs:label>
     </owl:Class>
@@ -227,6 +232,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00003">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00001"/>
         <obo:IAO_0000115>A conclusion that a participant reports male gender</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports male gender</rdfs:label>
     </owl:Class>
@@ -238,6 +244,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their highest educational level</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about highest educational level</rdfs:label>
     </owl:Class>
@@ -249,6 +256,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports no education</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports no education</rdfs:label>
     </owl:Class>
@@ -260,6 +268,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports attending primary school</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports attending primary school</rdfs:label>
     </owl:Class>
@@ -271,6 +280,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00008">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports attending senior high school</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports attending senior high school</rdfs:label>
     </owl:Class>
@@ -282,6 +292,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00009">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports completing certificate degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing certificate degree</rdfs:label>
     </owl:Class>
@@ -293,6 +304,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00010">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a partipant reports completing bachelor degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing bachelor degree</rdfs:label>
     </owl:Class>
@@ -304,6 +316,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00004"/>
         <obo:IAO_0000115>A conclusion that a participant reports completing master or higher degree</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports completing master or higher degree</rdfs:label>
     </owl:Class>
@@ -315,6 +328,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00012">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their education</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about occupation</rdfs:label>
     </owl:Class>
@@ -326,6 +340,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00013">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as unemployed</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as unemployed</rdfs:label>
     </owl:Class>
@@ -337,6 +352,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>conclusion that participant reports occupation as farmer</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as farmer</rdfs:label>
     </owl:Class>
@@ -348,6 +364,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as freelancer</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as freelancer</rdfs:label>
     </owl:Class>
@@ -359,6 +376,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as private business</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as private business</rdfs:label>
     </owl:Class>
@@ -370,6 +388,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00017">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as civil servant</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as civil servant</rdfs:label>
     </owl:Class>
@@ -381,6 +400,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00012"/>
         <obo:IAO_0000115>A conclusion that a participant reports occupation as other</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports occupation as other</rdfs:label>
     </owl:Class>
@@ -392,6 +412,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about their history of fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -403,6 +424,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had no fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had no fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -414,6 +436,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had one fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had one fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -425,6 +448,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had two fecal examinations for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had two fecal examinations for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -436,6 +460,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had three fecal examinations for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had three fecal examinations for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -447,6 +472,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had fecal examinations for liver fluke egg more than three times</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having had fecal examinations for liver fluke egg more than three times</rdfs:label>
     </owl:Class>
@@ -458,6 +484,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being able to remember about having had fecal examination for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being able to remember about having had fecal examination for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -469,6 +496,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of found liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of found liver fluke egg</rdfs:label>
     </owl:Class>
@@ -480,6 +508,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports never having been examined for liver fluke egg</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports never having been examined for liver fluke egg</rdfs:label>
     </owl:Class>
@@ -491,6 +520,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports being examined but not having liver fluke egg found</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined but not having liver fluke egg found</rdfs:label>
     </owl:Class>
@@ -502,6 +532,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>A conclusion that a participant reports being examined and having liver fluke egg found</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined and having liver fluke egg found</rdfs:label>
     </owl:Class>
@@ -513,6 +544,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00026"/>
         <obo:IAO_0000115>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being examined but not being able to remember whether liver fluke eggs were found upon examination</rdfs:label>
     </owl:Class>
@@ -524,6 +556,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about history of treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about history of treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -535,6 +568,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports never receiving treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports never receiving treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -546,6 +580,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having once received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having once received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -557,6 +592,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having twice received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having twice received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -568,6 +604,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports having three times received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having three times received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -579,6 +616,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports more than three times having received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports more than three times having received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -590,6 +628,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being able to remember about having received treatment with antiparasitic drug</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being able to remember about having received treatment with antiparasitic drug</rdfs:label>
     </owl:Class>
@@ -601,6 +640,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports they have relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -612,6 +652,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -623,6 +664,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports parental grand father or mother</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant report parental grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -634,6 +676,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00041">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports maternal grandfather or grandmother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports maternal grandfather or grandmother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -645,6 +688,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports aunt or uncle has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports aunt or uncle has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -656,6 +700,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
         <obo:IAO_0000115>A conclusion that a participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:note>อาหรือน้า</oboInOwl:note>
         <rdfs:label>conclusion that participant reports younger brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
@@ -668,6 +713,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports father or mother has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -679,6 +725,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports son or daughter</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports son or daughter has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -690,6 +737,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00046">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports brother or sister has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports brother or sister has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -701,6 +749,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00047">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports cousin has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports cousin has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -712,6 +761,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
         <obo:IAO_0000115>A conclusion that a participant reports spouse has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports spouse has cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -723,6 +773,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00049">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about smoking</rdfs:label>
     </owl:Class>
@@ -735,6 +786,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00051"/>
         <obo:IAO_0000115>A conclusion that a participant reports not smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not smoking</rdfs:label>
     </owl:Class>
@@ -746,6 +798,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00051">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00049"/>
         <obo:IAO_0000115>A conclusion that a participant reports smoking</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports smoking</rdfs:label>
     </owl:Class>
@@ -757,6 +810,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about alcohol consumption</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about alcohol consumption</rdfs:label>
     </owl:Class>
@@ -769,6 +823,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00054"/>
         <obo:IAO_0000115>A conclusion that a participant reports that they do not consume alcohol</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports that they do not consume alcohol</rdfs:label>
     </owl:Class>
@@ -780,6 +835,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00052"/>
         <obo:IAO_0000115>A conclusion that a participant reports alcohol consumption</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports alcohol consumption</rdfs:label>
     </owl:Class>
@@ -791,6 +847,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00055">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about having alcoholism</rdfs:label>
     </owl:Class>
@@ -802,6 +859,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00056">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
         <obo:IAO_0000115>A conclusion that a participant reports not having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having alcoholism</rdfs:label>
     </owl:Class>
@@ -813,6 +871,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00057">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00055"/>
         <obo:IAO_0000115>A conclusion that a participant reports having alcoholism</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports having alcoholism</rdfs:label>
     </owl:Class>
@@ -824,6 +883,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00058">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
@@ -836,6 +896,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00060"/>
         <obo:IAO_0000115>A conclusion that a participant reports no consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports no consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
@@ -847,6 +908,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00060">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00058"/>
         <obo:IAO_0000115>A conclusion that a participant reports consumption of raw fresh-water fish or raw fermented fish</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports consumption of raw fresh-water fish or raw fermented fish</rdfs:label>
     </owl:Class>
@@ -858,6 +920,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00061">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about diagnosis of disease by cilnician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion about participant report about diagnosis of disease by cilnician</rdfs:label>
     </owl:Class>
@@ -869,6 +932,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports not being diagnosed with disease by cilnician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not being diagnosed with disease by cilnician</rdfs:label>
     </owl:Class>
@@ -880,6 +944,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00063">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis b by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with hepatitis b by clinician</rdfs:label>
     </owl:Class>
@@ -891,6 +956,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis c by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with hepatitis c by clinician</rdfs:label>
     </owl:Class>
@@ -902,6 +968,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with diabetes by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with diabetes by clinician</rdfs:label>
     </owl:Class>
@@ -913,6 +980,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes with other disease</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with other disease by clinician</rdfs:label>
     </owl:Class>
@@ -938,6 +1006,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>Inflammation of the pancreas.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3306</oboInOwl:source>
         <rdfs:label>pancreatitis</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3306</skos:closeMatch>
@@ -950,6 +1019,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder which is an acute or chronic condition that is characterized by the inability of the kidneys to adequately filter the blood.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>kidney failure</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>renal failure syndrome</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>renal insufficiency</oboInOWL:hasExactSynonym>
@@ -976,6 +1046,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma that contains more than one of the mass forming type, periductal infiltrating type, or intraductal type.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic cholangiocarcinoma of mixed type</rdfs:label>
     </owl:Class>
@@ -1004,6 +1075,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_VT0002191"/>
         <obo:IAO_0000115>The morphology of a hepatic artery</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>hepatic artery morphology</rdfs:label>
     </owl:Class>
@@ -1027,6 +1099,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00073"/>
         <obo:IAO_0000115>A hepatic artery morphology with a normal phenotype.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic artery morphology</rdfs:label>
     </owl:Class>
@@ -1045,6 +1118,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00073">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00071"/>
         <obo:IAO_0000115>A hepatic artery morphology in which the main hepatic artery is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Encasement Hepatic Artery</oboInOwl:hasSynonym>
         <rdfs:label>cholangiocarcinoma-encased hepatic artery</rdfs:label>
@@ -1075,6 +1149,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00075"/>
         <obo:IAO_0000115>A hepatic vein morphology with a normal phenotype in which the hepatic veins drains from the upper part of the posterior surface of the liver at an oblique angle directly into the vena cava.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic vein morphology</rdfs:label>
     </owl:Class>
@@ -1092,6 +1167,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005055"/>
         <obo:IAO_0000115>A hepatic vein morphology in which the main hepatic vein is encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-encased vein</rdfs:label>
     </owl:Class>
@@ -1121,6 +1197,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00077"/>
         <obo:IAO_0000115>A hepatic portal vein mophology with a normal phenotype. The morphology of a normal hepatic portal vein is formed by the union of the superior mesenteric and the splenic veins behind the neck of the pancreas. The inferior mesenteric vein may join the splenic vein or the superior mesenteric vein. The portal vein thus drains blood from most of the gastrointestinal tract. Blood then traverses the liver in the hepatic sinusoids and empties into the central veins through which it reaches the inferior vena cava.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal hepatic portal vein morphology</rdfs:label>
     </owl:Class>
@@ -1138,6 +1215,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0005145"/>
         <obo:IAO_0000115>A hepatic portal vein morphology in which the main portal vein encased by a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-encased hepatic portal vein</rdfs:label>
     </owl:Class>
@@ -1167,6 +1245,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBA_0003703"/>
         <obo:IAO_0000115>A lymph node morphology in which the morphology of the main lymph node is no cholangiocarcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>normal lymph node morphology</rdfs:label>
     </owl:Class>
@@ -1184,6 +1263,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A lymph node morphology in which a lymph node along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-positive lymph node along hepatoduodenal ligament</rdfs:label>
     </owl:Class>
@@ -1201,6 +1281,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A lymph node morphology in which a lymph node not located along the hepatoduodenal ligament is associated with a cholangiocarcinoma tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma-positive lymph node not located along hepatoduodenal ligament</rdfs:label>
     </owl:Class>
@@ -1212,6 +1293,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00081">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended right hepatectomy or a right trisegmentectomy, that involves resection of all segments lateral to the umbilical fissure (IV-VIII, and sometimes I).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>extended right hepatectomy</rdfs:label>
     </owl:Class>
@@ -1229,6 +1311,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, known as a extended left hepatectomy or a left trisegmentectomy, that includes resection of all liver medial to the umbilical fissure and a portion of the right liver (segments II-IV and segments V and VIII).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>extended left hepatectomy</rdfs:label>
     </owl:Class>
@@ -1246,6 +1329,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00083">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy, also known as the right hepatic trisectionectomy with caudate lobectomy, that includes resection of Couinaud&apos;s hepatic segments 1, 4, 5, 6, 7, and 8,9,10, usually indicated for advanced hilar cholangiocarcinoma, and involves mainly the right intrahepatic bile ducts in continuity with the left medial sectional bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>right hepatic trisectionectomy</rdfs:label>
     </owl:Class>
@@ -1263,6 +1347,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00084">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that includes resection of hepatic segments 2, 3, 4, 5, and 8 ± 1.  This operation was first described in detail by Starzl as left hepatic trisegmentectomy in 1982 and has recently been renamed. This procedure enables the resection of advanced tumors with curative intent.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>left hepatic trisectionectomy</rdfs:label>
     </owl:Class>
@@ -1280,6 +1365,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>A hepatectomy that involves resection of the tumor with a margin of at least 1 cm without regard to segmental, sectional or lobar anatomy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-anatomic hepatic resection</rdfs:label>
     </owl:Class>
@@ -1297,6 +1383,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical resection of hilar cholangiocarcinoma including the caudate lobe and part of segment IV, combined with a right or left hepatectomy, bile duct resection, lymphadenectomy of the hepatic hilum and sometimes vascular resection.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>surgical resection of hilar cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1313,6 +1400,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00166"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasDbXref>A bypass in which surgery of hepatic duct is done to help relieve symptoms caused by a blocked bile duct. During a biliary bypass, the gallbladder or a part of the bile duct before the blockage is connected to either a part of the bile duct that is past the blockage or to the small intestine. This allows bile to flow around the blockage to the gallbladder or small intestine.</oboInOwl:hasDbXref>
         <rdfs:label>hepatic duct bypass</rdfs:label>
@@ -1332,6 +1420,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00173"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00089"/>
         <obo:IAO_0000115>A exploratory laparotomy is an open surgery performed to gain access to the internal organs and tissues for diagnostic purposes. It aims to look for signs of disease that affect the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy of liver</rdfs:label>
     </owl:Class>
@@ -1349,6 +1438,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00089">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00173"/>
         <obo:IAO_0000115>An exploratory laparotomy of the liver which includes biopsy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy of liver Including biopsy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1365,6 +1455,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00164"/>
         <obo:IAO_0000115>A palliative therapy in which chemotherapy is given without curative intent, but simply to decrease tumor load and increase life expectancy, or treatment in circumstances where the impact of intervention is insufficient to result in major survival advantage, but does affect improvement in terms of tumor‐related symptoms.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>palliative chemotherapy</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -1382,6 +1473,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00175"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00092"/>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed prior to surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Pre-Operative PTBD</oboInOwl:hasSynonym>
         <rdfs:label>pre-operative percutaneous transhepatic biliary drainage</rdfs:label>
@@ -1400,6 +1492,7 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>A percutaneous transhepatic biliary drainage (PTBD) that is performed as palliative therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>Palliative PTDB</oboInOwl:hasSynonym>
         <rdfs:label>palliative percutaneous transhepatic biliary drainage</rdfs:label>
@@ -1419,6 +1512,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00174"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00094"/>
         <obo:IAO_0000115>biliary stenting that is performed prior to surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>pre-operative biliary stenting</rdfs:label>
     </owl:Class>
@@ -1447,6 +1541,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00174"/>
         <obo:IAO_0000115>biliary stenting that is performed as palliative therapy.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative biliar stenting</rdfs:label>
     </owl:Class>
@@ -1464,6 +1559,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00095">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0000051"/>
         <obo:IAO_0000115>The morphology of a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tumor morphology</rdfs:label>
     </owl:Class>
@@ -1475,6 +1571,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with a mass-forming phenotype. The tumor mass shows compressive growth, consisting of a single solid and lobulated mass and characterized by irregular but well-defined and non-encapsulated borders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mass-forming tumor morphology</rdfs:label>
     </owl:Class>
@@ -1492,6 +1589,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00097">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with a periductal infiltrating phenotype in which the tumor spreads along the biliary tree, without mass formation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>periductal infiltrating tumor morphology</rdfs:label>
     </owl:Class>
@@ -1510,6 +1608,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00098">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology with an intraductal intrahepatic phenotype in which the tumor shows papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intraductal intrahepatic tumor morphology</rdfs:label>
     </owl:Class>
@@ -1538,6 +1637,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a mass-forming tumor morphology, consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1568,6 +1668,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has a periductal infiltrating tumor morphology characterized by growth along the biliary tree, without mass formation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1597,6 +1698,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00151"/>
         <obo:IAO_0000115>An intrahepatic cholangiocarcinoma of the intrahepatic bile duct that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1625,6 +1727,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1647,6 +1750,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1669,6 +1773,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1690,14 +1795,15 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>A cholangiocarcinoma that is located in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cholangiocarcinoma found in the common bile duct between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which includes mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>A cholangiocarcinoma that is located in between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which include mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</owl:annotatedTarget>
+        <owl:annotatedTarget>A cholangiocarcinoma found in the common bile duct between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which includes mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</owl:annotatedTarget>
         <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
     </owl:Axiom>
     
@@ -1719,6 +1825,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has a mass-forming tumor morphology, consisting of a single solid and lobulated mass with no connection macroscopically discernible with a bile duct and characterized by irregular but well-defined and not encapsulated borders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1741,6 +1848,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has a periductal infiltrating tumor morphology, characterized by growth along the biliary tree, without mass formation.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1763,6 +1871,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00105"/>
         <obo:IAO_0000115>A distal cholangiocarcinoma that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>distal intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1774,6 +1883,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00095"/>
         <obo:IAO_0000115>A tumor morphology characterized by the presense of intracytoplasmic musin.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>mucinous tumor morphology</rdfs:label>
     </owl:Class>
@@ -1806,6 +1916,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-mucin producing cholangiocarcoma</rdfs:label>
     </owl:Class>
@@ -1839,6 +1950,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00112">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that lacks papillary or villous growth within the bile duct lumen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>mucinous</oboInOwl:hasSynonym>
         <oboInOwl:hasSynonym>mucoid</oboInOwl:hasSynonym>
@@ -1868,6 +1980,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
         <obo:IAO_0000115>A non-papillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-papillary non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1890,6 +2003,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00112"/>
         <obo:IAO_0000115>A non-papillary cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>non-papillary mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1901,6 +2015,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00115">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma with a non-invasive, papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1912,6 +2027,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00116">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma with papillary phenotype and which arises from the epithelium of the intrahepatic or extrahepatic bile ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1939,6 +2055,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00118"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1961,6 +2078,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>papillary non-invasive mucin produing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -1987,6 +2105,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bile duct papillary non-mucin producing invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2009,6 +2128,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bile duct papillary mucin producing invasive cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2020,6 +2140,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00121">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A intraductal cholangiocarcinoma with a predominant tubular growth pattern and contiguous non-neoplastic duct lining cells growing in solid sheets, and back-to-back tubules and lacking intracellular or extracellular mucin.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2047,6 +2168,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00123"/>
         <obo:IAO_0000115>A tubular cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2069,6 +2191,7 @@
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00121"/>
         <obo:IAO_0000115>A tubular cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubular mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2080,6 +2203,7 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00124">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A intraductal cholangiocarcinoma that is mass-forming, exophytic, characterized by large, smooth-contoured nodules, tubular architecture and abortive papilla formation. These tumors present predominantly as non-mucinous tubular units with/without sheet-like growth (≥70%), with only minimal or lack of papillary growth (≤30%).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2114,6 +2238,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00126"/>
         <obo:IAO_0000115>A tubulopapillary cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary non-mucin producing cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -2136,6 +2261,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00124"/>
         <obo:IAO_0000115>A tubulopapillary bile duct adenocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>tubulopapillary bile duct adenocarcinoma mucin producing</rdfs:label>
     </owl:Class>
@@ -2147,6 +2273,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00127">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A cholangiocarcinoma that does not exhibit an adenocarcinoma morphology.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cholangiocarcinoma with non-adenocarcinoma  morphology</rdfs:label>
     </owl:Class>
@@ -2194,6 +2321,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
         <obo:IAO_0000115>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer has spread to the main portal vein, the common hepatic artery, duodenum (first part of the small intestine), colon, stomach or abdominal wall, but not beyond. The cancer has not spread to the lymph nodes or distant sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT3A TNM finding v8</rdfs:label>
     </owl:Class>
@@ -2210,6 +2338,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00131">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00160"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasDbXref>A perihilar bile duct cancer pT3 TNM finding v8  that the perihilar bile duct cancer cells are found in nearby lymph nodes, but the cancer has not spread to distant sites.</oboInOwl:hasDbXref>
         <rdfs:label>perihilar bile duct cancer pT3B TNM finding v8</rdfs:label>
@@ -2300,6 +2429,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00172"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in the peritoneum in which the neoplasm is present in the omentum.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the omentum</rdfs:label>
     </owl:Class>
@@ -2317,6 +2447,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00137">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the diaphragm.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the diaphragm</rdfs:label>
     </owl:Class>
@@ -2334,6 +2465,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00138">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A metastatic malignant neoplasm in which the neoplasm is present in the lung or pleura.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the lung or pleura</rdfs:label>
     </owl:Class>
@@ -2372,6 +2504,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00140">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00042"/>
         <obo:IAO_0000115>A conclusion that a participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:note>ลุงหรือป้า</oboInOwl:note>
         <rdfs:label>conclusion that participant reports older brother or sister of his or her father or mother has cholangiocarcinoma</rdfs:label>
@@ -2469,6 +2602,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00149"/>
         <obo:IAO_0000115>A adenocarcinoma that arises from a bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bile duct adenocarcinoma</oboInOWL:hasExactSynonym>
         <rdfs:label>cholangiocarcinoma</rdfs:label>
@@ -2483,6 +2617,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00147">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malignant neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9305</skos:closeMatch>
@@ -2494,6 +2629,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00148">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>carcinoma</rdfs:label>
         <skos:closeMatch>A malignant neoplasm arising from epithelial cells. Carcinomas that arise from glandular epithelium are called adenocarcinomas, those that arise from squamous epithelium are called squamous cell carcinomas, and those that arise from transitional epithelium are called transitional cell carcinomas. Morphologically, the malignant epithelial cells may display abnormal mitotic figures, anaplasia, and necrosis. Carcinomas are graded by the degree of cellular differentiation as well, moderately, or poorly differentiated. Carcinomas invade the surrounding tissues and tend to metastasize to other anatomic sites. Lung carcinoma, skin carcinoma, breast carcinoma, colon carcinoma, and prostate carcinoma are the most frequently seen carcinomas.</skos:closeMatch>
@@ -2507,6 +2643,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00148"/>
         <obo:IAO_0000115>A carcinoma characterized by the presence of malignant glandular cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:comment>Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).  Representative examples of adenocarcinoma are ductal and lobular breast carcinoma, lung adenocarcinoma, renal cell carcinoma, hepatocellular carcinoma (hepatoma), colon adenocarcinoma, and prostate adenocarcinoma.</rdfs:comment>
         <rdfs:label>adenocarcinoma</rdfs:label>
@@ -2530,6 +2667,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
+        <obo:IAO_0000115>A cholangiocarcinoma found in any site of the intrahepatic biliary tree that arises from the intrahepatic bile duct epithelium</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic cholangiocarcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35417</skos:closeMatch>
@@ -2542,6 +2681,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000085"/>
         <obo:IAO_0000115>Painful sensation in the abdominal region.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>abdominal pain</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26682</skos:closeMatch>
@@ -2593,6 +2733,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00160">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00206"/>
         <obo:IAO_0000115>A perihilar bile duct cancer with tumor invading unilateral branches of the portal vein or hepatic artery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>perihilar bile duct cancer pT3 TNM finding v8</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C134729</skos:closeMatch>
@@ -2631,6 +2772,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00163">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical removal of all or part of the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>hepatectomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15249</skos:closeMatch>
@@ -2643,6 +2785,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00164">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00312"/>
         <obo:IAO_0000115>The patient- and family-centered active holistic care of patients with advanced, progressive disease. Essential components of palliative care are: pain and symptom control, communication regarding treatment and alternatives, prognosis, and available services, rehabilitation services, care that addresses treatment and palliative concerns, intellectual, emotional, social, and spiritual needs, terminal care, support in bereavement. The goal of palliative care is an achievement of the best quality of life for patients and their families.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>palliative therapy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15292</skos:closeMatch>
@@ -2655,6 +2798,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00165">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00163"/>
         <obo:IAO_0000115>partial removal of the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>partial hepatectomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15394</skos:closeMatch>
@@ -2667,6 +2811,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00166">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical procedure in which the doctor creates a new pathway for the flow of body fluids.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>bypass</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15723</skos:closeMatch>
@@ -2692,6 +2837,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00170">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A malignant tumor that has spread from its original (primary) site of growth to another site close to or distant from the primary site.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36263</skos:closeMatch>
@@ -2722,6 +2868,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00172">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>The spread of a malignant neoplasm to the peritoneum from another primary anatomic site.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm in the peritoneum</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4583</skos:closeMatch>
@@ -2734,6 +2881,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00173">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00186"/>
         <obo:IAO_0000115>A diagnostic surgical procedure which is a surgical examination of the contents of the abdominal cavity as a means of diagnosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>exploratory laparotomy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51779</skos:closeMatch>
@@ -2746,6 +2894,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00174">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical placement of a plastic or metal tube into the bile duct to treat bile duct stricture.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>biliary stenting</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C62741</skos:closeMatch>
@@ -2758,6 +2907,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>The drainage of fluid from the biliary tree via the insertion of a needle through the skin and liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>percutaneous transhepatic biliary drainage</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C93008</skos:closeMatch>
@@ -2770,6 +2920,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00176">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
         <obo:IAO_0000115>A papillary neoplasm that arises from the epithelium of the intrahepatic bile ducts and it is associated with an invasive carcinomatous component. The carcinomatous component is an intrahepatic cholangiocarcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>intrahepatic bile duct Intraductal papillary neoplasm with an associated invasive carcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C96949</skos:closeMatch>
@@ -2891,6 +3042,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00183">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>Any intervention for management of a malignant neoplasm.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>cancer therapeutic procedure</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C16212</skos:closeMatch>
@@ -2902,6 +3054,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00184">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:hasSynonym>alternative medical procedure</oboInOwl:hasSynonym>
         <rdfs:label>complementary medical procedure</rdfs:label>
@@ -2920,6 +3073,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>diagnostic surgical procedure</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C64979</skos:closeMatch>
@@ -2942,7 +3096,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>a cholangiocarcinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cholangiocarcinoma found in the common hepatic duct between the second-order biliary ducts (the left and right hepatic ducts) and the cystic duct insertion.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>https://www.karger.com/Article/FullText/360791</oboInOwl:source>
         <rdfs:label>perihilar cholangiocarcinoma</rdfs:label>
@@ -2950,7 +3105,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>a cholangiocarcinoma which is separated proximally from intrahepatic cholangiocarcinoma by the second-order biliary ducts and distally from distal cholangiocarcinoma  by the cystic duct insertion.</owl:annotatedTarget>
+        <owl:annotatedTarget>A cholangiocarcinoma found in the common hepatic duct between the second-order biliary ducts (the left and right hepatic ducts) and the cystic duct insertion.</owl:annotatedTarget>
         <ccao:PMID rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">24860985</ccao:PMID>
     </owl:Axiom>
     
@@ -3063,6 +3218,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00199">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00191"/>
         <obo:IAO_0000115>A cancer TNM finding about one or more characteristics of intrahepatic bile duct cancer, following the rules of the TNM AJCC v8 classification system. This staging system applies to intrahepatic cholangiocarcinomas, combined hepatocellular-cholangiocarcinomas (mixed hepatocholangiocarcinomas), and primary neuroendocrine tumors of the liver. Primary sarcomas of the liver, pure hepatocellular carcinomas, hilar cholangiocarcinomas, and gallbladder carcinomas are not staged using this staging system. (from AJCC 8th Ed.)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>intrahepatic bile duct carcinoma TNM finding v8</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C134577</oboInOwl:source>
         <oboInOwl:source>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</oboInOwl:source>
@@ -3254,6 +3410,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00211">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
         <obo:IAO_0000115>A diagnotic process that uses of ultrasound for imaging or diagnostic purposes. Employs frequencies ranging from 1.6 to 10 megahertz. (DCTD-DIP).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Diagnosis (US)</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Diagnosis, Ultrasound</oboInOWL:hasExactSynonym>
@@ -3283,6 +3440,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00213">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00212"/>
         <obo:IAO_0000115>A steatosis indicating intracytoplasmic fat accumulation in the liver parenchyma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Liver Steatosis</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C150596</oboInOwl:source>
@@ -3406,6 +3564,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00219">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00232"/>
         <obo:IAO_0000115>A benign neoplasm arising from arteries or veins.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Benign Blood Vessel Tumor</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C8537</oboInOwl:source>
@@ -3420,6 +3579,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00220">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00219"/>
         <obo:IAO_0000115>A benign vascular lesion characterized by the formation of capillary-sized or cavernous vascular channels.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Angioma</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Benign Angioma</oboInOWL:hasExactSynonym>
@@ -3448,6 +3608,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00220"/>
         <obo:IAO_0000115>A hemangioma arising from the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Angioma of Liver</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Angioma of the Liver</oboInOWL:hasExactSynonym>
@@ -3487,6 +3648,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
         <obo:IAO_0000115>An object aggregate that is a concretion of material in the body, usually composed of mineral salts. Representative examples include gallbladder stones, kidney stones, and salivary gland stones.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>calculi</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>calculus</oboInOWL:hasExactSynonym>
@@ -3503,6 +3665,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00224">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
         <obo:IAO_0000115>A stone in the bile duct.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bile duct calculus</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35773</oboInOwl:source>
@@ -3517,6 +3680,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00225">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00224"/>
         <obo:IAO_0000115>a bile duct stone that located within the intrahepatic bile duct specifically located proximal to the confluence of the left and right hepatic ducts.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.kjg.or.kr/journal/view.html?doi=10.4166/kjg.2018.71.5.247</obo:IAO_0000119>
         <rdfs:label>Intrahepatic bile duct stone</rdfs:label>
@@ -3651,6 +3815,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00232">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm which is characterized by the absence of morphologic features associated with malignancy (severe cytologic atypia, tumor cell necrosis, and high mitotic rate). Benign neoplasms remain confined to the original site of growth and do not metastasize to other anatomic sites.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>benign</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>benign tumor</oboInOWL:hasExactSynonym>
@@ -3667,6 +3832,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00233">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00211"/>
         <obo:IAO_0000115>The use of ultrasound to produce images or diagnose of structures in the liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>liver diagnostic ultrasound</rdfs:label>
     </owl:Class>
     
@@ -3677,6 +3843,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00234">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00233"/>
         <obo:IAO_0000115>A liver diagnostic ultrasound  which is used for diagnosis and management of  liver diseases</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4141343</obo:IAO_0000119>
         <rdfs:label>hepatic parenchymal echo</rdfs:label>
     </owl:Class>
@@ -3695,6 +3862,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00235">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00213"/>
         <obo:IAO_0000115>A hepatic steatosis which shows a minor amount of intracytoplasmic fat accumulation in the liver parenchyma (5% - 33%).</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4836586/</obo:IAO_0000119>
         <rdfs:label>mild hepatic steatosis</rdfs:label>
     </owl:Class>
@@ -4224,6 +4392,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00273">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
         <obo:IAO_0000115>A finding about a cyst in the left kidney</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about a cyst in left kidney</rdfs:label>
     </owl:Class>
     
@@ -4257,6 +4426,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical procedure to completely or partially remove a kidney. With a complete nephrectomy, the attached adrenal gland, perinephric fat, and regional lymph nodes are often removed as well. With a partial nephrectomy, the removed tissue contains the tumor and a rim of normal renal parenchyma only.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15284</oboInOwl:source>
         <rdfs:label>nephrectomy</rdfs:label>
@@ -4270,6 +4440,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00277">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
         <obo:IAO_0000115>A stone that forms in the gallbladder. Gallstones are made of cholesterol or other substances found in the gallbladder. They may occur as one large stone or as many small ones, and vary from the size of a golf ball to a grain of sand.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34443</oboInOwl:source>
         <rdfs:label>gallbladder stone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34443</skos:closeMatch>
@@ -4282,6 +4453,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00278">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>Surgical removal of the gallbladder.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51676</oboInOwl:source>
         <rdfs:label>cholecystectomy</rdfs:label>
@@ -4312,6 +4484,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00280">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00223"/>
         <obo:IAO_0000115>The presence of a calculus in the pelvis of the kidney; this is most often composed of mineral salts and proteins.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Nephrolithiasis</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Renal Calculi</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>kidney stone</oboInOWL:hasExactSynonym>
@@ -4341,6 +4514,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00282">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is abnormal enlargement of the spleen.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3384</oboInOwl:source>
         <rdfs:label>splenomegaly</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3384</skos:closeMatch>
@@ -4458,6 +4632,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00293">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
         <obo:IAO_0000115>A process by which information about the health status of an individual is obtained after a study has officially closed; an activity that continues something that has already begun or that repeats something that has already been done.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Active Follow-up</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Clinical Signs Follow-up</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Follow-Up</oboInOWL:hasExactSynonym>
@@ -4497,6 +4672,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00296">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>The spread of a malignant neoplasm from a primary site to the skeletal system.  The majority of metastatic neoplasms to the bone are carcinomas.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3580</oboInOwl:source>
         <rdfs:label>metastatic malignant neoplasm in the bone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3580</skos:closeMatch>
@@ -4509,6 +4685,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00297">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
         <obo:IAO_0000115>A malignant neoplasm that has spread to the brain from another anatomic site or system. The majority are carcinomas (usually lung or breast carcinomas)</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3813</oboInOwl:source>
         <rdfs:label>metastatic malignant neoplasm in the brain</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3813</skos:closeMatch>
@@ -4521,6 +4698,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00298">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm that is confined to the site in which it initially manifested.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C36037</oboInOwl:source>
         <rdfs:label>non-metastatic neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C36037</skos:closeMatch>
@@ -4533,6 +4711,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00299">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
         <obo:IAO_0000115>A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>CAT</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>CAT Scan</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>CT scan</oboInOWL:hasExactSynonym>
@@ -4551,6 +4730,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
         <obo:IAO_0000115>A diagnostic process that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000118>A procedure in which radio waves and a powerful magnet linked to a computer are used to create detailed pictures of areas inside the body. These pictures can show the difference between normal and diseased tissue. NMRI makes better images of organs and soft tissue than other scanning techniques, such as computed tomography (CT) or x-ray. NMRI is especially useful for imaging the brain, the spine, the soft tissue of joints, and the inside of bones.</obo:IAO_0000118>
         <obo:IAO_0000118>Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000118>
         <oboInOWL:hasExactSynonym>MR Imaging</oboInOWL:hasExactSynonym>
@@ -4576,6 +4756,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00301">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00300"/>
         <obo:IAO_0000115>A  non-invasive procedure in which magnetic resonance imaging is used to visualize the intrahepatic and extrahepatic bile ducts, the pancreatic duct, and the surrounding parenchyma.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>MRCP</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C113775</oboInOwl:source>
         <rdfs:label>magnetic resonance cholangiopancreatography</rdfs:label>
@@ -4589,6 +4770,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00302">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>A therapeutiv procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Operation</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Surgery</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Surgical</oboInOWL:hasExactSynonym>
@@ -4607,6 +4789,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00303">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000104"/>
         <obo:IAO_0000115>A diagnostic process which is the removal of tissue specimens or fluid from the living body for microscopic examination, performed to establish a diagnosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Bx</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15189</oboInOwl:source>
         <rdfs:label>biopsy</rdfs:label>
@@ -4620,6 +4803,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00304">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
         <obo:IAO_0000115>A biopsy that is removal of tissue from the bile duct for microscopic examination.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51642</oboInOwl:source>
         <rdfs:label>biopsy of bile duct</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51642</skos:closeMatch>
@@ -4632,6 +4816,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
         <obo:IAO_0000115>A biopsy which is removal of tissue from the liver for microscopic examination.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Biopsy of Liver</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51677</oboInOwl:source>
         <rdfs:label>liver biopsy</rdfs:label>
@@ -4645,6 +4830,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00306">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00303"/>
         <obo:IAO_0000115>A biopsy that is the removal of a tissue sample using a needle, for microscopic examination.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Aspiration Biopsy</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Puncture Biopsy</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15190</oboInOwl:source>
@@ -4659,6 +4845,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00306"/>
         <obo:IAO_0000115>A biopsy thay is removal of tissue from the liver for microscopic examination, using a needle.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C51675</oboInOwl:source>
         <rdfs:label>needle biopsy of liver</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C51675</skos:closeMatch>
@@ -4671,6 +4858,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00308">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00302"/>
         <obo:IAO_0000115>A surgical procedure which is surgical removal of part of the pancreas, duodenum, and distal part of the bile duct.  Sometimes, the lower portion of the stomach and the gallbladder are also removed.  This procedure is performed for pancreatic, ampullary, duodenal and distal bile duct cancers.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Pancreaticoduodenectomy</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15356</oboInOwl:source>
         <rdfs:label>whipple procedure</rdfs:label>
@@ -4684,6 +4872,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00309">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00183"/>
         <obo:IAO_0000115>Any therapy that is administered to augment or stimulate other treatment modalities or to minimize or prevent disease recurrence subsequent to the main treatment plan.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15675</oboInOwl:source>
         <rdfs:label>adjuvant therapy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15675</skos:closeMatch>
@@ -4696,6 +4885,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00310">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00309"/>
         <obo:IAO_0000115>A chemotherapy that is administered subsequent to the main treatment plan to minimize or prevent disease recurrence.</obo:IAO_0000115>
+        <obo:IAO_0000117></obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>adjuvant chemotherapy</rdfs:label>
     </owl:Class>
     
@@ -4706,6 +4897,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00311">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000090"/>
         <obo:IAO_0000115>Treatment of disease through the use of drugs.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C15986</oboInOwl:source>
         <rdfs:label>pharmacotherapy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C15986</skos:closeMatch>
@@ -4718,6 +4910,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00312">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000112"/>
         <obo:IAO_0000115>A therapeutic procedure which helps the patient and their family to cope with cancer and treatment of it from pre-diagnosis, through the process of diagnosis and treatment, to cure, continuing illness or death and into bereavement. It helps the patient to maximize the benefits of treatment and to live as well as possible with the effects of the disease. Supportive therapy may provide a patient with friendship, encouragement, practical advice such as access to community resources or how to develop a more active social life, vocational counseling, suggestions for minimizing friction with family members, and, above all, hope that the life of the patient may be improved. In all situations, supportive therapy involves the teaching of such life skills as managing medication, learning to socialize, handling finances, and getting a job.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Supportive Therapy</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Symptom Management</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>Therapy, Supportive</oboInOWL:hasExactSynonym>
