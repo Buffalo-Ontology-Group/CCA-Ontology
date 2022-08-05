@@ -2478,49 +2478,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00146 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00146">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001063"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder involving tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <oboInOWL:hasExactSynonym>neoplasia</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>neoplastic disease</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>neoplastic growth</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>tumor</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3262</oboInOwl:source>
-        <rdfs:label>neoplasm</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3262</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00147 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00147">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00146"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001064"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malignant neoplasm</rdfs:label>
@@ -2728,7 +2689,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00170 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00170">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A malignant tumor that has spread from its original (primary) site of growth to another site close to or distant from the primary site.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>metastatic malignant neoplasm</rdfs:label>
@@ -3686,7 +3647,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00232 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00232">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm which is characterized by the absence of morphologic features associated with malignancy (severe cytologic atypia, tumor cell necrosis, and high mitotic rate). Benign neoplasms remain confined to the original site of growth and do not metastasize to other anatomic sites.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>benign</oboInOWL:hasExactSynonym>
@@ -4556,7 +4517,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00298 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00298">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>A neoplasm that is confined to the site in which it initially manifested.</obo:IAO_0000115>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C36037</oboInOwl:source>
         <rdfs:label>non-metastatic neoplasm</rdfs:label>
@@ -4880,26 +4841,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/CCAO_00323 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder resulting from the presence and activity of a microbial, viral, fungal, or parasitic agent. It can be transmitted by direct or indirect contact.</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
-        <oboInOWL:hasExactSynonym>Clinical Infection</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>ID</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>Infection</oboInOWL:hasExactSynonym>
-        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26726</oboInOwl:source>
-        <rdfs:label>infectious disorder</rdfs:label>
-        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26726</skos:closeMatch>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/CCAO_00324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00324">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00323"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000504"/>
         <obo:IAO_0000115>Infection of a break in the skin or other tissue.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C45234</oboInOwl:source>
@@ -4989,7 +4934,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00332 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00332">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00146"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000147"/>
         <obo:IAO_0000115>The reemergence of a neoplasm after a period of remission.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C4798</oboInOwl:source>
@@ -5048,6 +4993,24 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000468"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000147 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000147">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000146"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CL_0001063"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
     </rdf:Description>
     
 
