@@ -1,2 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog"/>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/uberon.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/uberon_robot_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/pato.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/pato_robot_individuals_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/omrse.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/omrse_robot_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/obi.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/obi_robot_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/oba.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/oba_robot__individual_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/dron.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/dron_robot_import.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/cl.owl" uri="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/cl_robot_import.owl"/>
+</catalog>
