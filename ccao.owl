@@ -52,6 +52,9 @@
      xmlns:caloha-reqs-vetted="http://purl.obolibrary.org/obo/caloha-reqs-vetted#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ccao.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/ccao.owl/0.2"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/cl_robot_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/dron_robot_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/oba_robot__individual_import.owl"/>
@@ -59,9 +62,6 @@
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/omrse_robot_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/pato_robot_individuals_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/uberon_robot_import.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/bfo/2019-08-26/bfo.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2020-12-09/iao.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/ogms/2021-08-19/ogms.owl"/>
     </owl:Ontology>
     
 
@@ -2506,9 +2506,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00149">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00148"/>
+        <obo:IAO_0000115>A carcinoma characterized by the presence of malignant glandular cells.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:comment>Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).  Representative examples of adenocarcinoma are ductal and lobular breast carcinoma, lung adenocarcinoma, renal cell carcinoma, hepatocellular carcinoma (hepatoma), colon adenocarcinoma, and prostate adenocarcinoma.</rdfs:comment>
         <rdfs:label>adenocarcinoma</rdfs:label>
-        <skos:closeMatch>A carcinoma characterized by the presence of malignant glandular cells.  Morphologically, adenocarcinomas are classified according to the growth pattern (e.g., papillary, alveolar) or according to the secreting product (e.g., mucinous, serous).  Representative examples of adenocarcinoma are ductal and lobular breast carcinoma, lung adenocarcinoma, renal cell carcinoma, hepatocellular carcinoma (hepatoma), colon adenocarcinoma, and prostate adenocarcinoma.</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C2852</skos:closeMatch>
     </owl:Class>
     
@@ -2975,6 +2976,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://purl.obolibrary.org/obo/MP_0003253</obo:IAO_0000119>
         <rdfs:label>dilated bile duct</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/MP_0003253</skos:closeMatch>
