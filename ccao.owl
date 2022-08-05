@@ -571,7 +571,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having relatives with cholangiocarcinoma</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>conclusion about participant report about having relatives with cholangiocarcinoma</rdfs:label>
+        <rdfs:label>conclusion that participant reports they have relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -579,7 +579,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00038"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
         <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having relatives with cholangiocarcinoma</rdfs:label>
@@ -1595,7 +1595,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a mass-forming tumor morphology.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>Perihilar Mass-Forming Cholangiocarcinoma</rdfs:label>
+        <rdfs:label>perihilar mass-forming cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -1617,7 +1617,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has a periductal infiltrating tumor morphology.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>Perihilar Periductal Infiltrating Cholangiocarcinoma</rdfs:label>
+        <rdfs:label>perihilar periductal infiltrating cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -1639,7 +1639,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00190"/>
         <obo:IAO_0000115>A perihilar cholangiocarcinoma that has an intraductal tumor morphology, involving papillary growth in the dilated intrahepatic bile duct lumen.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>Perihilar Intraductal Cholangiocarcinoma</rdfs:label>
+        <rdfs:label>perihilar intraductal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -4765,7 +4765,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00316">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
-        <obo:IAO_0000115>An active process in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
+        <obo:IAO_0000115>An active in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>referal</rdfs:label>
     </owl:Class>
@@ -5096,6 +5096,14 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccca.owl#conclusion_that_participant_reports_having_relatives_with_cholangiocarcinoma -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccca.owl#conclusion_that_participant_reports_having_relatives_with_cholangiocarcinoma">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+    </owl:Class>
     
 
 
