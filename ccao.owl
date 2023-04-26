@@ -2685,6 +2685,20 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000027"/>
+        <obo:IAO_0000115>an object aggregate that is the collection of people who are working and looking for work.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000118>The sum of the employed plus the unemployed people including employed workers and unemployed people, who are absent from job (vacation, ill, etc.), on layoff awaiting recall, and actively looking (4 weeks) and available for work.</obo:IAO_0000118>
+        <oboInOwl:source>https://www.bls.gov/cps/definitions.htm#lfconcepts, https://www.nhes.nh.gov/elmi/products/ug-labor-force.htm</oboInOwl:source>
+        <rdfs:label>labor force</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00153 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00153">
@@ -3090,6 +3104,31 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00187">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00338"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001280"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
+        <obo:IAO_0000115>An abnormal liver parenchynal ehco finding about liver parenchyma with atypical abnormal structure</obo:IAO_0000115>
+        <rdfs:label>finding about liver parenchyma with atypical abnormal structure</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00190 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00190">
@@ -3449,6 +3488,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00213 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00213">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00212"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00212"/>
         <obo:IAO_0000115>A steatosis indicating intracytoplasmic fat accumulation in the liver parenchyma.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -3930,11 +3980,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00238 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00238">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
-        <obo:IAO_0000115>An image finding about a hepatic mass based on images produced through the use of hepatic ultrasound</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000115>A finding about a hepatic mass based on images produced through the use of hepatic ultrasound echo</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>hepatic mass ultrasound echo finding</rdfs:label>
+        <rdfs:label>finding about hepatic mass ultrasound echo</rdfs:label>
     </owl:Class>
     
 
@@ -3942,13 +3992,24 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00239 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00239">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00333"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00227"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00333"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
         <oboInOwl:hasSynonym>hyperechoic</oboInOwl:hasSynonym>
-        <rdfs:label>right lobe hepatic mass high echo finding</rdfs:label>
+        <rdfs:label>finding about right lobe hepatic mass high echo</rdfs:label>
     </owl:Class>
     
 
@@ -3956,13 +4017,28 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00240 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00240">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding, showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00334"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00334"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the right lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
         <oboInOwl:hasSynonym>hypoechoic</oboInOwl:hasSynonym>
-        <rdfs:label>right lobe hepatic mass low echo finding</rdfs:label>
+        <rdfs:label>finding about right lobe hepatic mass low echo</rdfs:label>
     </owl:Class>
     
 
@@ -3970,13 +4046,24 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00241 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00241">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the right lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00335"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00335"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which exhibits with combination of low and high echoes, located in the right lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>http://samples.jbpub.com/9780763765583/65583_CH01_5378.pdf</obo:IAO_0000119>
         <oboInOwl:hasSynonym>mixed in echogenicity</oboInOwl:hasSynonym>
-        <rdfs:label>right lobe hepatic mass mixed echo finding</rdfs:label>
+        <rdfs:label>finding about right lobe hepatic mass mixed echo</rdfs:label>
     </owl:Class>
     
 
@@ -4088,11 +4175,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00247 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00333"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00242"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00333"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which is highly reflective and echo rich when comparied with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>left lobe hepatic mass high echo finding</rdfs:label>
+        <rdfs:label>finding about left lobe hepatic mass high echo</rdfs:label>
     </owl:Class>
     
 
@@ -4100,11 +4198,26 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00248 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00248">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding, showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00334"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00334"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which is less reflective and low amount of echoes when compared with neighboring structures, located in the left lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>left lobe hepatic mass low echo finding</rdfs:label>
+        <rdfs:label>finding about left lobe hepatic mass low echo</rdfs:label>
     </owl:Class>
     
 
@@ -4112,11 +4225,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00249 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
-        <obo:IAO_0000115>A hepatic mass ultrasound echo finding showing a mass which exhibits with combination of low and high echoes, located in the left lobe of the liver</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00335"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00335"/>
+        <obo:IAO_0000115>A finding about hepatic mass mixed echo showing a mass which exhibits with combination of low and high echoes, located in the left lobe of the liver</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>left lobe hepatic mass mixed echo finding</rdfs:label>
+        <rdfs:label>finding about left lobe hepatic mass mixed echo</rdfs:label>
     </owl:Class>
     
 
@@ -4124,7 +4248,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00250 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00250">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00365"/>
         <obo:IAO_0000115>A finding that no hepatic mass exist based on images produced through the use of hepatic ultrasound</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -4216,11 +4340,21 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00256">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
-        <obo:IAO_0000115>A finding about a gallbladder based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00359"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A finding about a disorder in gallbladder based on images produced through the use of ultrasound</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about gallbladder</rdfs:label>
+        <rdfs:label>finding about disorder in gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -4228,7 +4362,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00257 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00257">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00357"/>
         <obo:IAO_0000115>A finding about a gallbladder which shows a thickening of the wall of the gallbladder</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -4268,12 +4402,12 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00260 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00260">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00357"/>
         <obo:IAO_0000115>A finding about a polyp in the wall of the gallbladder</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000119>https://www.mayoclinic.org/gallbladder-polyps/expert-answers/faq-20058450#:~:text=Gallbladder%20polyps%20are%20growths%20that,)%20or%20noncancerous%20(benign).</obo:IAO_0000119>
-        <rdfs:label>finding about a polyp in wall of gallbladder</rdfs:label>
+        <rdfs:label>finding about a polyp in wall of gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -4285,7 +4419,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A finding about a single polyp in the wall of the gallbladder</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about a single polyp in wall of gallbladder</rdfs:label>
+        <rdfs:label>finding about a single polyp in wall of gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -4297,7 +4431,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A finding about the multiple polyps in the wall of the gallbladder</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about multiple polyps in wall of gallbladder</rdfs:label>
+        <rdfs:label>finding about multiple polyps in wall of gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -4305,11 +4439,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00263">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00357"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00215"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00357"/>
         <obo:IAO_0000115>A finding about a mass in the wall of the gallbladder</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about a mass in wall of gallbladder</rdfs:label>
+        <rdfs:label>finding about a mass in wall of gall bladder</rdfs:label>
     </owl:Class>
     
 
@@ -4390,11 +4535,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00270 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00270">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
-        <obo:IAO_0000115>A finding about kidney based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00366"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00366"/>
+        <obo:IAO_0000115>A finding about disorder in kidney based on  based on images produced through the use of ultrasound</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about kidney</rdfs:label>
+        <rdfs:label>finding about disorder in kidney</rdfs:label>
     </owl:Class>
     
 
@@ -4402,11 +4558,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00271 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00271">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00270"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00279"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
         <obo:IAO_0000115>A finding about a cyst in the kidneys</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about a cyst in kidneys</rdfs:label>
+        <rdfs:label>finding about a cyst in kidney</rdfs:label>
     </owl:Class>
     
 
@@ -4414,6 +4581,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00272 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00272">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00271"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00378"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
         <obo:IAO_0000115>A finding about a cyst in the right kidney</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -4426,6 +4604,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00273 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00273">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00271"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00377"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00271"/>
         <obo:IAO_0000115>A finding about a cyst in the left kidney</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -4506,7 +4695,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
-        <obo:IAO_0000115>Abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
+        <obo:IAO_0000115>A cyst which is an abnormal fluid filled sac within the kidney, either acquired or congenital.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>Cyst of Kidney</oboInOWL:hasExactSynonym>
@@ -4558,6 +4747,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is abnormal enlargement of the spleen.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3384</oboInOwl:source>
         <rdfs:label>splenomegaly</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3384</skos:closeMatch>
@@ -4670,11 +4860,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00292 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00292">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00318"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00318"/>
         <obo:IAO_0000115>A clinical finding that a patient is likely to have cholangiocarcinoma</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>suspected cholangiocarcinoma</rdfs:label>
+        <rdfs:label>finding about suspected cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -5036,6 +5237,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C26718</oboInOwl:source>
         <rdfs:label>cholangitis</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26718</skos:closeMatch>
@@ -5046,6 +5248,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00318 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00318">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding about cancer</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -5218,6 +5431,811 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00333 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00333">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A finding about hepatic mass ultrasound echo, showing a mass which is high reflective and high amount of echoes when compared with neighboring structures</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about hepatic mass high echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A finding about hepatic mass ultrasound echo, showing a mass which is less reflective and low amount of echoes when compared with neighboring structures</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about hepatic mass low echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00335">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
+        <obo:IAO_0000115>A finding about hepatic mass ultrasound echo, showing a mass which exhibits with combination of low and high echoes</obo:IAO_0000115>
+        <obo:IAO_0000115>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about hepatic mass mixed echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00336">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00365"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00365"/>
+        <obo:IAO_0000115>A finding about disorder in liver based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about disorder in liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00365"/>
+        <obo:IAO_0000115>A finding about normal liver parenchymal echo</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about normal liver parenchymal echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00338">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00358"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000460"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000052"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001280"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00358"/>
+        <obo:IAO_0000115>A finding about abnormal liver parenchymal echo</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about abnormal liver parenchymal echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00339">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00342"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00235"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00342"/>
+        <obo:IAO_0000115>A finding about mild fatty liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about mild fattly liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00340">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00342"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00236"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00342"/>
+        <obo:IAO_0000115>A finding about moderate fatty liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about moderate fattly liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00341">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00342"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00237"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00342"/>
+        <obo:IAO_0000115>A finding about severe fatty liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about severe fatty liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00342">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00338"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00213"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
+        <obo:IAO_0000115>A finding about abnormal liver parenchynal ehco which is about fatty liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about fatty liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00343">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00338"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00214"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
+        <obo:IAO_0000115>A findning about abnormal liver parenchynal ehco finding which is about cirrhosis</obo:IAO_0000115>
+        <rdfs:label>finding about cirrhosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00344">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00336"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00216"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00336"/>
+        <obo:IAO_0000115>A finding about liver which is about liver mass</obo:IAO_0000115>
+        <rdfs:label>finding about hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00345 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00345">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00344"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00218"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000115>a finding about hepatic cyst</obo:IAO_0000115>
+        <rdfs:label>finding about hepatic cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00346 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00346">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00344"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00221"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000115>A finding about hemagioma</obo:IAO_0000115>
+        <rdfs:label>finding about liver hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00347">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00344"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00139"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000115>A finding about hepatic calcification</obo:IAO_0000115>
+        <rdfs:label>finding about hepatic calcification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <rdfs:label>finding about intrahepatic bile duct stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00350 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00350">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00368"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
+        <obo:IAO_0000115>A finding about dilated bile duct</obo:IAO_0000115>
+        <rdfs:label>finding about dilated bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00351">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00350"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00254"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
+        <obo:IAO_0000115>A finding about left lobe dilated bile duct</obo:IAO_0000115>
+        <rdfs:label>finding about dilated left lobe of bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00352 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00352">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00350"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00253"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
+        <obo:IAO_0000115>A finding about right lobe dilated bile duct</obo:IAO_0000115>
+        <rdfs:label>finding about dilated right lobe of bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00353">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00350"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00255"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
+        <obo:IAO_0000115>A finding about dilated common bile duct</obo:IAO_0000115>
+        <rdfs:label>finding about dilated common bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
+        <obo:IAO_0000115>A finding that no dilated bile duct exist based on images produced through the use of bile duct ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about no dilated bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00355">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00281"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about ascites</obo:IAO_0000115>
+        <rdfs:label>finding about ascites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00356">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00282"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about splenomegaly</obo:IAO_0000115>
+        <rdfs:label>finding about splenomegaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00357">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00256"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0036343"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000115>A finding about wall of gallbladder that located in wall of gallbladder</obo:IAO_0000115>
+        <rdfs:label>finding about disorder in wall of gallbladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00358 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00358">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00336"/>
+        <obo:IAO_0000115>A finding about liver parenchyma based on images produced through the use of ultrasound echo</obo:IAO_0000115>
+        <rdfs:label>finding about liver parenchymal ultrasound echo</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00359 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00359">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <rdfs:label>finding about gall baldder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00360">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00338"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00141"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
+        <obo:IAO_0000115>A finding about periductal fibrosis using liver parenchymal echo</obo:IAO_0000115>
+        <rdfs:label>finding about periductal fibrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00361">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00360"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00142"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
+        <obo:IAO_0000115>A finding about periductal fibrosis type 1</obo:IAO_0000115>
+        <rdfs:label>finding about periductal fibrosis type 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00362">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00360"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00143"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
+        <obo:IAO_0000115>A finding about periductal fibrosis type 2</obo:IAO_0000115>
+        <rdfs:label>finding about periductal fibrosis type 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00363 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00363">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00360"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00144"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
+        <obo:IAO_0000115>A finding about periductal fibrosis type 3</obo:IAO_0000115>
+        <rdfs:label>finding about periductal fibrosis type 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00359"/>
+        <rdfs:label>finding about normal gall bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00365">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about liver based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about kidney based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00366"/>
+        <obo:IAO_0000115>A finding about kidney that has quality normal</obo:IAO_0000115>
+        <rdfs:label>finding about normal kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00368">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002394"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000115>A finding about bile duct based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <rdfs:label>finding about bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00369">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00345"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00228"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00345"/>
+        <rdfs:label>finding about right lobe hepatic cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00370">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00345"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00243"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00345"/>
+        <rdfs:label>finding about left lobe hepatic cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00371">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00344"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00226"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <rdfs:label>finding about single hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00372">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00344"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00251"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <rdfs:label>finding about multiple hepatic mass</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00373">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00346"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00244"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00346"/>
+        <rdfs:label>finding about left lobe liver hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00374 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00374">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00346"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00229"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00346"/>
+        <rdfs:label>finding about right lobe liver hemangioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00375">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00348"/>
+        <rdfs:label>finding about left lobe intrahepatic duct stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00376 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00376">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00348"/>
+        <rdfs:label>finding about right lobe intrahepatic duct stone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00377">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00279"/>
+        <obo:IAO_0000115>A cyst which is an abnormal fluid filled sac within the left kidney, either acquired or congenital.</obo:IAO_0000115>
+        <rdfs:label>left kidney cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00279"/>
+        <obo:IAO_0000115>A cyst which is an abnormal fluid filled sac within the right kidney, either acquired or congenital.</obo:IAO_0000115>
+        <rdfs:label>right kidney cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00379 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00379">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00274"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00380"/>
+        <obo:IAO_0000115>A finding about a left kidney parenchyma with an atypical abnormal function</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about left kidney parenchyma with atypical abnormal function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00380 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00380">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00274"/>
+        <obo:IAO_0000115>A finding about a right kidney parenchyma with an atypical abnormal function</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about right kidney parenchyma with atypical abnormal function</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -5289,12 +6307,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/PATO_0000001 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/PATO_0000001"/>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/UBERON_0000000 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000000">
@@ -5314,7 +6326,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
     </rdf:Description>
     
 
@@ -5528,9 +6540,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00237"/>
         </owl:members>
     </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00361"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00362"/>
+            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00363"/>
+        </owl:members>
+    </rdf:Description>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.24.2023-01-14T21:28:32Z) https://github.com/owlcs/owlapi -->
 
