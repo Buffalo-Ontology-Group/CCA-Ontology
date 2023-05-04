@@ -642,7 +642,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_000398"/>
         <obo:IAO_0000115>A conclusion about a participant&apos;s report about having relatives with cholangiocarcinoma</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -654,11 +654,20 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00039 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_000398"/>
         <obo:IAO_0000115>A conclusion that a participant reports no having relatives with cholangiocarcinoma</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports not having relatives with cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_000398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_000398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
+        <rdfs:label>conclusion that participant reports having relatives with cholangiocarcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -4639,7 +4648,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00275 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00385"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis without a hydronephrosis</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -4821,7 +4830,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00288 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00288">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00385"/>
         <obo:IAO_0000115>A finding about a nephrolithiasis with a hydronephrosis</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -5833,7 +5842,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00388"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00281"/>
@@ -5841,7 +5850,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00388"/>
         <obo:IAO_0000115>A finding about ascites</obo:IAO_0000115>
         <rdfs:label>finding about ascites</rdfs:label>
     </owl:Class>
@@ -5862,7 +5871,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00394"/>
         <obo:IAO_0000115>A finding about splenomegaly</obo:IAO_0000115>
         <rdfs:label>finding about splenomegaly</rdfs:label>
     </owl:Class>
@@ -6236,6 +6245,183 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00381">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00318"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00318"/>
+        <obo:IAO_0000115>A clinical finding that a patient is likely to have cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about no suspected cholangiocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00347"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00383"/>
+        <rdfs:label>finding about left hepatic calcification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00383">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00347"/>
+        <rdfs:label>finding about right hepatic calcification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00384 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00384">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <rdfs:label>finding about gallbladder not seen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00385 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00385">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <rdfs:label>finding about stone in kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00386 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00386">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00366"/>
+        <rdfs:label>finding about kidney not seen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <rdfs:label>finding about abdomen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00387"/>
+        <rdfs:label>finding about disorder in abdomen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00387"/>
+        <rdfs:label>finding about no ascites</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00390 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00390">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00391"/>
+        <rdfs:label>physical examination finding about abdominal swelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00392"/>
+        <rdfs:label>physical examination finding about disorder in abdomen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <rdfs:label>physical examination finding about abdomen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00393">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00392"/>
+        <rdfs:label>physical examination finding about no abdominal swelling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00394 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00394">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <rdfs:label>finding about spleen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00395 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00395">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <rdfs:label>physical examination finding about jaudice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00396 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00396">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <rdfs:label>physical examination finding about weight loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00398">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <rdfs:label>physical examination finding about appetite loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <rdfs:label>physical examination finding about enlarged liver</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -6376,14 +6562,6 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0005409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
     </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccca.owl#conclusion_that_participant_reports_having_relatives_with_cholangiocarcinoma -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccca.owl#conclusion_that_participant_reports_having_relatives_with_cholangiocarcinoma">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0001909"/>
-    </owl:Class>
     
 
 
