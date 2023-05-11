@@ -3133,6 +3133,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
         <obo:IAO_0000115>An abnormal liver parenchynal ehco finding about liver parenchyma with atypical abnormal structure</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about liver parenchyma with atypical abnormal structure</rdfs:label>
     </owl:Class>
     
@@ -5409,6 +5411,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000014"/>
         <obo:IAO_0000115>A clinical finding that a person has no significant health-related issues.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C115935</oboInOwl:source>
         <rdfs:label>healthy</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C115935</skos:closeMatch>
@@ -5469,8 +5472,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
         <obo:IAO_0000115>A finding about hepatic mass ultrasound echo, showing a mass which exhibits with combination of low and high echoes</obo:IAO_0000115>
-        <obo:IAO_0000115>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about hepatic mass mixed echo</rdfs:label>
     </owl:Class>
     
@@ -5492,6 +5495,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00365"/>
         <obo:IAO_0000115>A finding about disorder in liver based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about disorder in liver</rdfs:label>
     </owl:Class>
     
@@ -5644,6 +5649,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
         <obo:IAO_0000115>A findning about abnormal liver parenchynal ehco finding which is about cirrhosis</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about cirrhosis</rdfs:label>
     </owl:Class>
     
@@ -5665,6 +5672,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00336"/>
         <obo:IAO_0000115>A finding about liver which is about liver mass</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about hepatic mass</rdfs:label>
     </owl:Class>
     
@@ -5686,6 +5695,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
         <obo:IAO_0000115>a finding about hepatic cyst</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about hepatic cyst</rdfs:label>
     </owl:Class>
     
@@ -5707,6 +5718,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
         <obo:IAO_0000115>A finding about hemagioma</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about liver hemangioma</rdfs:label>
     </owl:Class>
     
@@ -5728,6 +5741,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
         <obo:IAO_0000115>A finding about hepatic calcification</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about hepatic calcification</rdfs:label>
     </owl:Class>
     
@@ -5737,6 +5752,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00348">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about intrahepatic bile duct stone</rdfs:label>
     </owl:Class>
     
@@ -5758,6 +5775,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
         <obo:IAO_0000115>A finding about dilated bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about dilated bile duct</rdfs:label>
     </owl:Class>
     
@@ -5779,6 +5798,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
         <obo:IAO_0000115>A finding about left lobe dilated bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about dilated left lobe of bile duct</rdfs:label>
     </owl:Class>
     
@@ -5800,6 +5821,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
         <obo:IAO_0000115>A finding about right lobe dilated bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about dilated right lobe of bile duct</rdfs:label>
     </owl:Class>
     
@@ -5821,6 +5844,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00350"/>
         <obo:IAO_0000115>A finding about dilated common bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about dilated common bile duct</rdfs:label>
     </owl:Class>
     
@@ -5831,6 +5856,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00354">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
         <obo:IAO_0000115>A finding that no dilated bile duct exist based on images produced through the use of bile duct ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about no dilated bile duct</rdfs:label>
     </owl:Class>
     
@@ -5852,6 +5879,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00388"/>
         <obo:IAO_0000115>A finding about ascites</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about ascites</rdfs:label>
     </owl:Class>
     
@@ -5873,6 +5902,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00394"/>
         <obo:IAO_0000115>A finding about splenomegaly</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about splenomegaly</rdfs:label>
     </owl:Class>
     
@@ -5894,6 +5925,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
         <obo:IAO_0000115>A finding about wall of gallbladder that located in wall of gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>finding about disorder in wall of gallbladder</rdfs:label>
     </owl:Class>
     
@@ -5904,6 +5936,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00358">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00336"/>
         <obo:IAO_0000115>A finding about liver parenchyma based on images produced through the use of ultrasound echo</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about liver parenchymal ultrasound echo</rdfs:label>
     </owl:Class>
     
@@ -5913,6 +5947,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00359">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about gall baldder</rdfs:label>
     </owl:Class>
     
@@ -5934,6 +5970,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00338"/>
         <obo:IAO_0000115>A finding about periductal fibrosis using liver parenchymal echo</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about periductal fibrosis</rdfs:label>
     </owl:Class>
     
@@ -5955,6 +5993,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
         <obo:IAO_0000115>A finding about periductal fibrosis type 1</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about periductal fibrosis type 1</rdfs:label>
     </owl:Class>
     
@@ -5976,6 +6016,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
         <obo:IAO_0000115>A finding about periductal fibrosis type 2</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about periductal fibrosis type 2</rdfs:label>
     </owl:Class>
     
@@ -5997,6 +6039,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00360"/>
         <obo:IAO_0000115>A finding about periductal fibrosis type 3</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about periductal fibrosis type 3</rdfs:label>
     </owl:Class>
     
@@ -6006,6 +6050,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00364">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00359"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about normal gall bladder</rdfs:label>
     </owl:Class>
     
@@ -6016,6 +6062,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00365">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
         <obo:IAO_0000115>A finding about liver based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about liver</rdfs:label>
     </owl:Class>
     
@@ -6026,6 +6074,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00366">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
         <obo:IAO_0000115>A finding about kidney based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about kidney</rdfs:label>
     </owl:Class>
     
@@ -6036,6 +6086,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00367">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00366"/>
         <obo:IAO_0000115>A finding about kidney that has quality normal</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about normal kidney</rdfs:label>
     </owl:Class>
     
@@ -6057,6 +6109,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
         <obo:IAO_0000115>A finding about bile duct based on images produced through the use of ultrasound</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about bile duct</rdfs:label>
     </owl:Class>
     
@@ -6077,6 +6130,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00345"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about right lobe hepatic cyst</rdfs:label>
     </owl:Class>
     
@@ -6097,6 +6152,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00345"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about left lobe hepatic cyst</rdfs:label>
     </owl:Class>
     
@@ -6117,6 +6174,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about single hepatic mass</rdfs:label>
     </owl:Class>
     
@@ -6137,6 +6196,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00344"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about multiple hepatic mass</rdfs:label>
     </owl:Class>
     
@@ -6157,6 +6218,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00346"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about left lobe liver hemangioma</rdfs:label>
     </owl:Class>
     
@@ -6177,6 +6240,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00346"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about right lobe liver hemangioma</rdfs:label>
     </owl:Class>
     
@@ -6186,6 +6251,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00375">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00348"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about left lobe intrahepatic duct stone</rdfs:label>
     </owl:Class>
     
@@ -6195,6 +6262,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00376">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00348"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about right lobe intrahepatic duct stone</rdfs:label>
     </owl:Class>
     
@@ -6273,6 +6342,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00382">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00347"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00383"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about left hepatic calcification</rdfs:label>
     </owl:Class>
     
@@ -6282,6 +6353,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00347"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about right hepatic calcification</rdfs:label>
     </owl:Class>
     
@@ -6291,6 +6364,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00384">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00256"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about gallbladder not seen</rdfs:label>
     </owl:Class>
     
@@ -6300,6 +6375,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00385">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00270"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about stone in kidney</rdfs:label>
     </owl:Class>
     
@@ -6309,6 +6386,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00386">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00366"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about kidney not seen</rdfs:label>
     </owl:Class>
     
@@ -6318,6 +6397,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00387">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about abdomen</rdfs:label>
     </owl:Class>
     
@@ -6327,6 +6408,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00387"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about disorder in abdomen</rdfs:label>
     </owl:Class>
     
@@ -6336,6 +6419,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00389">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00387"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about no ascites</rdfs:label>
     </owl:Class>
     
@@ -6354,6 +6439,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00391">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00392"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about disorder in abdomen</rdfs:label>
     </owl:Class>
     
@@ -6363,6 +6450,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00392">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about abdomen</rdfs:label>
     </owl:Class>
     
@@ -6372,6 +6461,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00392"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about no abdominal swelling</rdfs:label>
     </owl:Class>
     
@@ -6381,6 +6472,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00394">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about spleen</rdfs:label>
     </owl:Class>
     
@@ -6390,6 +6483,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00395">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about jaudice</rdfs:label>
     </owl:Class>
     
@@ -6399,6 +6494,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00396">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about weight loss</rdfs:label>
     </owl:Class>
     
@@ -6408,6 +6505,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00398">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about appetite loss</rdfs:label>
     </owl:Class>
     
@@ -6417,6 +6516,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00399">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000083"/>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about enlarged liver</rdfs:label>
     </owl:Class>
     
