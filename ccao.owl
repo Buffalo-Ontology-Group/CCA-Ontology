@@ -5472,8 +5472,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00238"/>
         <obo:IAO_0000115>A finding about hepatic mass ultrasound echo, showing a mass which exhibits with combination of low and high echoes</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>finding about hepatic mass mixed echo</rdfs:label>
     </owl:Class>
     
@@ -5949,7 +5949,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000017"/>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>finding about gall baldder</rdfs:label>
+        <rdfs:label>finding about gall bladder</rdfs:label>
     </owl:Class>
     
 
