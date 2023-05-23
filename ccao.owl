@@ -5766,7 +5766,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00368"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00400"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00192"/>
@@ -5774,7 +5774,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00400"/>
         <obo:IAO_0000115>A finding about dilated bile duct</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -5893,7 +5893,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000017"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00401"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00282"/>
@@ -5901,7 +5901,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00394"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00401"/>
         <obo:IAO_0000115>A finding about splenomegaly</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -6520,6 +6520,30 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>physical examination finding about enlarged liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00368"/>
+        <obo:IAO_0000115>An image finding about disorder in bile duct</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about disorder in bile duct</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00394"/>
+        <obo:IAO_0000115>An image finding about disorder in spleen</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>finding about disorder in spleen</rdfs:label>
     </owl:Class>
     
 
