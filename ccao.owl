@@ -62,8 +62,8 @@
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/omrse_robot_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/pato_robot_individuals_import.owl"/>
         <owl:imports rdf:resource="https://raw.githubusercontent.com/Buffalo-Ontology-Group/CCA-Ontology/main/Import/uberon_robot_import.owl"/>
-        <dc:creator>Alexander D. Diehl</dc:creator>
-        <dc:creator>Anuwat Pengput</dc:creator>
+        <dc:creator>Alexander D. Diehl https://orcid.org/0000-0001-9990-8331</dc:creator>
+        <dc:creator>Anuwat Pengput https://orcid.org/0000-0002-0273-1531</dc:creator>
         <dc:description>An application ontology for the representation of cholangiocarcinoma-associated data</dc:description>
         <dc:title>Cholangiocarcinoma Ontology (CCAO)</dc:title>
     </owl:Ontology>
@@ -160,10 +160,30 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#continuant_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#continuant_part_of">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000002"/>
+        <rdfs:label>continuant part of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ccao.owl#hasQuality -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hasQuality">
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:label>has continuant part</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1806,6 +1826,7 @@
         <obo:IAO_0000115>A cholangiocarcinoma found in the common bile duct between the cystic duct and the ampulla of Vater (except Klatskin tumors and ampulla of Vater cancer), which includes mid common bile duct tumors (between the junction with the cystic duct and the junction with the pancreas) and distal (intrapancreatic) bile duct tumors.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>ICD10TM - C240 Malignant neoplasm of other and unspecified parts of biliary tract, extrahepatic bile duct</oboInOwl:note>
         <rdfs:label>distal cholangiocarcinoma</rdfs:label>
     </owl:Class>
     <owl:Axiom>
@@ -2524,6 +2545,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00141 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00141">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00169"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002394"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00169"/>
         <obo:IAO_0000115>A  fibrosis which has a high echo in the wall of small bile ducts scattered in the liver in a starry sky pattern.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -2614,6 +2646,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bile duct adenocarcinoma</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - C221: Intrahepatic bile duct carcinoma, Cholangiocarcinoma</oboInOwl:note>
         <rdfs:label>cholangiocarcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C27813</skos:closeMatch>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4436</skos:closeMatch>
@@ -2628,6 +2661,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A neoplasm composed of atypical neoplastic, often pleomorphic cells that invade other tissues. Malignant neoplasms often metastasize to distant anatomic sites and may recur after excision. The most common malignant neoplasms are carcinomas (adenocarcinomas or squamous cell carcinomas), Hodgkin and non-Hodgkin lymphomas, leukemias, melanomas, and sarcomas.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>malignant tumor of blood vessel</oboInOWL:hasExactSynonym>
         <rdfs:label>malignant neoplasm</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C9305</skos:closeMatch>
     </owl:Class>
@@ -2676,9 +2710,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00145"/>
-        <obo:IAO_0000115>A cholangiocarcinoma found in any site of the intrahepatic biliary tree that arises from the intrahepatic bile duct epithelium</obo:IAO_0000115>
+        <obo:IAO_0000115>A cholangiocarcinoma found in any site of the intrahepatic biliary tree that arises from the intrahepatic bile duct epithelium.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>ICD10-TM: C221 - Intrahepatic bile duct carcinoma (Cholangiocarcinoma)</oboInOwl:note>
         <rdfs:label>intrahepatic cholangiocarcinoma</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35417</skos:closeMatch>
     </owl:Class>
@@ -2703,7 +2738,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00153">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000085"/>
-        <obo:IAO_0000115>Painful sensation in the abdominal region.</obo:IAO_0000115>
+        <obo:IAO_0000115>A pain that has part of in the abdominal region.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>abdominal pain</rdfs:label>
@@ -2716,7 +2751,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00154">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
-        <obo:IAO_0000115>An increase or decrease in the weight of an individual.</obo:IAO_0000115>
+        <obo:IAO_0000115>A symptom that increases or decreases in the weight of an individual.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>weight change</rdfs:label>
@@ -2742,7 +2777,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00156">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000020"/>
-        <obo:IAO_0000115>A feeling of general discomfort or uneasiness, an out-of-sorts feeling.</obo:IAO_0000115>
+        <obo:IAO_0000115>A symptom which is a feeling of general discomfort or uneasiness, an out-of-sorts feeling.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>malaise</rdfs:label>
@@ -2845,6 +2880,25 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00169 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00169">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000095"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0011824"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder resulting from the formation of excess fibrous connective tissue in an organ or tissue.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -2871,12 +2925,11 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00171 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00171">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A deposition of calcium in the tissues. It may be the result of a metabolic disorder or long-standing infection, or it may be associated with the presence of cancer.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process which is a deposition of calcium in the tissues. It may be the result of a metabolic disorder or long-standing infection, or it may be associated with the presence of cancer.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>calcinosis</oboInOWL:hasExactSynonym>
-        <oboInOWL:hasExactSynonym>calcium deposit(s)</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>deposit(s), calcium</oboInOWL:hasExactSynonym>
         <oboInOWL:hasExactSynonym>macrocalcification</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3672</oboInOwl:source>
@@ -3177,8 +3230,22 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00192 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00192">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#dilate"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002394"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115></obo:IAO_0000115>
         <obo:IAO_0000115>A disorder in which the luminal space of the bile ducts is increased in volume or area, usually with an increase in contained fluid or bile.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -3596,7 +3663,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00217">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder that s a sac-like closed membranous structure that may be empty or contain fluid or amorphous material.</obo:IAO_0000115>
+        <obo:IAO_0000115>A disorder that is a sac-like closed membranous structure that may be empty or contain fluid or amorphous material.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C2978</oboInOwl:source>
@@ -3609,6 +3676,17 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00218 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00218">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00217"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00217"/>
         <obo:IAO_0000115>A cystic lesion located in the liver.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -3731,6 +3809,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bile duct calculus</oboInOWL:hasExactSynonym>
+        <oboInOwl:hasSynonym>choledocholithiasis</oboInOwl:hasSynonym>
+        <oboInOwl:note>When gallstones are present in the gallbladder itself, it is called cholelithiasis. When gallstones are present in the bile ducts, it is called choledocholithiasis.
+https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboInOwl:note>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C35773</oboInOwl:source>
         <rdfs:label>bile duct stone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35773</skos:closeMatch>
@@ -3846,7 +3927,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00139"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -4147,7 +4228,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
                 <owl:intersectionOf rdf:parseType="Collection">
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00139"/>
                     <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
@@ -4673,6 +4754,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <obo:IAO_0000115>A stone that forms in the gallbladder. Gallstones are made of cholesterol or other substances found in the gallbladder. They may occur as one large stone or as many small ones, and vary from the size of a golf ball to a grain of sand.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:hasSynonym>Cholelithiasis</oboInOwl:hasSynonym>
+        <oboInOwl:hasSynonym>gallstone</oboInOwl:hasSynonym>
+        <oboInOwl:note>When gallstones are present in the gallbladder itself, it is called cholelithiasis. When gallstones are present in the bile ducts, it is called choledocholithiasis.
+https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboInOwl:note>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C34443</oboInOwl:source>
         <rdfs:label>gallbladder stone</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C34443</skos:closeMatch>
@@ -4732,8 +4817,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00281 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder which is the accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process which is the accumulation of fluid in the peritoneal cavity, which may be serous, hemorrhagic, or the result of tumor metastasis to the peritoneum.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>increasing abdominal distention</oboInOWL:hasExactSynonym>
@@ -4916,7 +5001,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00295 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00295">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000115>The act of conveying or transporting from one place to another.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <rdfs:label>transfer</rdfs:label>
@@ -5229,6 +5314,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000115>An active in which sending a patient from one practitioner to another for health care services.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>referal</rdfs:label>
     </owl:Class>
     
@@ -5237,6 +5323,21 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00317 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00317">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000095"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001173"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
         <obo:IAO_0000115>A disorder that is an acute or chronic inflammatory process affecting the biliary tract.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -5274,9 +5375,10 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00319 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process which is collection of fluid in a body cavity, which may be the result of a non-neoplastic disorder (e.g. heart failure) or a tumor (e.g. carcinoma of the lung).</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3003</oboInOwl:source>
         <rdfs:label>effusion</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3003</skos:closeMatch>
@@ -5287,11 +5389,23 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00320 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00320">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00319"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000057"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000977"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00319"/>
         <obo:IAO_0000115>An effusion that is Increased amounts of fluid within the pleural cavity. Symptoms include shortness of breath, cough, and chest pain. It is usually caused by lung infections, congestive heart failure, pleural and lung tumors, connective tissue disorders, and trauma.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C3331</oboInOwl:source>
+        <oboInOwl:source>https://www.nhlbi.nih.gov/health/pleural-disorders</oboInOwl:source>
         <rdfs:label>pleural effusion</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3331</skos:closeMatch>
     </owl:Class>
@@ -5301,7 +5415,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00321 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00321">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
         <obo:IAO_0000115>A disorder which is the flow of blood from a ruptured blood vessel.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>bleeding</oboInOWL:hasExactSynonym>
@@ -5343,8 +5457,8 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <!-- http://purl.obolibrary.org/obo/CCAO_00325 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00325">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
-        <obo:IAO_0000115>A disorder that is the unintentional discharge of a substance from a container or enclosed space.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process that is the unintentional discharge of a substance from a container or enclosed space.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <oboInOWL:hasExactSynonym>spillage</oboInOWL:hasExactSynonym>
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C40416</oboInOwl:source>
@@ -5416,6 +5530,7 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00313"/>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>withdraw</rdfs:label>
     </owl:Class>
     
@@ -6548,6 +6663,349 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00406 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00406">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00149"/>
+        <obo:IAO_0000115>An adenocarcinoma that arises from a hepatocyte.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <obo:IAO_0000119>http://purl.obolibrary.org/obo/NCIT_C3099</obo:IAO_0000119>
+        <oboInOWL:hasExactSynonym>Liver cell carcinoma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>hepatocellular carcinoma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>hepatoma</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10-TM: C220 - Liver cell carcinoma (Hepatocellular carcinoma, Hepatoma)</oboInOwl:note>
+        <rdfs:label>hepatocellular carcinoma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3099</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00407 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00407">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm arising from the vascular tissue. It is characterized by vascular channel formation and malignant endothelial cells.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>malignant tumor of blood vessel</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>malignant vascular tissue tumor</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>malignant vascular tumor</oboInOWL:hasExactSynonym>
+        <rdfs:label>malignant vascular neoplasm</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C7390</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00408 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00408">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00407"/>
+        <obo:IAO_0000115>A malignant vascular neoplasm arising from the liver.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>hepatic hemangiosarcoma</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - C223: Angiosarcoma of liver, Kupffer cell sarcoma</oboInOwl:note>
+        <rdfs:label>liver angiosarcoma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4438</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm that arises from the liver.</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>hepatic sarcoma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>liver sarcoma</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>sarcoma of liver</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>sarcoma of the liver</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - C224: Other sarcomas of the liver</oboInOwl:note>
+        <rdfs:label>liver sarcoma</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C4437</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00411 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00411">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00148"/>
+        <obo:IAO_0000115>A carcinoma that overlaps in liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>ICD10TM - C227: Other specified carcinomas of liver</oboInOwl:note>
+        <rdfs:label>liver carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00412 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00412">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00413"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00413"/>
+        <obo:IAO_0000115>An abscess that develops in the liver.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>Abscess of liver</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - K750: Abscess of liver</oboInOwl:note>
+        <rdfs:label>liver abscess</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C99089</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00413 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00413">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IDO_0000504"/>
+        <obo:IAO_0000115>An infectious disorder characterized by the accumulation of pus within a newly formed tissue cavity which is the result of a bacterial, fungal, or parasitic infection or the presence of a foreign body.</obo:IAO_0000115>
+        <rdfs:label>abscess</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C26686</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00414 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00414">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00415"/>
+        <obo:IAO_0000115>A hepatitis that exhibits a microscopically variable and patchy nondescript inflammatory reaction associated with parenchymal turnover in the liver.</obo:IAO_0000115>
+        <rdfs:label>nonspecific reactive hepatitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00415 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00415">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000095"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0002107"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>A disorder which results from inflammation of the liver; usually from a viral infection, but sometimes from toxic agents.</obo:IAO_0000115>
+        <rdfs:label>hepatitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00416 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00416">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00431"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_C_virus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00431"/>
+        <obo:IAO_0000115>A viral hepatitis caused by the hepatitis C virus.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>HCV Infection</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatitis C</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>Hepatitis C Virus Infection</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>NANBH</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>hepatitis C</oboInOWL:hasExactSynonym>
+        <rdfs:label>hepatitis caused by hepatitis C infection</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C3098</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00417">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00431"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_B_virus"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00431"/>
+        <obo:IAO_0000115>A viral hepatitis caused by the hepatitis B virus.</obo:IAO_0000115>
+        <rdfs:label>hepatitis caused by hepatitis B infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00418 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00418">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00415"/>
+        <obo:IAO_0000115>A hepatitis caused by autoantibodies. Drugs, infections, and toxins may trigger the production of the autoantibodies against the liver parenchyma.</obo:IAO_0000115>
+        <oboInOwl:note>ICD10TM - K754: Autoimmune hepatitis</oboInOwl:note>
+        <rdfs:label>autoimmune hepatitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00224"/>
+        <obo:IAO_0000115>A bile duct stone which is caused a redness and swelling of gallbaldder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>calculus of bile duct with cholecystitis</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - K804: Calculus of bile duct with cholecystitis</oboInOwl:note>
+        <rdfs:label>bile duct stone with cholecystitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00420 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00420">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00224"/>
+        <obo:IAO_0000115>A bile duct stone which is not caused a redness and swelling of bile duct or gallbaldder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOWL:hasExactSynonym>Calculus of bile duct without cholangitis or cholecystitis</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>ICD10TM - K805: Calculus of bile duct without cholangitis or cholecystitis</oboInOwl:note>
+        <rdfs:label>bile duct stone without cholangitis or cholecystitis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00421 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00421">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm involving the pancreas</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>pancreatic malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00421"/>
+        <obo:IAO_0000115>A malignant pancreatic neoplasm that overlaps pancreas duct</obo:IAO_0000115>
+        <oboInOwl:note>ICD10TM - C253: Malignant neoplasm of pancreas, pancreatic duct</oboInOwl:note>
+        <rdfs:label>pancreatic duct malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00170"/>
+        <obo:IAO_0000115>A metastatic malignant neoplasm that arises from a pre-existing lower grade lesion, or as a result of a primary lesion that has spread to secondary sites, or due to a complication of a cancer treatment.</obo:IAO_0000115>
+        <oboInOwl:note>ICD10TM - C788: Secondary malignant neoplasm of other and unspecified digestive organs</oboInOwl:note>
+        <rdfs:label>secondary malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00426">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00425"/>
+        <obo:IAO_0000115>A secondary malignant neoplasm that arises in liver from a pre-existing lower grade lesion, or as a result of a primary lesion that has spread to secondary sites, or due to a complication of a cancer treatment.</obo:IAO_0000115>
+        <oboInOwl:note>ICD10TM - C787: Secondary malignant neoplasm of liver</oboInOwl:note>
+        <rdfs:label>secondary malignant neoplasm of liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00427 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00427">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm involving the ampulla of Vater</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>ICD10TM - C241: Malignant neoplasm of other and unspecified parts of biliary tract, ampulla of Vater</oboInOwl:note>
+        <rdfs:label>ampulla of vater malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00428">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm that overlaps gallbladder</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>ICD10TM - C23: Malignant neoplasm of gallbladder</oboInOwl:note>
+        <rdfs:label>gallbladder malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00431">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IDO_0000504"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#has_continuant_part_of"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00415"/>
+        <obo:IAO_0000115>A hepatitis caused by viruses.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>hepatitis viral</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>viral hepatitis</oboInOWL:hasExactSynonym>
+        <rdfs:label>viral hepatitis</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C35124</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00432">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+        <obo:IAO_0000115>A malignant neoplasm that located in liver</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <oboInOwl:note>C220: Liver cell carcinoma</oboInOwl:note>
+        <rdfs:label>liver malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
@@ -6691,6 +7149,134 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#Calcium_deposit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#Calcium_deposit">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00171"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000479"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <rdfs:label>calcium deposit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#dilate -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#dilate">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000061"/>
+        <obo:IAO_0000115>A pathological bodily process which is the act of expanding an aperture.</obo:IAO_0000115>
+        <oboInOWL:hasExactSynonym>dilated</oboInOWL:hasExactSynonym>
+        <oboInOWL:hasExactSynonym>dilation</oboInOWL:hasExactSynonym>
+        <oboInOwl:note>To widen or enlarge an opening or hollow structure beyond its usual size, such as the pupil of the eye or a blood vessel.</oboInOwl:note>
+        <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C28023</oboInOwl:source>
+        <rdfs:label>dilate</rdfs:label>
+        <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C28023</skos:closeMatch>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#head_of_pancreas_malignant_neoplasm -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#head_of_pancreas_malignant_neoplasm">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00421"/>
+        <obo:IAO_0000115>A malignant pancreatic neoplasm that overlaps head of pancreas</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>head of pancreas malignant neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#hepatitis_B_virus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_B_virus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_virus"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_C_virus"/>
+        <rdfs:label>hepatitis B virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#hepatitis_C_virus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_C_virus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_virus"/>
+        <rdfs:label>hepatitis C virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#hepatitis_virus -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#hepatitis_virus">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+        <rdfs:label>hepatitis virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#lefthepatic_calcium_deposit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#lefthepatic_calcium_deposit">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00245"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001115"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Calcium_deposit"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#righthepatic_calcium_deposit"/>
+        <rdfs:label>left hepatic calcium deposit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#righthepatic_calcium_deposit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#righthepatic_calcium_deposit">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000056"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00230"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0001025"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001114"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#Calcium_deposit"/>
+        <rdfs:label>right hepatic calcium deposit</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403">
@@ -6714,6 +7300,9 @@ https://www.ncbi.nlm.nih.gov/pubmed?term=26111977</ccao:PMID>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with disease by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
         <rdfs:label>conclusion that participant reports being diagnosed with disease by clinician</rdfs:label>
     </owl:Class>
     
