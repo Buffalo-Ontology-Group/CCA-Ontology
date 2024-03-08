@@ -1,0 +1,180 @@
+CCAO:00318	380	380	0	over-represented 	clinical finding about cancer
+CCAO:00368	320	687	0	over-represented 	finding about bile duct
+CCAO:00350	320	687	0	over-represented 	finding about dilated bile duct
+CCAO:00400	320	687	0	over-represented 	finding about disorder in bile duct
+CCAO:00292	380	380	0	over-represented 	finding about suspected cholangiocarcinoma
+CCAO:00353	173	372	1.53745932271185e-210	over-represented 	finding about dilated common bile duct
+CCAO:00352	141	258	1.4004657494949e-181	over-represented 	finding about dilated right lobe of bile duct
+OGMS:0000014	380	7873	7.58046858868384e-161	over-represented 	clinical finding
+OGMS:0000017	379	7865	1.70684387775528e-158	over-represented 	image finding
+CCAO:00351	125	232	2.18335519883529e-158	over-represented 	finding about dilated left lobe of bile duct
+CCAO:00238	123	259	1.82734810126343e-146	over-represented 	finding about hepatic mass ultrasound echo
+CCAO:00344	131	369	6.17324592478416e-136	over-represented 	finding about hepatic mass
+CCAO:00336	302	5140	2.88832808403997e-112	over-represented 	finding about disorder in liver
+CCAO:00365	302	5140	2.88832808403997e-112	over-represented 	finding about liver
+CCAO:00371	96	299	2.48075316796186e-92	over-represented 	finding about single hepatic mass
+CCAO:00338	255	4944	1.83812350523403e-71	over-represented 	finding about abnormal liver parenchymal echo
+CCAO:00358	255	4944	1.83812350523403e-71	over-represented 	finding about liver parenchymal ultrasound echo
+CCAO:00335	44	64	4.46872655618132e-60	over-represented 	finding about hepatic mass mixed echo
+CCAO:00360	154	1985	1.31113594984003e-57	over-represented 	finding about periductal fibrosis
+CCAO:00187	65	240	1.06031124004427e-55	over-represented 	finding about liver parenchyma with atypical abnormal structure
+CCAO:00333	52	130	2.63174044542771e-54	over-represented 	finding about hepatic mass high echo
+CCAO:00241	34	50	8.9217237493041e-46	over-represented 	finding about right lobe hepatic mass mixed echo
+CCAO:00239	40	100	2.36802170117004e-41	over-represented 	finding about right lobe hepatic mass high echo
+CCAO:00372	35	70	2.45024698155855e-40	over-represented 	finding about multiple hepatic mass
+CCAO:00363	45	154	1.5504894804719e-39	over-represented 	finding about periductal fibrosis type 3
+OGMS:0000083	37	88	3.95329484699381e-39	over-represented 	physical examination finding
+CCAO:00334	28	67	3.32051134809779e-29	over-represented 	finding about hepatic mass low echo
+CCAO:00359	99	1482	7.3951744051681e-29	over-represented 	finding about gall bladder
+CCAO:00256	99	1482	7.3951744051681e-29	over-represented 	finding about disorder in gall bladder
+CCAO:00398	23	57	2.32657432290566e-23	over-represented 	physical examination finding about appetite loss
+CCAO:00395	18	31	8.65169005484087e-22	over-represented 	physical examination finding about jaundice
+CCAO:00249	15	21	4.90939231201048e-20	over-represented 	finding about left lobe hepatic mass mixed echo
+CCAO:00240	18	45	5.63868685914919e-18	over-represented 	finding about right lobe hepatic mass low echo
+CCAO:00384	31	200	6.69895130526138e-18	over-represented 	finding about gallbladder not seen
+CCAO:00051	158	4594	3.41035571504193e-16	over-represented 	smoking
+CCAO:00049	158	4594	3.41035571504193e-16	over-represented 	conclusion about participant report about smoking
+CCAO:00361	76	1500	2.01406479487697e-14	over-represented 	finding about periductal fibrosis type 1
+CCAO:00362	33	331	2.99327620436034e-13	over-represented 	finding about periductal fibrosis type 2
+CCAO:00247	14	38	3.64849158844159e-13	over-represented 	finding about left lobe hepatic mass high echo
+CCAO:00002	155	12688	5.00481857694457e-13	under-represented	female gender
+CCAO:00003	225	8350	1.10169427740007e-12	over-represented 	male gender
+CCAO:00396	12	26	1.41321144053358e-12	over-represented 	physical examination finding about weight loss
+CCAO:00248	11	23	1.1643158993399e-11	over-represented 	finding about left lobe hepatic mass low echo
+CCAO:00392	10	21	1.7515618881484e-10	over-represented 	physical examination finding about abdomen
+CCAO:00391	10	21	1.7515618881484e-10	over-represented 	physical examination finding about disorder in abdomen
+CCAO:00390	10	21	1.7515618881484e-10	over-represented 	physical examination finding about abdominal swelling
+CCAO:00357	24	221	3.66474311920854e-10	over-represented 	finding about disorder in wall of gallbladder
+CCAO:00271	43	713	6.78999366264447e-10	over-represented 	finding about a cyst in kidney
+CCAO:00270	75	1837	1.78752335252972e-09	over-represented 	finding about disorder in kidney
+CCAO:00366	75	1845	2.19226812870371e-09	over-represented 	finding about kidney
+CCAO:00012	329	19977	7.99391811182226e-09	under-represented	conclusion about participant report about occupation
+CCAO:00405	119	3751	1.00675068510985e-08	over-represented 	diagnosed with disease by clinician
+CCAO:00066	80	2287	4.90477219648877e-07	over-represented 	diagnosed with other disease by clinician
+CCAO:00343	20	223	7.21587662242859e-07	over-represented 	finding about cirrhosis
+CCAO:00054	198	7960	8.80542812522386e-07	over-represented 	reports alcohol consumption
+CCAO:00052	198	7960	8.80542812522386e-07	over-represented 	conclusion about participant report about alcohol consumption
+CCAO:00273	24	342	2.55580235984757e-06	over-represented 	finding about a cyst in left kidney
+CCAO:00005	314	14837	4.57889438696604e-06	over-represented 	no education
+CCAO:00399	5	8	1.80219194177659e-05	over-represented 	physical examination finding about enlarged liver
+CCAO:00065	57	1547	2.29410862461378e-05	over-represented 	diagnosed with diabetes by clinician
+CCAO:00272	26	445	2.4111960950441e-05	over-represented 	finding about a cyst in right kidney
+CCAO:00257	12	100	4.13356836929555e-05	over-represented 	finding of thickening of wall of gallbladder
+CCAO:00263	8	39	6.79907857802596e-05	over-represented 	finding about a mass in wall of gall bladder
+CCAO:00007	23	2907	8.75738505764298e-05	under-represented	attending junior high school
+CCAO:00264	7	35	0.000440399084648326	over-represented 	finding about a single mass in wall of gallbladder
+CCAO:00268	17	278	0.00186728034865321	over-represented 	finding about multiple stones in gallbladder
+CCAO:00345	8	60	0.00194038038113903	over-represented 	finding about hepatic cyst
+CCAO:00055	361	18646	0.00250069898401034	over-represented 	conclusion about participant report about having alcoholism
+CCAO:00057	361	18646	0.00250069898401034	over-represented 	having alcoholism
+CCAO:00266	32	808	0.00336834837926842	over-represented 	finding about a stone in gallbladder
+CCAO:00259	7	54	0.00824305247138808	over-represented 	finding of diffuse thickening of wall of gallbladder
+CCAO:00342	27	2689	0.0200846465345661	under-represented	finding about fatty liver
+CCAO:00006	21	2217	0.0338731981310263	under-represented	attending primary school
+CCAO:00379	14	264	0.0443235833684895	over-represented 	finding about left kidney parenchyma with atypical abnormal function
+CCAO:00369	5	40	0.11883554962898	over-represented 	finding about right lobe hepatic cyst
+CCAO:00370	4	23	0.119017157707183	over-represented 	finding about left lobe hepatic cyst
+CCAO:00274	17	411	0.159914554731434	over-represented 	finding about kidney parenchyma with atypical abnormal function
+CCAO:00258	5	45	0.201587278681064	over-represented 	finding of focal thickening of wall of gallbladder
+CCAO:00402	56	2166	0.26997591671562	over-represented 	conclusion that participant reports having relatives with cholangiocarcinoma
+CCAO:00038	56	2166	0.26997591671562	over-represented 	having relatives with cholangiocarcinoma
+CCAO:00046	15	365	0.317302476570834	over-represented 	brother or sister
+CCAO:00380	14	341	0.436993569181636	over-represented 	finding about right kidney parenchyma with atypical abnormal function
+CCAO:00269	12	270	0.462631542681376	over-represented 	finding about a post cholecystectomy
+CCAO:00013	290	16964	0.783955083539879	under-represented	unemployed
+CCAO:00339	22	1918	0.810146306247545	under-represented	finding about mild fattly liver
+CCAO:00374	1	17	1	over-represented 	finding about right lobe liver hemangioma
+CCAO:00028	105	5677	1	over-represented 	being examined but not having liver fluke egg found
+CCAO:00027	184	10154	1	over-represented 	never having been examined for liver fluke egg
+CCAO:00047	1	20	1	over-represented 	cousin
+CCAO:00048	3	68	1	over-represented 	spouse
+CCAO:00393	0	0	1	under-represented	physical examination finding about no abdominal swelling
+CCAO:00355	12	560	1	over-represented 	finding about ascites
+CCAO:00356	6	115	1	over-represented 	finding about splenomegaly
+CCAO:00023	11	594	1	over-represented 	having had three fecal examinations
+CCAO:00260	4	88	1	over-represented 	finding about a polyp in wall of gall bladder
+CCAO:00043	4	149	1	over-represented 	younger brother or sister of his or her father or mother
+CCAO:00367	0	0	1	under-represented	finding about normal kidney
+CCAO:00290	0	0	1	under-represented	finding about left nephrolithiasis with hydronephrosis
+CCAO:00037	11	481	1	over-represented 	not being able to remember about having received treatment with antiparasitic drug
+CCAO:00033	104	5453	1	over-represented 	having once received treatment with antiparasitic drug
+CCAO:00265	1	4	1	over-represented 	finding about multiple masses wall of gallbladder
+CCAO:00261	4	77	1	over-represented 	finding about a single polyp in wall of gall bladder
+CCAO:00404	135	7017	1	over-represented 	having received treatment with antiparasitic drug at least one time
+CCAO:00140	4	137	1	over-represented 	older brother or sister of his or her father or mother
+CCAO:00382	0	5	1	under-represented	finding about left hepatic calcification
+CCAO:00375	0	4	1	under-represented	finding about left lobe intrahepatic duct stone
+CCAO:00385	23	801	1	over-represented 	finding about stone in kidney
+CCAO:00381	0	0	1	under-represented	finding about no suspected cholangiocarcinoma
+CCAO:00056	0	0	1	under-represented	not having alcoholism
+CCAO:00354	0	0	1	under-represented	finding about no dilated bile duct
+CCAO:00347	2	23	1	over-represented 	finding about hepatic calcification
+CCAO:00348	1	11	1	over-represented 	finding about intrahepatic bile duct stone
+CCAO:00386	0	36	1	under-represented	finding about kidney not seen
+CCAO:00376	1	9	1	over-represented 	finding about right lobe intrahepatic duct stone
+CCAO:00063	5	241	1	over-represented 	diagnosed with hepatitis b by clinician
+CCAO:00262	0	10	1	under-represented	finding about multiple polyps in wall of gall bladder
+CCAO:00018	0	0	1	under-represented	other
+CCAO:00017	3	367	1	under-represented	civil servant
+CCAO:00389	0	0	1	under-represented	finding about no ascites
+IAO:0000030	380	21038	1	under-represented	information content entity
+CCAO:00059	0	0	1	under-represented	no consumption of raw fresh-water fish or raw fermented fish
+CCAO:00337	0	0	1	under-represented	finding about normal liver parenchymal echo
+CCAO:00050	0	0	1	under-represented	not smoking
+CCAO:00401	6	115	1	over-represented 	finding about disorder in spleen
+CCAO:00008	5	340	1	under-represented	attending senior high school
+CCAO:00283	1	31	1	over-represented 	finding about post nephrectomy
+CCAO:00287	5	232	1	over-represented 	finding about left nephrolithiasis without hydronephrosis
+CCAO:00288	10	398	1	over-represented 	finding about nephrolithiasis with hydronephrosis
+CCAO:00053	0	0	1	under-represented	reports that they do not consume alcohol
+CCAO:00388	12	560	1	over-represented 	finding about disorder in abdomen
+CCAO:00387	12	560	1	over-represented 	finding about abdomen
+CCAO:00024	4	328	1	under-represented	having had fecal examinations more than three times
+CCAO:00044	25	1302	1	over-represented 	father or mother
+CCAO:00346	1	26	1	over-represented 	finding about liver hemangioma
+CCAO:00341	0	128	1	under-represented	finding about severe fatty liver
+CCAO:00383	2	20	1	over-represented 	finding about right hepatic calcification
+CCAO:00058	10	277	1	over-represented 	conclusion about participant report about consumption of raw fresh-water fish or raw fermented fish
+CCAO:00373	0	9	1	under-represented	finding about left lobe liver hemangioma
+CCAO:00394	6	115	1	over-represented 	finding about spleen
+OBI:0001909	380	21038	1	under-represented	conclusion based on data
+CCAO:00364	0	0	1	under-represented	finding about normal gall bladder
+CCAO:00009	10	523	1	over-represented 	completing certificate degree
+CCAO:00016	9	550	1	under-represented	private business
+CCAO:00011	3	102	1	over-represented 	completing master or higher degree
+CCAO:00015	6	605	1	under-represented	freelancer
+CCAO:00061	380	21032	1	under-represented	conclusion about participant report about diagnosis of disease by clinician
+CCAO:00289	10	464	1	over-represented 	finding about right nephrolithiasis with hydronephrosis
+CCAO:00032	234	13540	1	under-represented	never receiving treatment with antiparasitic drug
+CCAO:00034	22	1032	1	over-represented 	having twice received treatment with antiparasitic drug
+CCAO:00403	186	10494	1	under-represented	having had at least one fecal examination
+CCAO:00340	5	643	1	under-represented	finding about moderate fattly liver
+CCAO:00286	10	242	1	over-represented 	finding about right nephrolithiasis without hydronephrosis
+CCAO:00001	380	21038	1	under-represented	conclusion about participant report about gender
+CCAO:00019	380	21038	1	under-represented	conclusion about participant report about history of fecal examination for liver fluke egg
+CCAO:00042	7	278	1	over-represented 	aunt or uncle
+CCAO:00060	10	277	1	over-represented 	consumption of raw fresh-water fish or raw fermented fish
+CCAO:00285	0	8	1	under-represented	finding about left post nephrectomy
+CCAO:00010	0	0	1	under-represented	completing bachelor degree
+CCAO:00022	40	2347	1	under-represented	having had two fecal examinations
+CCAO:00275	13	421	1	over-represented 	finding about nephrolithiasis without hydronephrosis
+CCAO:00039	0	0	1	under-represented	not having relatives with cholangiocarcinoma
+CCAO:00021	131	7225	1	over-represented 	having had one fecal examination
+CCAO:00025	10	400	1	over-represented 	not being able to remember about having had fecal examination
+CCAO:00045	0	20	1	under-represented	son or daughter
+CCAO:00041	5	146	1	over-represented 	maternal grandfather or grandmother
+CCAO:00030	10	540	1	over-represented 	being examined but not being able to remember whether liver fluke eggs were found upon examination
+CCAO:00026	380	21038	1	under-represented	conclusion about participant report about history of found liver fluke egg
+CCAO:00014	21	1491	1	under-represented	farmer
+CCAO:00064	5	99	1	over-represented 	diagnosed with hepatitis c by clinician
+CCAO:00250	0	0	1	under-represented	finding of no hepatic mass
+CCAO:00040	2	87	1	over-represented 	parental grandfather or grandmother
+CCAO:00029	81	4667	1	under-represented	being examined and having liver fluke egg found
+CCAO:00031	380	21038	1	under-represented	conclusion about participant report about history of treatment with antiparasitic drug
+CCAO:00035	7	266	1	over-represented 	having three times received treatment with antiparasitic drug
+CCAO:00062	0	0	1	under-represented	not being diagnosed with disease by clinician
+CCAO:00020	184	10144	1	over-represented 	having had no fecal examination
+CCAO:00267	15	529	1	over-represented 	finding about a single stone in gallbladder
+CCAO:00036	2	266	1	under-represented	more than three times having received treatment with antiparasitic drug
+CCAO:00004	376	20926	1	under-represented	conclusion about participant report about highest educational level
+CCAO:00284	1	23	1	over-represented 	finding about right post nephrectomy

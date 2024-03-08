@@ -1931,7 +1931,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00110"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00145"/>
                     <owl:Class>
                         <owl:complementOf>
                             <owl:Restriction>
@@ -1958,7 +1958,7 @@
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00111"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00145"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
@@ -5364,7 +5364,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
                     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000014"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00147"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#cancer"/>
                     </owl:Restriction>
                 </owl:intersectionOf>
             </owl:Class>
@@ -7116,7 +7116,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00437"/>
-        <obo:IAO_0000115>A finding about cholamgiocarcinoma that is about intrahepatic cholangiocarcinoma</obo:IAO_0000115>
+        <obo:IAO_0000115>A finding about cholangiocarcinoma that is about intrahepatic cholangiocarcinoma</obo:IAO_0000115>
         <oboInOwl:note>ICD10-TM-C221: Intrahepatic bile duct carcinoma, Cholangiocarcinoma</oboInOwl:note>
         <rdfs:label>finding about intrahepatic cholangiocarcinoma</rdfs:label>
     </owl:Class>
@@ -7160,7 +7160,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00458"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00408"/>
@@ -7168,7 +7168,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00458"/>
         <obo:IAO_0000115>A finding about liver cancer which is a malignant vascular neoplasm arising from the liver.</obo:IAO_0000115>
         <oboInOwl:note>ICD10-TM-C223: Angiosarcoma of liver, Kupffer cell sarcoma</oboInOwl:note>
         <rdfs:label>finding about liver angiosarcoma</rdfs:label>
@@ -7182,7 +7182,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00458"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00410"/>
@@ -7190,7 +7190,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00458"/>
         <obo:IAO_0000115>A finding about liver cancer which is a malignant neoplasm that arises from the liver</obo:IAO_0000115>
         <oboInOwl:note>ICD10-TM-C224: Other sarcomas of liver</oboInOwl:note>
         <rdfs:label>finding about liver sarcoma</rdfs:label>
@@ -7204,7 +7204,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00458"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00411"/>
@@ -7212,7 +7212,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00458"/>
         <obo:IAO_0000115>A finding abour liver cancer that a carcinoma overlaps liver</obo:IAO_0000115>
         <oboInOwl:note>ICD10-TM-C227: Other specified carcinomas of liver</oboInOwl:note>
         <rdfs:label>finding about liver carcinoma</rdfs:label>
@@ -7226,7 +7226,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         <owl:equivalentClass>
             <owl:Class>
                 <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00458"/>
                     <owl:Restriction>
                         <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
                         <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00432"/>
@@ -7234,7 +7234,7 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
                 </owl:intersectionOf>
             </owl:Class>
         </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00458"/>
         <oboInOwl:note>ICD10-TM-C229: Malignant neoplasm of Liver, unspecified</oboInOwl:note>
         <rdfs:label>finding about liver malignant neoplasm</rdfs:label>
     </owl:Class>
@@ -7486,6 +7486,15 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00458 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00458">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00434"/>
+        <rdfs:label>finding about liver cancer</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00459 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00459">
@@ -7648,6 +7657,14 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
     
 
 
+    <!-- http://purl.obolibrary.org/obo/ccao.owl#cancer -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#cancer">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/ccao.owl#dilate -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#dilate">
@@ -7659,15 +7676,6 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         <oboInOwl:source>http://purl.obolibrary.org/obo/NCIT_C28023</oboInOwl:source>
         <rdfs:label>dilate</rdfs:label>
         <skos:closeMatch>http://purl.obolibrary.org/obo/NCIT_C28023</skos:closeMatch>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#finding_about_liver_cancer">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00434"/>
-        <rdfs:label>finding about liver cancer</rdfs:label>
     </owl:Class>
     
 
@@ -7899,14 +7907,6 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00106"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00107"/>
             <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00108"/>
-        </owl:members>
-    </rdf:Description>
-    <rdf:Description>
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
-        <owl:members rdf:parseType="Collection">
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00110"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00111"/>
-            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00112"/>
         </owl:members>
     </rdf:Description>
     <rdf:Description>
