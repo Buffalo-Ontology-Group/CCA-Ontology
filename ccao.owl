@@ -2067,21 +2067,6 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00117 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00117">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00116"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/CCAO_00118"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
@@ -2095,17 +2080,6 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00118 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00118">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00116"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00115"/>
         <obo:IAO_0000115>A papillary non-invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
@@ -2118,22 +2092,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00119 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00119">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00176"/>
-                    <owl:Class>
-                        <owl:complementOf>
-                            <owl:Restriction>
-                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
-                            </owl:Restriction>
-                        </owl:complementOf>
-                    </owl:Class>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00116"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that does not have a mucinous tumor morphology.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -2145,18 +2104,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00120 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00120">
-        <owl:equivalentClass>
-            <owl:Class>
-                <owl:intersectionOf rdf:parseType="Collection">
-                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CCAO_00176"/>
-                    <owl:Restriction>
-                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#hasQuality"/>
-                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CCAO_00109"/>
-                    </owl:Restriction>
-                </owl:intersectionOf>
-            </owl:Class>
-        </owl:equivalentClass>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00176"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00116"/>
         <obo:IAO_0000115>A bile duct papillary invasive cholangiocarcinoma that has a mucinous tumor morphology.</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
