@@ -207,6 +207,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000002">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
@@ -458,7 +466,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00403"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had one fecal examination for liver fluke egg</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -470,7 +478,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00403"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had two fecal examinations for liver fluke egg</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -482,7 +490,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00403"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had three fecal examinations for liver fluke egg</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -494,7 +502,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00024 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00403"/>
         <obo:IAO_0000115>A conclusion that a participant reports having had fecal examinations for liver fluke egg more than three times</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -602,7 +610,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00033 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00033">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00404"/>
         <obo:IAO_0000115>A conclusion that a participant reports having once received treatment with antiparasitic drug</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -614,7 +622,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00034 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00034">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00404"/>
         <obo:IAO_0000115>A conclusion that a participant reports having twice received treatment with antiparasitic drug</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -626,7 +634,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00035 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00035">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00404"/>
         <obo:IAO_0000115>A conclusion that a participant reports having three times received treatment with antiparasitic drug</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -638,7 +646,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00404"/>
         <obo:IAO_0000115>A conclusion that a participant reports more than three times having received treatment with antiparasitic drug</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -966,7 +974,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00063 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00063">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00405"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis b by clinician</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -978,7 +986,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00064 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00064">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00405"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with hepatitis c by clinician</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -990,7 +998,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00065 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00065">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00405"/>
         <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with diabetes by clinician</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -1002,7 +1010,7 @@
     <!-- http://purl.obolibrary.org/obo/CCAO_00066 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00066">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00405"/>
         <obo:IAO_0000115>A conclusion that a participant reports diabetes with other disease</obo:IAO_0000115>
         <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
         <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
@@ -6606,6 +6614,37 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CCAO_00403 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00403">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
+        <obo:IAO_0000115>A conclusion that a participant reports having at least one fecal examinations for liver fluke egg</obo:IAO_0000115>
+        <rdfs:label>conclusion that participant reports having at least one fecal examination for liver fluke egg</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00404 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00404">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
+        <rdfs:label>conclusion that participant reports having received treatment with antiparasitic drug at least one time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CCAO_00405 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00405">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
+        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with disease by clinician</obo:IAO_0000115>
+        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
+        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
+        <rdfs:label>conclusion that participant reports being diagnosed with disease by clinician</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CCAO_00406 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CCAO_00406">
@@ -7713,37 +7752,6 @@ https://www.hopkinsmedicine.org/health/conditions-and-diseases/gallstones</oboIn
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00433"/>
         <rdfs:label>right hepatic calcium deposit</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00403">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00019"/>
-        <obo:IAO_0000115>A conclusion that a participant reports having at least one fecal examinations for liver fluke egg</obo:IAO_0000115>
-        <rdfs:label>conclusion that participant reports having at least one fecal examination for liver fluke egg</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00404">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00031"/>
-        <rdfs:label>conclusion that participant reports having received treatment with antiparasitic drug at least one time</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ccao.owl#http://purl.obolibrary.org/obo/CCAO_00405">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CCAO_00061"/>
-        <obo:IAO_0000115>A conclusion that a participant reports being diagnosed with disease by clinician</obo:IAO_0000115>
-        <obo:IAO_0000117>https://orcid.org/0000-0001-9990-8331 Alexander D. Diehl</obo:IAO_0000117>
-        <obo:IAO_0000117>https://orcid.org/0000-0002-0273-1531 Anuwat Pengput</obo:IAO_0000117>
-        <rdfs:label>conclusion that participant reports being diagnosed with disease by clinician</rdfs:label>
     </owl:Class>
     
 
